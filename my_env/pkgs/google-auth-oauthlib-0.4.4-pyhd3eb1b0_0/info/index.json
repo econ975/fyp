@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "click",
+    "cryptography >=3.2",
+    "google-auth",
+    "python >=3.6",
+    "requests-oauthlib >=0.7.0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "google-auth-oauthlib",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1617120604882,
+  "version": "0.4.4"
+}

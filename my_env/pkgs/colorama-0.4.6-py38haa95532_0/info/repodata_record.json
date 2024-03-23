@@ -1,0 +1,19 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "fn": "colorama-0.4.6-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "d38c4aae4c779f61cc74d6ce36d1e874",
+  "name": "colorama",
+  "sha256": "3653395ff7f8ee909532e5797314ac9e716de060dd69bba5434fd38350c13df1",
+  "size": 32746,
+  "subdir": "win-64",
+  "timestamp": 1672387462000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/colorama-0.4.6-py38haa95532_0.conda",
+  "version": "0.4.6"
+}

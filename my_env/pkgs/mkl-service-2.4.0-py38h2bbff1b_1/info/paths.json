@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/mkl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d9848009d8fb138861e2149b3201d86d172c8eaf63de12b94968b78429d55f59",
+      "size_in_bytes": 2325
+    },
+    {
+      "_path": "Lib/site-packages/mkl/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b14f84744773f932b28758121b00e3b1e7a8e0abaf3ef96aec7b728b45093cad",
+      "size_in_bytes": 1017
+    },
+    {
+      "_path": "Lib/site-packages/mkl/_mklinit.cp38-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "50b5f80d03c493775056bd862da2ab6491aa8b75d19697984d054130c420b460",
+      "size_in_bytes": 10240
+    },
+    {
+      "_path": "Lib/site-packages/mkl/_py_mkl_service.cp38-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "df53cf0365cd34c2c71e68162d697d00dd33a494bfa5d90a6f3fe8f157684ae4",
+      "size_in_bytes": 87552
+    },
+    {
+      "_path": "Lib/site-packages/mkl_service-2.4.0-py3.8.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "cac589e956cb7d2b0a5014dd959e4898ff26fc75f75f335e394f571a467ff965",
+      "size_in_bytes": 1718
+    },
+    {
+      "_path": "Lib/site-packages/mkl_service-2.4.0-py3.8.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "b3c428927de0dd1a53a2d1467b0ae7f6f090dfa58e2bdfce2152d9b3ff10f3f3",
+      "size_in_bytes": 226
+    },
+    {
+      "_path": "Lib/site-packages/mkl_service-2.4.0-py3.8.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/mkl_service-2.4.0-py3.8.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b1e92a43fd18113ecb2c73ba36c5d080a0cf18646198ab80356f68bc5b8cd931",
+      "size_in_bytes": 4
+    }
+  ],
+  "paths_version": 1
+}

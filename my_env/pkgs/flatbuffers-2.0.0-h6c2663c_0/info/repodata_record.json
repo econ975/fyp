@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h6c2663c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "flatbuffers-2.0.0-h6c2663c_0.conda",
+  "license": "Apache-2.0",
+  "md5": "c9138dcc0ed334deea4d9379bcc67910",
+  "name": "flatbuffers",
+  "platform": "win32",
+  "sha256": "10dbf32df5747f2b5f388952ff50edea4781d026873acdb52afd62e42564a335",
+  "size": 1454588,
+  "subdir": "win-64",
+  "timestamp": 1620826057000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/flatbuffers-2.0.0-h6c2663c_0.conda",
+  "version": "2.0.0"
+}

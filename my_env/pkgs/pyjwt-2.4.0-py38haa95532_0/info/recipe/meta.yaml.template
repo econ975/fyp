@@ -1,0 +1,53 @@
+{% set name = "PyJWT" %}
+{% set version = "2.4.0" %}
+{% set bundle = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "d42908208c699b3b973cbeb01a969ba6a96c821eefb1c5bfe4c390c01d67abba" %}
+
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  {{ hash_type }}: {{ hash }}
+
+build:
+  number: 0
+  skip: True  # [py<36]
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+  run_constrained:
+    - cryptography >=3.3.1
+
+test:
+  requires:
+    - pip
+  imports:
+    - jwt
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/jpadilla/pyjwt
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: JSON Web Token implementation in Python
+  dev_url: https://github.com/jpadilla/pyjwt
+  doc_url: https://pyjwt.readthedocs.io/en/latest/
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr
+    - ocefpaf

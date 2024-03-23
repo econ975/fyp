@@ -1,0 +1,11 @@
+{
+  "url": "https://conda.anaconda.org/conda-forge/win-64",
+  "etag": "\"f3391e4fd36bf83c516f4b6fd8dd65d5\"",
+  "mod": "Fri, 22 Mar 2024 14:10:59 GMT",
+  "cache_control": "public, max-age=1200",
+  "mtime_ns": 1711122811046464600,
+  "size": 157684892,
+  "refresh_ns": 1711122811208562600,
+  "blake2_256_nominal": "8f3b3b4bc7db75e827f6f212ad7d563b50873ef0151cad571be02ec2c084982b",
+  "blake2_256": "8f3b3b4bc7db75e827f6f212ad7d563b50873ef0151cad571be02ec2c084982b"
+}

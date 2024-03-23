@@ -1,0 +1,169 @@
+commit aab5439a7819ed1260d34f9dae04130e73803cb6
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Thu Nov 21 14:23:56 2019 -0600
+
+    DNR update to 1.3.0
+
+commit 89da40cbda4d04eb8d2b3f295727de45ce850f3f
+Merge: d3dfdf8 0a6b9ee
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Mon Feb 25 22:29:15 2019 -0500
+
+    Merge pull request #7 from regro-cf-autotick-bot/1.2.0
+    
+    requests-oauthlib v1.2.0
+
+commit 0a6b9ee5eaa10ae450a6a4008b53f6889ed852ae
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Feb 20 04:04:37 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.13, and conda-forge-pinning 2019.02.15
+
+commit 3733d4a4232c9618a64e62b706bc393a979eb3fb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 14 19:18:56 2019 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2019.01.09
+
+commit 78b24d5aa41bc94152218b17a597d8c65d14e32b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jan 14 19:18:52 2019 +0000
+
+    updated v1.2.0
+
+commit d3dfdf834e0a4caad584c778ab8b77047cd6f63c
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:29:04 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 0899ef56b412f65c89a8a084d5b5be1223574e5d
+Merge: d3130a0 20f4318
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jul 20 21:10:13 2018 -0400
+
+    Merge pull request #5 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 20f43189981fcd29a2a3b7be8567d12646c6b502
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 07:42:34 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 44722debf6957c2a3a63ee572992e82fe2dfa999
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Jul 9 07:42:29 2018 +0000
+
+    add noarch
+
+commit d3130a000e5ad852eed550a1bacf2c41d1a3bf65
+Merge: 209d31d ef8a11d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Jul 6 11:53:11 2018 -0400
+
+    Merge pull request #4 from regro-cf-autotick-bot/1.0.0
+    
+    requests-oauthlib v1.0.0
+
+commit ef8a11d2c50dad027f65d69cc61073b4518d5d73
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Fri Jun 22 22:57:38 2018 -0700
+
+    template, pypi, pip
+
+commit 81a6b41f45bd734f9edc9b5b80a3764658de750f
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 4 11:10:54 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit 7ce64d82216ecbb381289cb618e9e588466f38e4
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 4 11:10:42 2018 +0000
+
+    updated v1.0.0
+
+commit 209d31d8f28a370aa8b75b48f97e1ea9a2a9ccfd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:00:08 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 6458ff3552ce54cb9b4fb272647083e43a00aa8d
+Merge: d3656f0 12edcc0
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sat Mar 18 11:32:16 2017 -0700
+
+    Merge pull request #3 from pmlandwehr/master
+    
+    Tick version, rerendered if needed
+
+commit 12edcc04b1b832819abe730c10f0dbf2ac9aedbd
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Sat Mar 18 00:12:35 2017 -0700
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 3a406221014e4c8a3e9cda2c1a966a41b9624b59
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri Mar 17 23:13:10 2017 -0700
+
+    Tick version to 0.8.0
+
+commit d3656f0153c1256acad6427e44439f9de976863c
+Merge: a29c335 6476ae2
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Thu Feb 9 10:18:00 2017 -0800
+
+    Merge pull request #2 from pmlandwehr/master
+    
+    Update template in meta.yaml, tick build num
+
+commit 6476ae2946a2ebf810a4f6dac0413a701da861ea
+Author: Peter Landwehr <pmlandwehr@gmail.com>
+Date:   Tue Feb 7 21:25:03 2017 -0800
+
+    MNT: Re-rendered with conda-smithy 2.0.1
+
+commit 18ed8f0c181d863d15c3496b32f20f99c29aae24
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Tue Feb 7 21:20:53 2017 -0800
+
+    Update template in meta.yaml, tick build num
+
+commit a29c33509f7dae9380592751b1fa9de50ee578b1
+Merge: ed58f38 172b0dc
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Feb 6 16:31:18 2017 -0800
+
+    Merge pull request #1 from nikicc/version-bump-0.7.0
+    
+    Version Bump to 0.7.0
+
+commit 172b0dcdc5c0652fe2e83b3d08422de4bf8fd4fe
+Author: nikicc <niko.colneric@gmail.com>
+Date:   Fri Feb 3 15:06:16 2017 +0100
+
+    MNT: Re-rendered with conda-smithy 2.0.1.
+    
+    Regenereted since AppVeyor test failed while downloading miniconda (https://github.com/pelson/Obvious-CI/pull/67).
+
+commit 7d99cea027362a018d34af1878edbed23112953c
+Author: nikicc <niko.colneric@gmail.com>
+Date:   Fri Feb 3 11:38:52 2017 +0100
+
+    Version bump to 0.7.0
+
+commit ed58f38d49d67cdb25f6001f2b62b507d69c3579
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 10 14:34:52 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit e53e462265b6ac96d6756bd00c08df6622f2ff7e
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jul 10 14:33:39 2016 +0000
+
+    Initial commit of the requests-oauthlib feedstock.

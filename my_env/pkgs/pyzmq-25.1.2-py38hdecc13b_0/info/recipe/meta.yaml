@@ -1,0 +1,81 @@
+# This file created by conda-build 3.28.0
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Tue Dec  5 13:31:28 2023
+# ------------------------------------------------
+
+package:
+  name: pyzmq
+  version: 25.1.2
+source:
+  sha256: 93f1aa311e8bb912e34f004cf186407a4e90eec4f0ecc0efd26056bf7eda0226
+  url: https://pypi.io/packages/source/p/pyzmq/pyzmq-25.1.2.tar.gz
+build:
+  number: '0'
+  string: py38hdecc13b_0
+requirements:
+  build:
+    - vs2019_win-64 19.29.30139 he1865b1_17
+    - vswhere 3.1.4 h57928b3_0
+  host:
+    - bzip2 1.0.8 hcfcfb64_5
+    - ca-certificates 2023.11.17 h56e8100_0
+    - libffi 3.4.2 h8ffe710_5
+    - libsodium 1.0.18 h8d14728_1
+    - libsqlite 3.44.2 hcfcfb64_0
+    - libzlib 1.2.13 hcfcfb64_5
+    - openssl 3.2.0 hcfcfb64_1
+    - packaging 23.2 pyhd8ed1ab_0
+    - pip 23.3.1 pyhd8ed1ab_0
+    - python 3.8.18 h4de0772_0_cpython
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - tk 8.6.13 h5226925_1
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 h64f974e_17
+    - vc14_runtime 14.36.32532 hdcecf7f_17
+    - vs2015_runtime 14.36.32532 h05e6639_17
+    - wheel 0.42.0 pyhd8ed1ab_0
+    - xz 5.2.6 h8d14728_0
+    - zeromq 4.3.5 h63175ca_0
+  run:
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+    - zeromq >=4.3.5,<4.3.6.0a0
+    - zeromq >=4.3.5,<4.3.6.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - zmq
+    - zmq.backend.cython.socket
+    - zmq.backend.cython.utils
+    - zmq.devices.monitoredqueue
+  requires:
+    - pip
+    - pytest
+about:
+  home: https://github.com/zeromq/pyzmq
+  license: BSD-3-Clause AND LGPL-3.0-or-later
+  license_file:
+    - LICENSE.BSD
+    - LICENSE.LESSER
+  summary: Python bindings for zeromq
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20231205.2.1
+  recipe-maintainers:
+    - JohanMabille
+    - SylvainCorlay
+    - jakirkham
+    - jan-janssen
+    - minrk
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: https://github.com/conda-forge/pyzmq-feedstock
+  sha: 4577ffa6872a0e2dca2d55c8aeacf27920e83d01

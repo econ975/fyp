@@ -1,0 +1,7 @@
+{
+  "c_compiler": "vs2017",
+  "channel_targets": "defaults",
+  "hdf5": "1.10.6",
+  "target_platform": "win-64",
+  "numpy": "1.21"
+}

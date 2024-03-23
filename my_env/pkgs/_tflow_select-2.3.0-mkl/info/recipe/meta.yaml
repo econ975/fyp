@@ -1,0 +1,14 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\Users\nwani\Downloads\repos\aggregate\tensorflow_recipes\_tflow_select, last modified Wed Oct  3 23:18:54 2018
+# ------------------------------------------------
+
+package:
+    name: _tflow_select
+    version: 2.3.0
+build:
+    number: '0'
+    string: mkl
+extra:
+    copy_test_source_files: true
+    final: true

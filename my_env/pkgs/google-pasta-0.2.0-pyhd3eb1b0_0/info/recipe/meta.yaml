@@ -1,0 +1,56 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /Users/ktietz/demo/src/aggregate/google-pasta-feedstock/recipe, last modified Sat Aug  7 09:29:09 2021
+# ------------------------------------------------
+
+package:
+  name: google-pasta
+  version: 0.2.0
+source:
+  sha256: c9f2c8dfc8f96d0d5808299920721be30c9eec37f2389f28904f454565c8a16e
+  url: https://pypi.io/packages/source/g/google-pasta/google-pasta-0.2.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+    -m pip install . --no-deps -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - ca-certificates 2021.7.5 hca03da5_1
+    - certifi 2021.5.30 py39hca03da5_1
+    - expat 2.4.1 hc377ac9_2
+    - libcxx 12.0.0 hf6beb65_1
+    - libffi 3.3 hc377ac9_2
+    - libiconv 1.16 h1230e6a_0
+    - ncurses 6.2 hc4ed4cf_0
+    - openssl 1.1.1j h1230e6a_0
+    - pip 21.2.4 py39hca03da5_0
+    - python 3.9.6 hc70090a_5
+    - readline 8.1 h1a28f6b_0
+    - setuptools 52.0.0 py39hca03da5_1
+    - sqlite 3.36.0 h1058600_0
+    - tk 8.6.10 hb8d0fd4_0
+    - tzdata 2021a h5d7bf9c_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h1a28f6b_0
+    - zlib 1.2.11 hca03da5_3
+  run:
+    - python
+    - six
+test:
+  imports:
+    - pasta
+    - pasta.augment
+    - pasta.base
+about:
+  home: https://github.com/google/pasta
+  license: Apache-2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: pasta is an AST-based Python refactoring library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jjhelmus

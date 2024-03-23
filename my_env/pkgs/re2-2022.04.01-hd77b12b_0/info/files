@@ -1,0 +1,10 @@
+Library/bin/re2.dll
+Library/include/re2/filtered_re2.h
+Library/include/re2/re2.h
+Library/include/re2/set.h
+Library/include/re2/stringpiece.h
+Library/lib/cmake/re2/re2Config.cmake
+Library/lib/cmake/re2/re2ConfigVersion.cmake
+Library/lib/cmake/re2/re2Targets-release.cmake
+Library/lib/cmake/re2/re2Targets.cmake
+Library/lib/re2.lib

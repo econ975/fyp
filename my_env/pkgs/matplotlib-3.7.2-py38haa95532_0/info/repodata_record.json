@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.7.2,<3.7.3.0a0",
+    "pyqt >=5",
+    "python >=3.8,<3.9.0a0",
+    "tornado >=5"
+  ],
+  "features": "",
+  "fn": "matplotlib-3.7.2-py38haa95532_0.conda",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "md5": "b04f6ec751c916b57ab348307e4be266",
+  "name": "matplotlib",
+  "platform": "win32",
+  "sha256": "2ab7718d0f93010fb44430030779b9a64bfb58e71d9092550b7c7a705ca02fe9",
+  "size": 8838,
+  "subdir": "win-64",
+  "timestamp": 1693813463000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/matplotlib-3.7.2-py38haa95532_0.conda",
+  "version": "3.7.2"
+}

@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "paramiko >=2.7.0",
+    "xxhash >=1.4.3",
+    "tqdm >=4.41.0,<5.0.0"
+  ],
+  "depends": [
+    "packaging >=20.0",
+    "platformdirs >=2.5.0",
+    "python >=3.8,<3.9.0a0",
+    "requests >=2.19.0"
+  ],
+  "features": "",
+  "fn": "pooch-1.7.0-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "b2e9c419c892345ac19ecb2fda8988c7",
+  "name": "pooch",
+  "platform": "win32",
+  "sha256": "a1032d8ee357e90d752b4cfa5b894d6004ecbefdbbbdeb6084e6357912d9bc64",
+  "size": 85370,
+  "subdir": "win-64",
+  "timestamp": 1695850480000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pooch-1.7.0-py38haa95532_0.conda",
+  "version": "1.7.0"
+}

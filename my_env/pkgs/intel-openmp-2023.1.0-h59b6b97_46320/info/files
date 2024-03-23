@@ -1,0 +1,15 @@
+Library/bin/libiomp5md.dll
+Library/bin/libiomp5md.pdb
+Library/bin/libiompstubs5md.dll
+Library/bin/libomp-fallback-cstring.spv
+Library/bin/omptarget.dll
+Library/bin/omptarget.rtl.level0.dll
+Library/bin/omptarget.rtl.opencl.dll
+Library/bin/omptarget.sycl.wrap.dll
+Library/lib/libiomp5md.lib
+Library/lib/libomp-device-svml.obj
+Library/lib/libomp-fallback-cstring.obj
+Library/lib/libomp-spirvdevicertl-optional.obj
+Library/lib/libomp-spirvdevicertl-required.obj
+Library/lib/libomptarget-opencl-optional.bc
+Library/lib/libomptarget-opencl-required.bc

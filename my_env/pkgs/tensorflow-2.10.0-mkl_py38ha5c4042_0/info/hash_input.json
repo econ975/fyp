@@ -1,0 +1,8 @@
+{
+  "channel_targets": "defaults",
+  "select_version": "2.3.0 mkl",
+  "py_version": "3.8",
+  "target_platform": "win-64",
+  "tflow_variant": "mkl",
+  "full_base_version": "2.10.0 mkl_py38h6a7f48e_0"
+}

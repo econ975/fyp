@@ -1,0 +1,1 @@
+["pytest", "pytest-cov", "pip", "pytest-pep8", "python >=3.5"]

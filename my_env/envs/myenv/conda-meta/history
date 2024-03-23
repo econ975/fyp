@@ -1,0 +1,86 @@
+==> 2024-03-23 12:25:43 <==
+# cmd: C:\Users\John Ying\miniconda3\Scripts\conda-script.py env create -f environment.yml
+# conda version: 24.1.2
++defaults/noarch::archspec-0.2.1-pyhd3eb1b0_0
++defaults/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
++defaults/noarch::conda-libmamba-solver-23.12.0-pyhd3eb1b0_1
++defaults/noarch::jsonpatch-1.32-pyhd3eb1b0_0
++defaults/noarch::jsonpointer-2.1-pyhd3eb1b0_0
++defaults/noarch::pybind11-abi-4-hd3eb1b0_1
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/win-64::blas-1.0-mkl
++defaults/win-64::boltons-23.0.0-py38haa95532_0
++defaults/win-64::brotli-python-1.0.9-py38hd77b12b_7
++defaults/win-64::bzip2-1.0.8-he774522_0
++defaults/win-64::ca-certificates-2023.12.12-haa95532_0
++defaults/win-64::certifi-2024.2.2-py38haa95532_0
++defaults/win-64::cffi-1.16.0-py38h2bbff1b_0
++defaults/win-64::colorama-0.4.6-py38haa95532_0
++defaults/win-64::conda-24.1.2-py38haa95532_0
++defaults/win-64::conda-content-trust-0.2.0-py38haa95532_0
++defaults/win-64::conda-package-handling-2.2.0-py38haa95532_0
++defaults/win-64::conda-package-streaming-0.9.0-py38haa95532_0
++defaults/win-64::console_shortcut_miniconda-0.1.1-haa95532_1
++defaults/win-64::cryptography-41.0.7-py38h89fc84f_0
++defaults/win-64::distro-1.8.0-py38haa95532_0
++defaults/win-64::fmt-9.1.0-h6d14046_0
++defaults/win-64::icc_rt-2022.1.0-h6049295_2
++defaults/win-64::idna-3.4-py38haa95532_0
++defaults/win-64::intel-openmp-2023.1.0-h59b6b97_46320
++defaults/win-64::libarchive-3.6.2-hb62f4d4_2
++defaults/win-64::libcurl-8.4.0-h86230a5_1
++defaults/win-64::libffi-3.4.4-hd77b12b_0
++defaults/win-64::libiconv-1.16-h2bbff1b_2
++defaults/win-64::libmamba-1.5.3-hcd6fe79_0
++defaults/win-64::libmambapy-1.5.3-py38h77c03ed_0
++defaults/win-64::libsolv-0.7.24-h23ce68f_0
++defaults/win-64::libssh2-1.10.0-he2ea4bf_2
++defaults/win-64::libxml2-2.10.4-h0ad7f3c_1
++defaults/win-64::lz4-c-1.9.4-h2bbff1b_0
++defaults/win-64::menuinst-2.0.1-py38hd77b12b_1
++defaults/win-64::mkl-2023.1.0-h6b88ed4_46358
++defaults/win-64::mkl-service-2.4.0-py38h2bbff1b_1
++defaults/win-64::mkl_fft-1.3.8-py38h2bbff1b_0
++defaults/win-64::mkl_random-1.2.4-py38h59b6b97_0
++defaults/win-64::numpy-1.24.3-py38h79a8e48_1
++defaults/win-64::numpy-base-1.24.3-py38h8a87ada_1
++defaults/win-64::openssl-3.0.13-h2bbff1b_0
++defaults/win-64::packaging-23.1-py38haa95532_0
++defaults/win-64::pcre2-10.42-h0ff8eda_0
++defaults/win-64::pip-23.3.1-py38haa95532_0
++defaults/win-64::platformdirs-3.10.0-py38haa95532_0
++defaults/win-64::pluggy-1.0.0-py38haa95532_1
++defaults/win-64::pooch-1.7.0-py38haa95532_0
++defaults/win-64::powershell_shortcut_miniconda-0.0.1-haa95532_1
++defaults/win-64::pycosat-0.6.6-py38h2bbff1b_0
++defaults/win-64::pyopenssl-23.2.0-py38haa95532_0
++defaults/win-64::pysocks-1.7.1-py38haa95532_0
++defaults/win-64::python-3.8.18-h1aa4202_0
++defaults/win-64::reproc-14.2.4-hd77b12b_1
++defaults/win-64::reproc-cpp-14.2.4-hd77b12b_1
++defaults/win-64::requests-2.31.0-py38haa95532_0
++defaults/win-64::ruamel.yaml-0.17.21-py38h2bbff1b_0
++defaults/win-64::ruamel.yaml.clib-0.2.6-py38h2bbff1b_1
++defaults/win-64::setuptools-68.2.2-py38haa95532_0
++defaults/win-64::sqlite-3.41.2-h2bbff1b_0
++defaults/win-64::tbb-2021.8.0-h59b6b97_0
++defaults/win-64::tqdm-4.65.0-py38hd4e2768_0
++defaults/win-64::urllib3-1.26.18-py38haa95532_0
++defaults/win-64::vc-14.2-h21ff451_1
++defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::wheel-0.41.2-py38haa95532_0
++defaults/win-64::win_inet_pton-1.1.0-py38haa95532_0
++defaults/win-64::xz-5.4.5-h8cc25b3_0
++defaults/win-64::yaml-cpp-0.8.0-hd77b12b_0
++defaults/win-64::zlib-1.2.13-h8cc25b3_0
++defaults/win-64::zstandard-0.19.0-py38h2bbff1b_0
++defaults/win-64::zstd-1.5.5-hd43e919_0
+# update specs: ['archspec==0.2.1=pyhd3eb1b0_0', 'blas==1.0=mkl', 'boltons==23.0.0=py38haa95532_0', 'brotli-python==1.0.9=py38hd77b12b_7', 'bzip2==1.0.8=he774522_0', 'ca-certificates==2023.12.12=haa95532_0', 'certifi==2024.2.2=py38haa95532_0', 'cffi==1.16.0=py38h2bbff1b_0', 'charset-normalizer==2.0.4=pyhd3eb1b0_0', 'colorama==0.4.6=py38haa95532_0', 'conda-content-trust==0.2.0=py38haa95532_0', 'conda-libmamba-solver==23.12.0=pyhd3eb1b0_1', 'conda-package-handling==2.2.0=py38haa95532_0', 'conda-package-streaming==0.9.0=py38haa95532_0', 'conda==24.1.2=py38haa95532_0', 'console_shortcut_miniconda==0.1.1=haa95532_1', 'cryptography==41.0.7=py38h89fc84f_0', 'distro==1.8.0=py38haa95532_0', 'fmt==9.1.0=h6d14046_0', 'icc_rt==2022.1.0=h6049295_2', 'idna==3.4=py38haa95532_0', 'intel-openmp==2023.1.0=h59b6b97_46320', 'jsonpatch==1.32=pyhd3eb1b0_0', 'jsonpointer==2.1=pyhd3eb1b0_0', 'libarchive==3.6.2=hb62f4d4_2', 'libcurl==8.4.0=h86230a5_1', 'libffi==3.4.4=hd77b12b_0', 'libiconv==1.16=h2bbff1b_2', 'libmamba==1.5.3=hcd6fe79_0', 'libmambapy==1.5.3=py38h77c03ed_0', 'libsolv==0.7.24=h23ce68f_0', 'libssh2==1.10.0=he2ea4bf_2', 'libxml2==2.10.4=h0ad7f3c_1', 'lz4-c==1.9.4=h2bbff1b_0', 'menuinst==2.0.1=py38hd77b12b_1', 'mkl-service==2.4.0=py38h2bbff1b_1', 'mkl==2023.1.0=h6b88ed4_46358', 'mkl_fft==1.3.8=py38h2bbff1b_0', 'mkl_random==1.2.4=py38h59b6b97_0', 'numpy-base==1.24.3=py38h8a87ada_1', 'openssl==3.0.13=h2bbff1b_0', 'packaging==23.1=py38haa95532_0', 'pcre2==10.42=h0ff8eda_0', 'pip==23.3.1=py38haa95532_0', 'platformdirs==3.10.0=py38haa95532_0', 'pluggy==1.0.0=py38haa95532_1', 'pooch==1.7.0=py38haa95532_0', 'powershell_shortcut_miniconda==0.0.1=haa95532_1', 'pybind11-abi==4=hd3eb1b0_1', 'pycosat==0.6.6=py38h2bbff1b_0', 'pycparser==2.21=pyhd3eb1b0_0', 'pyopenssl==23.2.0=py38haa95532_0', 'pysocks==1.7.1=py38haa95532_0', 'python==3.8.18=h1aa4202_0', 'reproc-cpp==14.2.4=hd77b12b_1', 'reproc==14.2.4=hd77b12b_1', 'requests==2.31.0=py38haa95532_0', 'ruamel.yaml.clib==0.2.6=py38h2bbff1b_1', 'ruamel.yaml==0.17.21=py38h2bbff1b_0', 'setuptools==68.2.2=py38haa95532_0', 'sqlite==3.41.2=h2bbff1b_0', 'tbb==2021.8.0=h59b6b97_0', 'tqdm==4.65.0=py38hd4e2768_0', 'urllib3==1.26.18=py38haa95532_0', 'vc==14.2=h21ff451_1', 'vs2015_runtime==14.27.29016=h5e58377_2', 'wheel==0.41.2=py38haa95532_0', 'win_inet_pton==1.1.0=py38haa95532_0', 'xz==5.4.5=h8cc25b3_0', 'yaml-cpp==0.8.0=hd77b12b_0', 'zlib==1.2.13=h8cc25b3_0', 'zstandard==0.19.0=py38h2bbff1b_0', 'zstd==1.5.5=hd43e919_0']
+==> 2024-03-23 12:27:11 <==
+# cmd: C:\Users\John Ying\miniconda3\envs\myenv\Scripts\conda-script.py install pyserial
+# conda version: 24.1.2
+-defaults/win-64::ca-certificates-2023.12.12-haa95532_0
++defaults/win-64::ca-certificates-2024.3.11-haa95532_0
++defaults/win-64::pyserial-3.5-py38haa95532_0
+# update specs: ['pyserial']
+# neutered specs: ['ca-certificates==2024.3.11']

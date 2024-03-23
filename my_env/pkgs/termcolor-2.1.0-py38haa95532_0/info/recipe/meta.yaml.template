@@ -1,0 +1,50 @@
+{% set name = "termcolor" %}
+{% set version = "2.1.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: b80df54667ce4f48c03fe35df194f052dc27a541ebbf2544e4d6b47b5d6949c4
+
+build:
+  number: 0
+  skip: True  # [py<37]
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python
+    - hatch-vcs
+    - hatchling
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - termcolor
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/termcolor/termcolor
+  license: MIT
+  license_family: MIT
+  license_file: COPYING.txt
+  summary: ANSII Color formatting for output in terminal.
+  description: |
+    ANSI color formatting for output in terminal.
+  dev_url: https://github.com/termcolor/termcolor
+  doc_url: https://github.com/termcolor/termcolor/blob/main/README.md
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf

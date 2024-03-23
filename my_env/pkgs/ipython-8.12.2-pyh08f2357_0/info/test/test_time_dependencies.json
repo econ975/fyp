@@ -1,0 +1,1 @@
+["pytest <7.1", "mypy", "trio", "pip", "numpy >=1.21", "pandas", "testpath", "types-decorator", "black", "nbformat", "pygments", "pytest-asyncio", "pytest-cov", "m2-grep", "curio", "matplotlib-base !=3.2.0"]

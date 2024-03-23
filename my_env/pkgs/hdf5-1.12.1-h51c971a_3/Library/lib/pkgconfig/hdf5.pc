@@ -1,0 +1,14 @@
+prefix=C:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: hdf5
+Description: HDF5 (Hierarchical Data Format 5) Software Library
+Version: 1.12.1
+
+Cflags: -I${includedir}
+Libs: -L${libdir}  -lhdf5
+Requires: 
+Libs.private:  -lC:/b/abs_e4nt8ttmb0/croot/hdf5_1686163951797/_h_env/Library/lib/z.lib  -lhdf5
+Requires.private: 

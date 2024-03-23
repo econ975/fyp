@@ -1,0 +1,4 @@
+Library/include/brotli/decode.h
+Library/include/brotli/encode.h
+Library/include/brotli/port.h
+Library/include/brotli/types.h

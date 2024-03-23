@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "chardet >=3.0.2,<6",
+    "pysocks >=1.5.6,!=1.5.7"
+  ],
+  "depends": [
+    "certifi >=2017.4.17",
+    "charset-normalizer >=2,<4",
+    "idna >=2.5,<4",
+    "python >=3.8,<3.9.0a0",
+    "urllib3 >=1.21.1,<3"
+  ],
+  "features": "",
+  "fn": "requests-2.31.0-py38haa95532_1.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "8bbc7422e215b96c1df22b0965a883af",
+  "name": "requests",
+  "platform": "win32",
+  "sha256": "fe2de130440ee1102783a4d6ab9839cc34b7b3abbba3dd83fc478f8ce80f2efc",
+  "size": 100096,
+  "subdir": "win-64",
+  "timestamp": 1707355990000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/requests-2.31.0-py38haa95532_1.conda",
+  "version": "2.31.0"
+}

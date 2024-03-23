@@ -1,0 +1,11 @@
+{
+  "cl_version": "19.38.33130",
+  "target_platform": "win-64",
+  "vsyear": "2022",
+  "channel_targets": "conda-forge main",
+  "vc": "14",
+  "cross_target_platform": "win-64",
+  "vsver": "17",
+  "runtime_version": "14.38.33130",
+  "update_version": "8"
+}

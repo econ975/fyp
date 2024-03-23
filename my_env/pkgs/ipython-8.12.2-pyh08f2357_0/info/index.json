@@ -1,0 +1,28 @@
+{
+  "arch": null,
+  "build": "pyh08f2357_0",
+  "build_number": 0,
+  "depends": [
+    "__win",
+    "backcall",
+    "colorama",
+    "decorator",
+    "jedi >=0.16",
+    "matplotlib-inline",
+    "pickleshare",
+    "prompt_toolkit >=3.0.30,<3.1.0,!=3.0.37",
+    "pygments >=2.4.0",
+    "python >=3.8",
+    "stack_data",
+    "traitlets >=5",
+    "typing_extensions"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "ipython",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1683289477064,
+  "version": "8.12.2"
+}

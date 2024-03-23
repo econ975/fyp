@@ -1,0 +1,119 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_in_bytes": 11358
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "493afa1f173307e07b22461c751fb73408809e5a2267e2b5dbb46ea40aa6342b",
+      "size_in_bytes": 4636
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "6e31f2cf9e7d0f5124635f8b78d72c200b549c2aca1b98c7e76df7579f758dc8",
+      "size_in_bytes": 2313
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "b7202f6ade3c5ab9c68c33ffbaa525450b2ba3919c8de800fd0ed73db7bd4966",
+      "size_in_bytes": 114
+    },
+    {
+      "_path": "site-packages/importlib_metadata-7.0.2.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "site-packages/importlib_metadata/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3c8ad1e266a97bf3928e5f47ae40196458bbbd4d8a250312fa3a717afd735f58",
+      "size_in_bytes": 34129
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_adapters.py",
+      "path_type": "hardlink",
+      "sha256": "8d9aff0a61eb97ca9319ab4ed32326b8e75f144c4e63ae06f1e1187fa0a78fd9",
+      "size_in_bytes": 2455
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_collections.py",
+      "path_type": "hardlink",
+      "sha256": "089d0e4c21c88d6034648552e2fa0e440b27d91e11d9c40112d3ec6442690126",
+      "size_in_bytes": 743
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_compat.py",
+      "path_type": "hardlink",
+      "sha256": "ef740aacdf4a368699ce16d7e723c20996be15a00bc177bc4cf94347bd898015",
+      "size_in_bytes": 1314
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_functools.py",
+      "path_type": "hardlink",
+      "sha256": "3ec636fb8aeb297e1155e442d681a9d65075a660bd78a37cf3f7fe6c3f6e3a80",
+      "size_in_bytes": 2895
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_itertools.py",
+      "path_type": "hardlink",
+      "sha256": "72faffdaff0145bc5c225e71e6575fa9d1e3848f188bcb3cca4e741bf9e6ea34",
+      "size_in_bytes": 2068
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_meta.py",
+      "path_type": "hardlink",
+      "sha256": "9f167b0bc19595c04500a5b254e9ff767ee8b7fb7005c6e6d4d9af8c87ad0472",
+      "size_in_bytes": 1801
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_py39compat.py",
+      "path_type": "hardlink",
+      "sha256": "62504c244384b0e41a31e134cb3af5efcc61f80164a98c6bdce729bd2c3f7527",
+      "size_in_bytes": 1099
+    },
+    {
+      "_path": "site-packages/importlib_metadata/_text.py",
+      "path_type": "hardlink",
+      "sha256": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80",
+      "size_in_bytes": 2166
+    },
+    {
+      "_path": "site-packages/importlib_metadata/diagnose.py",
+      "path_type": "hardlink",
+      "sha256": "9e4491322a309669212d884a86f0a0f60966b7fd750a8c7e1262f311ba984daf",
+      "size_in_bytes": 379
+    },
+    {
+      "_path": "site-packages/importlib_metadata/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    }
+  ],
+  "paths_version": 1
+}

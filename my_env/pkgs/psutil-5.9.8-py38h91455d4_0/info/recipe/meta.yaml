@@ -1,0 +1,83 @@
+# This file created by conda-build 3.28.4
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Sat Jan 20 03:45:32 2024
+# ------------------------------------------------
+
+package:
+  name: psutil
+  version: 5.9.8
+source:
+  patches:
+    - 0001-Add-missing-includes-for-macOS.patch
+  sha256: 6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c
+  url: https://pypi.io/packages/source/p/psutil/psutil-5.9.8.tar.gz
+build:
+  number: '0'
+  script:
+    - D:\\bld\\psutil_1705722577218\\_h_env\\python.exe -m pip install --ignore-installed
+      --no-deps .
+  string: py38h91455d4_0
+requirements:
+  build:
+    - vs2019_win-64 19.29.30139 he1865b1_18
+    - vswhere 3.1.4 h57928b3_0
+  host:
+    - bzip2 1.0.8 hcfcfb64_5
+    - ca-certificates 2023.11.17 h56e8100_0
+    - libffi 3.4.2 h8ffe710_5
+    - libsqlite 3.44.2 hcfcfb64_0
+    - libzlib 1.2.13 hcfcfb64_5
+    - openssl 3.2.0 hcfcfb64_1
+    - pip 23.3.2 pyhd8ed1ab_0
+    - python 3.8.18 h4de0772_1_cpython
+    - setuptools 69.0.3 pyhd8ed1ab_0
+    - tk 8.6.13 h5226925_1
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 hcf57466_18
+    - vc14_runtime 14.38.33130 h82b7239_18
+    - vs2015_runtime 14.38.33130 hcb4865c_18
+    - wheel 0.42.0 pyhd8ed1ab_0
+    - xz 5.2.6 h8d14728_0
+  run:
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+test:
+  imports:
+    - psutil
+    - psutil._psutil_windows
+    - psutil.tests
+about:
+  description: 'psutil (process and system utilities) is a cross-platform library
+    for
+
+    retrieving information on running processes and system utilization (CPU,
+
+    memory, disks, network) in Python. It is useful mainly for system
+
+    monitoring, profiling and limiting process resources and management of
+
+    running processes.
+
+    '
+  dev_url: https://github.com/giampaolo/psutil
+  doc_source_url: https://github.com/giampaolo/psutil/blob/master/docs/index.rst
+  doc_url: http://pythonhosted.org/psutil/
+  home: https://github.com/giampaolo/psutil
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A cross-platform process and system utilities module for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240119.7.1
+  recipe-maintainers:
+    - gqmelo
+    - jakirkham
+    - nehaljwani
+    - pelson
+  remote_url: https://github.com/conda-forge/psutil-feedstock
+  sha: 5a46509e9f678204cb32954f2aa89e18e6149592

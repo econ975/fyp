@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "six"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "name": "google-pasta",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1630578016443,
+  "version": "0.2.0"
+}

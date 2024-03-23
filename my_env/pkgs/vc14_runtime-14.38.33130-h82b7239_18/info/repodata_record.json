@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h82b7239_18",
+  "build_number": 18,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "vs2015_runtime 14.38.33130.* *_18"
+  ],
+  "depends": [
+    "ucrt >=10.0.20348.0"
+  ],
+  "features": "",
+  "fn": "vc14_runtime-14.38.33130-h82b7239_18.conda",
+  "license": "LicenseRef-ProprietaryMicrosoft",
+  "license_family": "Proprietary",
+  "md5": "8be79fdd2725ddf7bbf8a27a4c1f79ba",
+  "name": "vc14_runtime",
+  "platform": "win32",
+  "sha256": "bf94c9af4b2e9cba88207001197e695934eadc96a5c5e4cd7597e950aae3d8ff",
+  "size": 749868,
+  "subdir": "win-64",
+  "timestamp": 1702511239000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.38.33130-h82b7239_18.conda",
+  "version": "14.38.33130"
+}

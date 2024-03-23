@@ -1,0 +1,7 @@
+{
+  "target_platform": "win-64",
+  "cxx_compiler": "vs2017",
+  "zlib": "1.2",
+  "c_compiler": "vs2017",
+  "channel_targets": "defaults"
+}

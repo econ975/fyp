@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h59b6b97_46320",
+  "build_number": 46320,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "intel-openmp-2023.1.0-h59b6b97_46320.conda",
+  "license": "LicenseRef-ProprietaryIntel",
+  "license_family": "Proprietary",
+  "md5": "24ec0112499542d8170daa38552134d9",
+  "name": "intel-openmp",
+  "platform": "win32",
+  "sha256": "44bc9235c43ae6ad02bb2a5c06fe860a9efefdd4747ad72b21e32b76917bf1d5",
+  "size": 2826403,
+  "subdir": "win-64",
+  "timestamp": 1699647939000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2023.1.0-h59b6b97_46320.conda",
+  "version": "2023.1.0"
+}

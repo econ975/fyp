@@ -1,0 +1,44 @@
+diff -urN a/third_party/systemlibs/sqlite.BUILD b/third_party/systemlibs/sqlite.BUILD
+--- a/third_party/systemlibs/sqlite.BUILD	2022-05-23 01:24:29.000000000 +0300
++++ b/third_party/systemlibs/sqlite.BUILD	2022-07-26 12:33:08.483350796 +0300
+@@ -1,12 +1,39 @@
+ licenses(["unencumbered"])  # Public Domain
+ 
++HEADERS = [
++   "sqlite3.h",
++   "sqlite3ext.h",
++]
++
++LIBS = [
++   "libsqlite3.so",
++   "libsqlite3.so.0",
++   "libsqlite3.so.0.8.6",
++   "libsqlite3.a",
++]
++
+ # Production build of SQLite library that's baked into TensorFlow.
+ cc_library(
+     name = "org_sqlite",
+-    linkopts = ["-lsqlite3"],
++    hdrs = HEADERS,
++    srcs = LIBS,
++    includes = ["."],
+     visibility = ["//visibility:public"],
+ )
+ 
++genrule(
++    name = "sqlite-files",
++    outs = HEADERS + LIBS,
++    cmd = """
++      cp -fL "$(INCLUDEDIR)/sqlite3.h" "$(@D)" &&
++      cp -fL "$(INCLUDEDIR)/sqlite3ext.h" "$(@D)" &&
++      cp -fL "$(LIBDIR)/libsqlite3.so.0.8.6" "$(@D)" &&
++      ln -sf "$(LIBDIR)/libsqlite3.so.0.8.6" "$(@D)/libsqlite3.so.0" &&
++      ln -sf "$(LIBDIR)/libsqlite3.so.0.8.6" "$(@D)/libsqlite3.so" &&
++      cp -fL "$(LIBDIR)/libsqlite3.a" "$(@D)"
++    """,
++)
++
+ # This is a Copybara sync helper for Google.
+ py_library(
+     name = "python",

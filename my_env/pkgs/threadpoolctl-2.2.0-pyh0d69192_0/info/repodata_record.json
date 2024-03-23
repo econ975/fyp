@@ -1,0 +1,24 @@
+{
+  "build": "pyh0d69192_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "threadpoolctl-2.2.0-pyh0d69192_0.conda",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "bbfdbae4934150b902f97daaf287efe2",
+  "name": "threadpoolctl",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "440bc067a57f888fb602339e2d1a1661ffee79244cd9c5179fc3bbc560efc56b",
+  "size": 16731,
+  "subdir": "noarch",
+  "timestamp": 1629802282000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/threadpoolctl-2.2.0-pyh0d69192_0.conda",
+  "version": "2.2.0"
+}

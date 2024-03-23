@@ -1,0 +1,70 @@
+# This file created by conda-build 3.28.4
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Feb  9 02:05:32 2024
+# ------------------------------------------------
+
+package:
+  name: debugpy
+  version: 1.8.1
+source:
+  sha256: f696d6be15be87aef621917585f9bb94b1dc9e8aced570db1b8a6fc14e8f9b42
+  url: https://pypi.io/packages/source/d/debugpy/debugpy-1.8.1.zip
+build:
+  number: '0'
+  string: py38hd3f51b4_0
+requirements:
+  build:
+    - vs2019_win-64 19.29.30139 he1865b1_18
+    - vswhere 3.1.4 h57928b3_0
+  host:
+    - bzip2 1.0.8 hcfcfb64_5
+    - ca-certificates 2024.2.2 h56e8100_0
+    - libffi 3.4.2 h8ffe710_5
+    - libsqlite 3.44.2 hcfcfb64_0
+    - libzlib 1.2.13 hcfcfb64_5
+    - openssl 3.2.1 hcfcfb64_0
+    - pip 24.0 pyhd8ed1ab_0
+    - python 3.8.18 h4de0772_1_cpython
+    - setuptools 69.0.3 pyhd8ed1ab_0
+    - tk 8.6.13 h5226925_1
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 hcf57466_18
+    - vc14_runtime 14.38.33130 h82b7239_18
+    - vs2015_runtime 14.38.33130 hcb4865c_18
+    - wheel 0.42.0 pyhd8ed1ab_0
+    - xz 5.2.6 h8d14728_0
+  run:
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+test:
+  commands:
+    - pip check
+  imports:
+    - debugpy
+    - debugpy.adapter
+    - debugpy.common
+    - debugpy.launcher
+    - debugpy.server
+  requires:
+    - pip
+about:
+  dev_url: https://github.com/microsoft/debugpy
+  home: https://github.com/Microsoft/debugpy
+  license: MIT
+  license_family: MIT
+  license_file:
+    - LICENSE
+    - ThirdPartyNotices.txt
+  summary: An implementation of the Debug Adapter Protocol for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240208.2.1
+  recipe-maintainers:
+    - jtilly
+    - xhochy
+  remote_url: https://github.com/conda-forge/debugpy-feedstock
+  sha: c6334fd2f1174c9fd969719ee2ab2b48c622105a

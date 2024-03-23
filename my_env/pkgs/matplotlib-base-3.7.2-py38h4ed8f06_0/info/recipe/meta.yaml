@@ -1,0 +1,122 @@
+# This file created by conda-build 3.26.1
+# ------------------------------------------------
+
+package:
+  name: matplotlib-base
+  version: 3.7.2
+source:
+  sha256: be06fea01c57517dbed17dd1aa8f2b3f5750c54203553f9d2096cf2e43a23b1e
+  url: https://github.com/matplotlib/matplotlib/archive/v3.7.2.tar.gz
+build:
+  number: 0
+  string: py38h4ed8f06_0
+requirements:
+  build:
+    - glib 2.69.1 h5dc1a3c_2
+    - libffi 3.4.4 hd77b12b_0
+    - libiconv 1.16 h2bbff1b_2
+    - pcre 8.45 hd77b12b_0
+    - pkg-config 0.29.2 h8cc25b3_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - zlib 1.2.13 h8cc25b3_0
+  host:
+    - blas 1.0 mkl
+    - ca-certificates 2023.05.30 haa95532_0
+    - certifi 2023.7.22 py38haa95532_0
+    - freetype 2.10.4 hd328e21_0
+    - intel-openmp 2023.1.0 h59b6b97_46319
+    - libffi 3.4.4 hd77b12b_0
+    - libpng 1.6.39 h8cc25b3_0
+    - mkl 2023.1.0 h6b88ed4_46357
+    - mkl-service 2.4.0 py38h2bbff1b_1
+    - mkl_fft 1.3.6 py38hf11a4ad_1
+    - mkl_random 1.2.2 py38hf11a4ad_1
+    - numpy 1.21.5 py38h6917f2d_4
+    - numpy-base 1.21.5 py38h46c4fa8_4
+    - openssl 3.0.10 h2bbff1b_2
+    - packaging 23.1 py38haa95532_0
+    - pip 23.2.1 py38haa95532_0
+    - pybind11 2.10.4 py38h59b6b97_0
+    - pybind11-global 2.10.4 py38h59b6b97_0
+    - python 3.8.17 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - setuptools-scm 7.1.0 py38haa95532_0
+    - setuptools_scm 7.1.0 hd3eb1b0_0
+    - setuptools_scm_git_archive 1.1 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tbb 2021.8.0 h59b6b97_0
+    - tomli 2.0.1 py38haa95532_0
+    - typing-extensions 4.7.1 py38haa95532_0
+    - typing_extensions 4.7.1 py38haa95532_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - contourpy >=1.0.1
+    - cycler >=0.10
+    - fonttools >=4.22.0
+    - freetype >=2.10
+    - freetype >=2.10.4,<3.0a0
+    - importlib_resources >=5.2.0
+    - kiwisolver >=1.0.1
+    - numpy >=1.20
+    - numpy >=1.21.5,<2.0a0
+    - packaging >=20.0
+    - pillow >=6.2.0
+    - pyparsing >=2.3.1,<3.1
+    - python >=3.8,<3.9.0a0
+    - python-dateutil >=2.7
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - matplotlib
+    - matplotlib._image
+    - matplotlib._path
+    - matplotlib._qhull
+    - matplotlib._tri
+    - matplotlib._ttconv
+    - matplotlib.backends._backend_agg
+    - matplotlib.ft2font
+    - matplotlib.pyplot
+    - mpl_toolkits
+    - pylab
+  requires:
+    - pip
+    - pytest
+about:
+  description: 'Matplotlib produces publication-quality figures in a variety of hardcopy
+    formats
+
+    and interactive environments across platforms. Matplotlib can be used in
+
+    Python scripts, Python/IPython shells, web application servers,
+
+    and various graphical user interface toolkits.
+
+    '
+  dev_url: https://github.com/matplotlib/matplotlib/
+  doc_url: https://matplotlib.org/stable/users/index.html
+  home: https://matplotlib.org/
+  license: LicenseRef-PSF-based
+  license_family: PSF
+  license_file: LICENSE/LICENSE
+  summary: Publication quality figures in Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 08dc1893-6012-4a14-a45e-cf3c681368df
+  recipe-maintainers:
+    - dopplershift
+    - mdboom
+    - ocefpaf
+    - pelson
+    - tacaswell
+  remote_url: git@github.com:AnacondaRecipes/matplotlib-feedstock.git
+  sha: e16123b42d1bfdb10ba5be717c34566803d108a7

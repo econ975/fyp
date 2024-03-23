@@ -1,0 +1,6 @@
+{
+  "target_platform": "win-64",
+  "vc": "14",
+  "c_compiler": "vs2017",
+  "channel_targets": "conda-forge main"
+}

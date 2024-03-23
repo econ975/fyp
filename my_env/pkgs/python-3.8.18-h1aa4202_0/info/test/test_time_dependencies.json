@@ -1,0 +1,1 @@
+["cython", "ninja-base", "setuptools", "cmake-no-system", "ripgrep", "vs2017_win-64"]

@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "jinja2 >=3.0.0"
+  ],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "markupsafe-2.1.3-py38h2bbff1b_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "c88ec0da885247c569bb04efa88cff62",
+  "name": "markupsafe",
+  "platform": "win32",
+  "sha256": "86e7aeb73f810ee2fb58609564f5577f5b8ea2d991d4fcfccee8cdcffe9a02db",
+  "size": 25828,
+  "subdir": "win-64",
+  "timestamp": 1704206131000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/markupsafe-2.1.3-py38h2bbff1b_0.conda",
+  "version": "2.1.3"
+}

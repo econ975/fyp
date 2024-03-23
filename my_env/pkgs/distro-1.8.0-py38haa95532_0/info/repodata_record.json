@@ -1,0 +1,19 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "fn": "distro-1.8.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "md5": "1bd1d60499f901e76ad33e4c60fe591d",
+  "name": "distro",
+  "sha256": "3015f6f7d867562f2ee23bb642e034aa04dfc3b4752e01955e3bdabb8caf21d9",
+  "size": 49279,
+  "subdir": "win-64",
+  "timestamp": 1701455125000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distro-1.8.0-py38haa95532_0.conda",
+  "version": "1.8.0"
+}

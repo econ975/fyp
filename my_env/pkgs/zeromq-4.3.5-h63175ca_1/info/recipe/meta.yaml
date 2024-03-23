@@ -1,0 +1,69 @@
+# This file created by conda-build 24.1.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Wed Feb 28 15:37:38 2024
+# ------------------------------------------------
+
+package:
+  name: zeromq
+  version: 4.3.5
+source:
+  fn: zeromq-4.3.5.tar.gz
+  patches:
+    - 001-windows-install.patch
+    - pr4663.patch
+  sha256: 6653ef5910f17954861fe72332e68b03ca6e4d9c7160eb3a8de5a5a913bfab43
+  url: https://github.com/zeromq/libzmq/releases/download/v4.3.5/zeromq-4.3.5.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - zeromq >=4.3.5,<4.3.6.0a0
+  string: h63175ca_1
+requirements:
+  build:
+    - bzip2 1.0.8 hcfcfb64_5
+    - ca-certificates 2024.2.2 h56e8100_0
+    - cmake 3.28.3 hf0feee3_0
+    - krb5 1.21.2 heb0366b_0
+    - libcurl 8.5.0 hd5e4a3a_0
+    - libexpat 2.5.0 h63175ca_1
+    - libssh2 1.11.0 h7dfc565_0
+    - libuv 1.47.0 hcfcfb64_0
+    - libzlib 1.2.13 hcfcfb64_5
+    - openssl 3.2.1 hcfcfb64_0
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 hcf57466_18
+    - vc14_runtime 14.38.33130 h82b7239_18
+    - vs2015_runtime 14.38.33130 hcb4865c_18
+    - vs2019_win-64 19.29.30139 he1865b1_18
+    - vswhere 3.1.4 h57928b3_0
+    - xz 5.2.6 h8d14728_0
+    - zstd 1.5.5 h12be248_0
+  host:
+    - libsodium 1.0.18 h8d14728_1
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 hcf57466_18
+    - vc14_runtime 14.38.33130 h82b7239_18
+    - vs2015_runtime 14.38.33130 hcb4865c_18
+  run:
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+about:
+  home: http://zeromq.org
+  license: MPL-2.0
+  license_file: LICENSE
+  summary: A high-performance asynchronous messaging library.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240228.2.1
+  recipe-maintainers:
+    - JohanMabille
+    - SylvainCorlay
+    - davidbrochart
+    - jakirkham
+    - minrk
+  remote_url: https://github.com/conda-forge/zeromq-feedstock
+  sha: 66767ed25e9474c0690dca2cc755ea9f7e09b887

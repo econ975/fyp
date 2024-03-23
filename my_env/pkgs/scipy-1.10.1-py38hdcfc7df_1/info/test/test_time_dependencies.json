@@ -1,0 +1,1 @@
+["mpmath", "pytest-xdist", "threadpoolctl", "intel-openmp 2023.*", "pytest", "pytest-timeout"]

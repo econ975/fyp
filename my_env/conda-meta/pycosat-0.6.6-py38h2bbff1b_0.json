@@ -1,0 +1,49 @@
+{
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pycosat-0.6.6-py38h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/test_pycosat.cpython-311.pyc",
+    "Lib/site-packages/__pycache__/test_pycosat.cpython-38.pyc",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/METADATA",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/RECORD",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+    "Lib/site-packages/pycosat.cp38-win_amd64.pyd",
+    "Lib/site-packages/test_pycosat.py"
+  ],
+  "fn": "pycosat-0.6.6-py38h2bbff1b_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pycosat-0.6.6-py38h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "88068afe466f1a6d917f5ff02a91b4e9",
+  "name": "pycosat",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pycosat-0.6.6-py38h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::pycosat==0.6.6=py38h2bbff1b_0[md5=88068afe466f1a6d917f5ff02a91b4e9]",
+  "sha256": "fdc7ac02501e96dee65f814203fd64951f3a5cc0857974f82b6877d3d7808032",
+  "size": 86545,
+  "subdir": "win-64",
+  "timestamp": 1696537234000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pycosat-0.6.6-py38h2bbff1b_0.conda",
+  "version": "0.6.6"
+}

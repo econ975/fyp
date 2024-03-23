@@ -1,0 +1,21 @@
+{
+  "build": "py38hd77b12b_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "brotli-python-1.0.9-py38hd77b12b_7.conda",
+  "license": "MIT",
+  "md5": "1cdeaf785622b65f34149975e59a0983",
+  "name": "brotli-python",
+  "sha256": "22e21c57ad069cdb1ee3e032b4cb0d0c92bc741b951a682e8a035f5ef10a8762",
+  "size": 316575,
+  "subdir": "win-64",
+  "timestamp": 1659616387000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/brotli-python-1.0.9-py38hd77b12b_7.conda",
+  "version": "1.0.9"
+}

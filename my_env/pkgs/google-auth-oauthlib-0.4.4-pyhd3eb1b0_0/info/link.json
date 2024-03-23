@@ -1,0 +1,9 @@
+{
+  "noarch": {
+    "entry_points": [
+      "google-oauthlib-tool = google_auth_oauthlib.tool.__main__:main"
+    ],
+    "type": "python"
+  },
+  "package_metadata_version": 1
+}

@@ -1,0 +1,72 @@
+# This file created by conda-build 3.21.5
+# meta.yaml template originally from:
+# /home/ktietz/src/aggregate/python-flatbuffers-feedstock/recipe, last modified Tue Oct 12 11:43:42 2021
+# ------------------------------------------------
+
+package:
+  name: python-flatbuffers
+  version: '2.0'
+source:
+  sha256: 12158ab0272375eab8db2d663ae97370c33f152b27801fa6024e1d6105fd4dd2
+  url: https://pypi.io/packages/source/f/flatbuffers/flatbuffers-2.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: VERSION=v2.0 /home/ktietz/cip/python-flatbuffers_1634039120618/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+    -m pip install . -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 51_gnu
+    - ca-certificates 2021.7.5 hd43f75c_1
+    - certifi 2021.5.30 py39hd43f75c_0
+    - ld_impl_linux-aarch64 2.36.1 h0ab8de2_3
+    - libffi 3.3 h7c1a80f_2
+    - libgcc-ng 10.2.0 h1234567_51
+    - libgomp 10.2.0 h1234567_51
+    - libstdcxx-ng 10.2.0 h1234567_51
+    - ncurses 6.2 hfd63f10_0
+    - openssl 1.1.1l h2f4d8fa_0
+    - pip 21.2.4 py39hd43f75c_0
+    - python 3.9.7 hc137634_1
+    - readline 8.1 hfd63f10_0
+    - setuptools 58.0.4 py39hd43f75c_0
+    - sqlite 3.36.0 h6632b73_0
+    - tk 8.6.11 h241ca14_0
+    - tzdata 2021a h5d7bf9c_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 hfd63f10_1
+    - zlib 1.2.11 hfd63f10_5
+  run:
+    - python >=3.6
+test:
+  imports:
+    - flatbuffers
+    - flatbuffers.builder
+    - flatbuffers.table
+  requires:
+    - python <3.10
+about:
+  description: 'FlatBuffers is an efficient cross platform serialization library for
+    C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, Python, and Rust.
+    It was originally created at Google for game development and other performance-critical
+    applications. This package is the python runtime library. The flatc compiler is
+    in the flatbuffers conda package.
+
+    '
+  dev_url: https://github.com/google/flatbuffers
+  doc_source_url: https://github.com/google/flatbuffers/tree/master/docs
+  doc_url: https://google.github.io/flatbuffers/
+  home: https://google.github.io/flatbuffers/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: Python runtime library for use with the Flatbuffers serialization format.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - kalefranz
+    - njzjz
+    - xhochy

@@ -1,0 +1,96 @@
+# This file created by conda-build 3.26.1
+# meta.yaml template originally from:
+# C:\b\abs_35n0jusce8\clone\recipe, last modified Tue Sep 26 09:44:18 2023
+# ------------------------------------------------
+
+package:
+  name: attrs
+  version: 23.1.0
+source:
+  patches:
+    - patches/001-remove-fancy-pypi-readme.patch
+  sha256: 6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015
+  url: https://pypi.io/packages/source/a/attrs/attrs-23.1.0.tar.gz
+build:
+  number: '0'
+  script: python -m pip install . --no-deps --no-build-isolation -vv
+  string: py38haa95532_0
+requirements:
+  build:
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+  host:
+    - ca-certificates 2023.08.22 haa95532_0
+    - editables 0.3 py38haa95532_0
+    - hatch-vcs 0.3.0 py38haa95532_0
+    - hatchling 1.18.0 py38haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.11 h2bbff1b_2
+    - packaging 23.1 py38haa95532_0
+    - pathspec 0.10.3 py38haa95532_0
+    - pip 23.2.1 py38haa95532_0
+    - pluggy 1.0.0 py38haa95532_1
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - setuptools-scm 7.1.0 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tomli 2.0.1 py38haa95532_0
+    - trove-classifiers 2023.3.9 py38haa95532_0
+    - typing-extensions 4.7.1 py38haa95532_0
+    - typing_extensions 4.7.1 py38haa95532_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+test:
+  commands:
+    - pip check
+    - pytest --fixtures tests -vv
+  imports:
+    - attr
+  requires:
+    - cloudpickle
+    - hypothesis
+    - mypy >=1.1.1
+    - pip
+    - psutil
+    - pytest >=4.3.0
+    - pytest-xdist
+  source_files:
+    - tests
+about:
+  description: 'attrs is the Python package that will bring back the joy of writing
+
+    classes by relieving you from the drudgery of implementing object
+
+    protocols (aka dunder methods). Its main goal is to help you to write
+
+    concise and correct software without slowing down your code. For that, it
+
+    gives you a class decorator and a way to declaratively define the
+
+    attributes on that class:
+
+    '
+  dev_url: https://github.com/python-attrs/attrs
+  doc_url: https://www.attrs.org/
+  home: https://www.attrs.org/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: attrs is the Python package that will bring back the joy of writing classes
+    by relieving you from the drudgery of implementing object protocols (aka dunder
+    methods).
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 35fc561f-b0b9-455c-948d-a9315ee13b0f
+  recipe-maintainers:
+    - CJ-Wright
+    - jochym
+    - licode
+    - nicoddemus
+  remote_url: git@github.com:AnacondaRecipes/attrs-feedstock.git
+  sha: 1befc471e6c75ee5501fad87aaddb7cf74b72373

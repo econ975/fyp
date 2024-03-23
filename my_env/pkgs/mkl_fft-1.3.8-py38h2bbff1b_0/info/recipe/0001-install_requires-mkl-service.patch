@@ -1,0 +1,12 @@
+diff --git a/setup.py b/setup.py
+index 514c341..c836edc 100644
+--- a/setup.py
++++ b/setup.py
+@@ -135,6 +135,6 @@ setup(
+     test_suite = "pytest",
+     python_requires = '>=3.7',
+     setup_requires=["Cython",],
+-    install_requires = ["numpy >=1.16", "mkl"],
++    install_requires = ["numpy >=1.16", "mkl-service"],
+     keywords=["DFTI", "FFT", "Fourier", "MKL",],
+ )

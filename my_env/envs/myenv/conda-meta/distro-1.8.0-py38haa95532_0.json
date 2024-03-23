@@ -1,0 +1,180 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\distro-1.8.0-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/distro-1.8.0.dist-info/INSTALLER",
+    "Lib/site-packages/distro-1.8.0.dist-info/LICENSE",
+    "Lib/site-packages/distro-1.8.0.dist-info/METADATA",
+    "Lib/site-packages/distro-1.8.0.dist-info/RECORD",
+    "Lib/site-packages/distro-1.8.0.dist-info/REQUESTED",
+    "Lib/site-packages/distro-1.8.0.dist-info/WHEEL",
+    "Lib/site-packages/distro-1.8.0.dist-info/direct_url.json",
+    "Lib/site-packages/distro-1.8.0.dist-info/entry_points.txt",
+    "Lib/site-packages/distro-1.8.0.dist-info/top_level.txt",
+    "Lib/site-packages/distro/__init__.py",
+    "Lib/site-packages/distro/__main__.py",
+    "Lib/site-packages/distro/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/distro/__pycache__/__main__.cpython-38.pyc",
+    "Lib/site-packages/distro/__pycache__/distro.cpython-38.pyc",
+    "Lib/site-packages/distro/distro.py",
+    "Lib/site-packages/distro/py.typed",
+    "Scripts/distro-script.py",
+    "Scripts/distro.exe",
+    ".nonadmin"
+  ],
+  "fn": "distro-1.8.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\distro-1.8.0-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "1bd1d60499f901e76ad33e4c60fe591d",
+  "name": "distro",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\distro-1.8.0-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "sha256_in_prefix": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "size_in_bytes": 11325
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1145fd06da3b734bc71479f439da9714e6c684b181aac2251d81484d7bc5936a",
+        "sha256_in_prefix": "1145fd06da3b734bc71479f439da9714e6c684b181aac2251d81484d7bc5936a",
+        "size_in_bytes": 7098
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a5f192936844a92fb557770c1508beb46f457f23a54390fc9efcede4a8aa4217",
+        "sha256_in_prefix": "a5f192936844a92fb557770c1508beb46f457f23a54390fc9efcede4a8aa4217",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2c9c751b0b25323332c883289779794b924c998c0eb4de747185649fd1216f7a",
+        "sha256_in_prefix": "2c9c751b0b25323332c883289779794b924c998c0eb4de747185649fd1216f7a",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "dce6e3a9031b875c5e410c2c5ad81b7c33433030fe11b8204753a3ff3f2cf617",
+        "sha256_in_prefix": "dce6e3a9031b875c5e410c2c5ad81b7c33433030fe11b8204753a3ff3f2cf617",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "Lib/site-packages/distro-1.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a475efd5fd711d481a9a19de6d12b88dff0cd81cb8135ffcd5b65b062c7bf04",
+        "sha256_in_prefix": "8a475efd5fd711d481a9a19de6d12b88dff0cd81cb8135ffcd5b65b062c7bf04",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/distro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
+        "sha256_in_prefix": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "Lib/site-packages/distro/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
+        "sha256_in_prefix": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Lib/site-packages/distro/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea1bedc0aba190fa7bbce4f0a52eb87e0a7593ce04dc48909e13c97d0ad66808",
+        "sha256_in_prefix": "ea1bedc0aba190fa7bbce4f0a52eb87e0a7593ce04dc48909e13c97d0ad66808",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "Lib/site-packages/distro/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0522619b4ae83b228d043bcc5ca29da916d52df26248af88889c88bb8aca5aa4",
+        "sha256_in_prefix": "0522619b4ae83b228d043bcc5ca29da916d52df26248af88889c88bb8aca5aa4",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "Lib/site-packages/distro/__pycache__/distro.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "14a0e728ed4b452c3d4733ae11e6d657a3538566a9b2ea1bb2679a654da69685",
+        "sha256_in_prefix": "14a0e728ed4b452c3d4733ae11e6d657a3538566a9b2ea1bb2679a654da69685",
+        "size_in_bytes": 42281
+      },
+      {
+        "_path": "Lib/site-packages/distro/distro.py",
+        "path_type": "hardlink",
+        "sha256": "5193b52e3221b4508c7656e2cf7f608f7ada57e0267f7481c331b37c0a62307c",
+        "sha256_in_prefix": "5193b52e3221b4508c7656e2cf7f608f7ada57e0267f7481c331b37c0a62307c",
+        "size_in_bytes": 49330
+      },
+      {
+        "_path": "Lib/site-packages/distro/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Scripts/distro-script.py",
+        "path_type": "hardlink",
+        "sha256": "3c5be0a683cb6bc6da3599dbcaeb22d65f062c7ee905bba72e216f1f6f5aadc5",
+        "sha256_in_prefix": "3c5be0a683cb6bc6da3599dbcaeb22d65f062c7ee905bba72e216f1f6f5aadc5",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "Scripts/distro.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "distro==1.8.0=py38haa95532_0",
+  "sha256": "3015f6f7d867562f2ee23bb642e034aa04dfc3b4752e01955e3bdabb8caf21d9",
+  "size": 49279,
+  "subdir": "win-64",
+  "timestamp": 1701455125000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distro-1.8.0-py38haa95532_0.conda",
+  "version": "1.8.0"
+}

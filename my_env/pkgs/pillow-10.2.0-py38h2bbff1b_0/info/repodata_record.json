@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "freetype >=2.10.4,<3.0a0",
+    "jpeg >=9e,<10a",
+    "libtiff >=4.2.0,<5.0a0",
+    "libwebp-base >=1.3.2,<2.0a0",
+    "openjpeg >=2.3.0,<3.0a0",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "pillow-10.2.0-py38h2bbff1b_0.conda",
+  "license": "HPND AND TCL",
+  "license_family": "Other",
+  "md5": "0d6c40f856c72d901172bb9fae49ef51",
+  "name": "pillow",
+  "platform": "win32",
+  "sha256": "4c38078841c8b513c7b41a2a3f20209b826aae34af3a666fa10119654581d296",
+  "size": 816547,
+  "subdir": "win-64",
+  "timestamp": 1707233312000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pillow-10.2.0-py38h2bbff1b_0.conda",
+  "version": "10.2.0"
+}

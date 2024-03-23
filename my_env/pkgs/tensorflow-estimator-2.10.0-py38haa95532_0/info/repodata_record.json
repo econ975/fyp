@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "tensorflow-base 2.10.*"
+  ],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "tensorflow-estimator-2.10.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "9bb129d1df85f15a617fa6aba856529e",
+  "name": "tensorflow-estimator",
+  "platform": "win32",
+  "sha256": "a5d5b252d0481f9231854d7e27323a6d885ed458ade316a4b542fc2f91070a71",
+  "size": 494767,
+  "subdir": "win-64",
+  "timestamp": 1669761524000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tensorflow-estimator-2.10.0-py38haa95532_0.conda",
+  "version": "2.10.0"
+}

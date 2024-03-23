@@ -1,0 +1,53 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# C:\ci\containers\0000204aelb\tmp\build\80754af9\combined_recipe, last modified Wed May 12 08:22:47 2021
+# ------------------------------------------------
+
+package:
+  name: flatbuffers
+  version: 2.0.0
+source:
+  fn: flatbuffers-2.0.0.tar.gz
+  sha256: 9ddb9031798f4f8754d00fca2f1a68ecf9d0f83dfac7239af1311e4fd9a565c4
+  url: https://github.com/google/flatbuffers/archive/v2.0.0.tar.gz
+build:
+  number: '0'
+  string: h6c2663c_0
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - cmake 3.19.6 h9ad04ae_0
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_0
+    - ninja 1.10.2 h6d14046_1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h62dcd97_0
+    - zlib 1.2.11 h62dcd97_4
+    - zstd 1.4.5 h04227a9_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %PREFIX%\\Library\\bin\\flatc.exe exit 1
+    - if not exist %PREFIX%\\Library\\include\\flatbuffers\\flatbuffers.h exit 1
+about:
+  dev_url: https://github.com/google/flatbuffers
+  doc_url: http://google.github.io/flatbuffers/
+  home: http://google.github.io/flatbuffers/
+  license: Apache-2.0
+  license_file: LICENSE.txt
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - msarahan
+    - wesm
+    - xhochy

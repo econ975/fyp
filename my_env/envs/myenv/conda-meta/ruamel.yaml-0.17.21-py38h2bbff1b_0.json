@@ -1,0 +1,575 @@
+{
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "ruamel.yaml.clib >=0.2.6",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml-0.17.21-py38h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/ruamel.yaml-0.17.21-py3.8-nspkg.pth",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/INSTALLER",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/LICENSE",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/METADATA",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/RECORD",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/REQUESTED",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/WHEEL",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/direct_url.json",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/namespace_packages.txt",
+    "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/top_level.txt",
+    "Lib/site-packages/ruamel/yaml/__init__.py",
+    "Lib/site-packages/ruamel/yaml/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/anchor.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/comments.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/composer.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/configobjwalker.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/constructor.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/cyaml.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/dumper.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/emitter.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/error.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/events.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/loader.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/main.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/nodes.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/parser.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/reader.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/representer.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/resolver.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/scalarbool.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/scalarfloat.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/scalarint.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/scalarstring.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/scanner.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/serializer.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/timestamp.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/tokens.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/ruamel/yaml/anchor.py",
+    "Lib/site-packages/ruamel/yaml/comments.py",
+    "Lib/site-packages/ruamel/yaml/compat.py",
+    "Lib/site-packages/ruamel/yaml/composer.py",
+    "Lib/site-packages/ruamel/yaml/configobjwalker.py",
+    "Lib/site-packages/ruamel/yaml/constructor.py",
+    "Lib/site-packages/ruamel/yaml/cyaml.py",
+    "Lib/site-packages/ruamel/yaml/dumper.py",
+    "Lib/site-packages/ruamel/yaml/emitter.py",
+    "Lib/site-packages/ruamel/yaml/error.py",
+    "Lib/site-packages/ruamel/yaml/events.py",
+    "Lib/site-packages/ruamel/yaml/loader.py",
+    "Lib/site-packages/ruamel/yaml/main.py",
+    "Lib/site-packages/ruamel/yaml/nodes.py",
+    "Lib/site-packages/ruamel/yaml/parser.py",
+    "Lib/site-packages/ruamel/yaml/py.typed",
+    "Lib/site-packages/ruamel/yaml/reader.py",
+    "Lib/site-packages/ruamel/yaml/representer.py",
+    "Lib/site-packages/ruamel/yaml/resolver.py",
+    "Lib/site-packages/ruamel/yaml/scalarbool.py",
+    "Lib/site-packages/ruamel/yaml/scalarfloat.py",
+    "Lib/site-packages/ruamel/yaml/scalarint.py",
+    "Lib/site-packages/ruamel/yaml/scalarstring.py",
+    "Lib/site-packages/ruamel/yaml/scanner.py",
+    "Lib/site-packages/ruamel/yaml/serializer.py",
+    "Lib/site-packages/ruamel/yaml/timestamp.py",
+    "Lib/site-packages/ruamel/yaml/tokens.py",
+    "Lib/site-packages/ruamel/yaml/util.py",
+    ".nonadmin"
+  ],
+  "fn": "ruamel.yaml-0.17.21-py38h2bbff1b_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml-0.17.21-py38h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "d949d87c469c678d1c60afac17c43838",
+  "name": "ruamel.yaml",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml-0.17.21-py38h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21-py3.8-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "fa053978dfdfc5cf1cf72eda0802c8fac356bbdf56e8dd525314eadab38f613a",
+        "sha256_in_prefix": "fa053978dfdfc5cf1cf72eda0802c8fac356bbdf56e8dd525314eadab38f613a",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ab837b032c5aae84503fc0c733a116a26fd272e90dc4402fa68d3c9e51aed3b0",
+        "sha256_in_prefix": "ab837b032c5aae84503fc0c733a116a26fd272e90dc4402fa68d3c9e51aed3b0",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3e9eae158bc08aba5791565047a2f1f803ed82f1b1b0f314523535c94c056863",
+        "sha256_in_prefix": "3e9eae158bc08aba5791565047a2f1f803ed82f1b1b0f314523535c94c056863",
+        "size_in_bytes": 1519
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "29d0a51e45e965f2c1a571e4621d71e6e1d0c45a227599444ec288c8065e5ccf",
+        "sha256_in_prefix": "29d0a51e45e965f2c1a571e4621d71e6e1d0c45a227599444ec288c8065e5ccf",
+        "size_in_bytes": 4669
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ec2261d5a34c504b3e24af40a46ed33de504c9b7b962248618fcca9bc7ec7602",
+        "sha256_in_prefix": "ec2261d5a34c504b3e24af40a46ed33de504c9b7b962248618fcca9bc7ec7602",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "96ee5aafd8a5bf24b4de336f4b9c7d234ff737008a92f225636934407f4002b9",
+        "sha256_in_prefix": "96ee5aafd8a5bf24b4de336f4b9c7d234ff737008a92f225636934407f4002b9",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/ruamel.yaml-0.17.21.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "96ee5aafd8a5bf24b4de336f4b9c7d234ff737008a92f225636934407f4002b9",
+        "sha256_in_prefix": "96ee5aafd8a5bf24b4de336f4b9c7d234ff737008a92f225636934407f4002b9",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "328c17581c5524b9a4001a26ff3a01b8b28cec8b0e254e655ae30de0f52c3d56",
+        "sha256_in_prefix": "328c17581c5524b9a4001a26ff3a01b8b28cec8b0e254e655ae30de0f52c3d56",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3d121b46752981edd97a95a63ef840e5b86bd1cdaa9c7578cf491bb33118029",
+        "sha256_in_prefix": "a3d121b46752981edd97a95a63ef840e5b86bd1cdaa9c7578cf491bb33118029",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/anchor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ed77d4969a4a914e55c968eb7d1d7e8f7c83d2295b2582aa55a4474c02c4c99",
+        "sha256_in_prefix": "4ed77d4969a4a914e55c968eb7d1d7e8f7c83d2295b2582aa55a4474c02c4c99",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/comments.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa2ede3f3f18e08c4d7d2f12b4efbf20def73eff57dc36f2080aeb01b98390ec",
+        "sha256_in_prefix": "aa2ede3f3f18e08c4d7d2f12b4efbf20def73eff57dc36f2080aeb01b98390ec",
+        "size_in_bytes": 35224
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88c964e424f44a212fa4de5ba815a51d1733c1f9c018d718c879b366cae25c79",
+        "sha256_in_prefix": "88c964e424f44a212fa4de5ba815a51d1733c1f9c018d718c879b366cae25c79",
+        "size_in_bytes": 6551
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/composer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0315495e707f9b7d8067cee19697fed32c627dcfccd83cc306e9afcab49691b",
+        "sha256_in_prefix": "f0315495e707f9b7d8067cee19697fed32c627dcfccd83cc306e9afcab49691b",
+        "size_in_bytes": 5280
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/configobjwalker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaf9b51b59df357075c5d6b6bfe7e1f42ec339675b216458c76b1be33b3b8ea1",
+        "sha256_in_prefix": "aaf9b51b59df357075c5d6b6bfe7e1f42ec339675b216458c76b1be33b3b8ea1",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/constructor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b97acce11ff7d9fb1fd95b3d030711fc1b625450b9e7551143796bbfd8985563",
+        "sha256_in_prefix": "b97acce11ff7d9fb1fd95b3d030711fc1b625450b9e7551143796bbfd8985563",
+        "size_in_bytes": 38423
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/cyaml.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "15fe43c7649a3f2819a64c1384751eea8fe7521b6add9367dae02486028e87f0",
+        "sha256_in_prefix": "15fe43c7649a3f2819a64c1384751eea8fe7521b6add9367dae02486028e87f0",
+        "size_in_bytes": 3332
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/dumper.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c084185633415ceb58cc372f5833465f3e1ba178dd0a5008a5e0db0385b1d38",
+        "sha256_in_prefix": "8c084185633415ceb58cc372f5833465f3e1ba178dd0a5008a5e0db0385b1d38",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/emitter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "44ec8918bf4791139676d977092d68787f6ecb38013313768933ea09453f57e4",
+        "sha256_in_prefix": "44ec8918bf4791139676d977092d68787f6ecb38013313768933ea09453f57e4",
+        "size_in_bytes": 34298
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/error.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "578f3fe6c5f14daf79d02360c27e54192b61bf6a89fe999f035fd83d6d9594e0",
+        "sha256_in_prefix": "578f3fe6c5f14daf79d02360c27e54192b61bf6a89fe999f035fd83d6d9594e0",
+        "size_in_bytes": 7876
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/events.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c17c05cf7de843d20c1934caa5bd45e908ec3a92be676b879d43ef063a844b8",
+        "sha256_in_prefix": "1c17c05cf7de843d20c1934caa5bd45e908ec3a92be676b879d43ef063a844b8",
+        "size_in_bytes": 4770
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/loader.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "350a317e2dca8a81175eab371b6a6830168029a4c835c53e9d5e747f08f00d51",
+        "sha256_in_prefix": "350a317e2dca8a81175eab371b6a6830168029a4c835c53e9d5e747f08f00d51",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bbf9037b627747d77374472480d2344f35f0c2ce513dc5078f0f73cb3d36a6e",
+        "sha256_in_prefix": "4bbf9037b627747d77374472480d2344f35f0c2ce513dc5078f0f73cb3d36a6e",
+        "size_in_bytes": 35029
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/nodes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "715a0e82f461541c6f7673260d88552531e40731839ffc0e95de4651d83be90f",
+        "sha256_in_prefix": "715a0e82f461541c6f7673260d88552531e40731839ffc0e95de4651d83be90f",
+        "size_in_bytes": 3035
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/parser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb1489187f1c8706e598df83268ea8528ff83bf57d45bee65083b7875ae944af",
+        "sha256_in_prefix": "bb1489187f1c8706e598df83268ea8528ff83bf57d45bee65083b7875ae944af",
+        "size_in_bytes": 16775
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/reader.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebf5fa17cb2062e10ac6b9e9097e2f5c6164acaa283a9d1e42270cfe502ff87c",
+        "sha256_in_prefix": "ebf5fa17cb2062e10ac6b9e9097e2f5c6164acaa283a9d1e42270cfe502ff87c",
+        "size_in_bytes": 6953
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/representer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3a56d7bb0e22ee24df897f30929511a9bba9afa8446885a179241a7c264c738",
+        "sha256_in_prefix": "a3a56d7bb0e22ee24df897f30929511a9bba9afa8446885a179241a7c264c738",
+        "size_in_bytes": 25745
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/resolver.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f54b06ea423b44b051fc56e570665a9cc4f6e25395b994b97c051e3c23e0ace",
+        "sha256_in_prefix": "2f54b06ea423b44b051fc56e570665a9cc4f6e25395b994b97c051e3c23e0ace",
+        "size_in_bytes": 9851
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/scalarbool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "529ddbc340780250134be36136530cbe27d225f9fedc36e07f844a24f06ef916",
+        "sha256_in_prefix": "529ddbc340780250134be36136530cbe27d225f9fedc36e07f844a24f06ef916",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/scalarfloat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e165a638069812564c0bffb3c2a4454a83b1aa227fb73691529261d0017ee61",
+        "sha256_in_prefix": "8e165a638069812564c0bffb3c2a4454a83b1aa227fb73691529261d0017ee61",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/scalarint.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f20ab518bdcba5d699c37006fc5a4503f1468bdb10667fbd56e4c9e97e94f619",
+        "sha256_in_prefix": "f20ab518bdcba5d699c37006fc5a4503f1468bdb10667fbd56e4c9e97e94f619",
+        "size_in_bytes": 3698
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/scalarstring.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d194eceaed9d6fdd0beb27993f39065678e0df9385cd50a99936709262262ff",
+        "sha256_in_prefix": "3d194eceaed9d6fdd0beb27993f39065678e0df9385cd50a99936709262262ff",
+        "size_in_bytes": 4155
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/scanner.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d8b539f25abc334b1e45844703f5f6fb3b6bf15353f573442b10e76c2c761c2",
+        "sha256_in_prefix": "4d8b539f25abc334b1e45844703f5f6fb3b6bf15353f573442b10e76c2c761c2",
+        "size_in_bytes": 43966
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/serializer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f38afd68dd754274535f65879e352683b65e4ebb4197958db8709808b5326738",
+        "sha256_in_prefix": "f38afd68dd754274535f65879e352683b65e4ebb4197958db8709808b5326738",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/timestamp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4843a8f97865c40456cad6c7a596ab58acebe9979faf0114bc9f8ffe81187c0",
+        "sha256_in_prefix": "c4843a8f97865c40456cad6c7a596ab58acebe9979faf0114bc9f8ffe81187c0",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/tokens.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cbccd66f1be85a6bd469fbfe196c0f1db3bee468f349c5afee5dbad662e4bd9",
+        "sha256_in_prefix": "4cbccd66f1be85a6bd469fbfe196c0f1db3bee468f349c5afee5dbad662e4bd9",
+        "size_in_bytes": 10442
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef3e2cec6bbecf584ffdafe5429f9860c875abd136171c769172b7a2d89fa9ce",
+        "sha256_in_prefix": "ef3e2cec6bbecf584ffdafe5429f9860c875abd136171c769172b7a2d89fa9ce",
+        "size_in_bytes": 5651
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/anchor.py",
+        "path_type": "hardlink",
+        "sha256": "174d76b7c7645faf65fed700bf67998ff201afbb327c00ee635a5837dd871c6b",
+        "sha256_in_prefix": "174d76b7c7645faf65fed700bf67998ff201afbb327c00ee635a5837dd871c6b",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/comments.py",
+        "path_type": "hardlink",
+        "sha256": "57422877ced1a5b68987385425aad899e604d729f2e4ed98e3138e225ef5ec83",
+        "sha256_in_prefix": "57422877ced1a5b68987385425aad899e604d729f2e4ed98e3138e225ef5ec83",
+        "size_in_bytes": 39201
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/compat.py",
+        "path_type": "hardlink",
+        "sha256": "238a2b361de796817c814c67492627d88571a94956c4a83fece8bdfa6cbe18b6",
+        "sha256_in_prefix": "238a2b361de796817c814c67492627d88571a94956c4a83fece8bdfa6cbe18b6",
+        "size_in_bytes": 7546
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/composer.py",
+        "path_type": "hardlink",
+        "sha256": "be61bccbe3fb6efbb75bb32ce382a1a4b466fb3619a36a11eb207df303756a3b",
+        "sha256_in_prefix": "be61bccbe3fb6efbb75bb32ce382a1a4b466fb3619a36a11eb207df303756a3b",
+        "size_in_bytes": 8387
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/configobjwalker.py",
+        "path_type": "hardlink",
+        "sha256": "71e197725956c97ba3dd9325c76e74a9cc8ab561101426731efd94d33c466c69",
+        "sha256_in_prefix": "71e197725956c97ba3dd9325c76e74a9cc8ab561101426731efd94d33c466c69",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/constructor.py",
+        "path_type": "hardlink",
+        "sha256": "432c3d4b02dc1e1bf3fddce2fab00ab175580321052cdce8321bc242f4ba7a8e",
+        "sha256_in_prefix": "432c3d4b02dc1e1bf3fddce2fab00ab175580321052cdce8321bc242f4ba7a8e",
+        "size_in_bytes": 72207
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/cyaml.py",
+        "path_type": "hardlink",
+        "sha256": "7b2968e5c90f955940cfd8ff50601f2464e99cdb276f381c5c3e9d643fe59092",
+        "sha256_in_prefix": "7b2968e5c90f955940cfd8ff50601f2464e99cdb276f381c5c3e9d643fe59092",
+        "size_in_bytes": 6544
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/dumper.py",
+        "path_type": "hardlink",
+        "sha256": "1d038dc8ca755cf2b51f63317edd9b27eec213f23813702b39cb0bf35cd3e44e",
+        "sha256_in_prefix": "1d038dc8ca755cf2b51f63317edd9b27eec213f23813702b39cb0bf35cd3e44e",
+        "size_in_bytes": 6585
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/emitter.py",
+        "path_type": "hardlink",
+        "sha256": "1be6b1c7e23be41041fe3fe44f2a1e4a6cad42566fb9b38b49ce816807f09f80",
+        "sha256_in_prefix": "1be6b1c7e23be41041fe3fe44f2a1e4a6cad42566fb9b38b49ce816807f09f80",
+        "size_in_bytes": 67537
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/error.py",
+        "path_type": "hardlink",
+        "sha256": "99afbed31da98fff087f81ff521d71443d599e31fa801c9d2d5fcc9a92fd92ba",
+        "sha256_in_prefix": "99afbed31da98fff087f81ff521d71443d599e31fa801c9d2d5fcc9a92fd92ba",
+        "size_in_bytes": 9506
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/events.py",
+        "path_type": "hardlink",
+        "sha256": "70914fbfd4ff130236aeef01969679e4eeff08dfa4796be8b872c8cab500b8e2",
+        "sha256_in_prefix": "70914fbfd4ff130236aeef01969679e4eeff08dfa4796be8b872c8cab500b8e2",
+        "size_in_bytes": 5496
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/loader.py",
+        "path_type": "hardlink",
+        "sha256": "7935a1eb280fb2bc136955365da6ca7af6eedbc3ad5f8c262799233ae6749cef",
+        "sha256_in_prefix": "7935a1eb280fb2bc136955365da6ca7af6eedbc3ad5f8c262799233ae6749cef",
+        "size_in_bytes": 3071
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/main.py",
+        "path_type": "hardlink",
+        "sha256": "2c35c0a6f9c4a8331969963459bbdcf6cc844c434144a4084a7f03dffd7cc448",
+        "sha256_in_prefix": "2c35c0a6f9c4a8331969963459bbdcf6cc844c434144a4084a7f03dffd7cc448",
+        "size_in_bytes": 59295
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "2464429fd69c57cd260e211ebf3a11995d1dc1457103d2c470b947b6a2bc7500",
+        "sha256_in_prefix": "2464429fd69c57cd260e211ebf3a11995d1dc1457103d2c470b947b6a2bc7500",
+        "size_in_bytes": 3774
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/parser.py",
+        "path_type": "hardlink",
+        "sha256": "84e0fe255d455849698824f9be83e313a43c5275f3b25a28e48718e761394925",
+        "sha256_in_prefix": "84e0fe255d455849698824f9be83e313a43c5275f3b25a28e48718e761394925",
+        "size_in_bytes": 36466
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/reader.py",
+        "path_type": "hardlink",
+        "sha256": "1a4aa5d6e66071789a598306757f9705684d04ef4857cf7a48408d5f286b3180",
+        "sha256_in_prefix": "1a4aa5d6e66071789a598306757f9705684d04ef4857cf7a48408d5f286b3180",
+        "size_in_bytes": 10680
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/representer.py",
+        "path_type": "hardlink",
+        "sha256": "235f245236b45a8e32ce2b13aa803f5e835e319a0c5de336def6da713b66d9f2",
+        "sha256_in_prefix": "235f245236b45a8e32ce2b13aa803f5e835e319a0c5de336def6da713b66d9f2",
+        "size_in_bytes": 44420
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "b3e2da26eee0b08c9841c67863eb16ff2df060144b29a0b55d36f3e32d1707c3",
+        "sha256_in_prefix": "b3e2da26eee0b08c9841c67863eb16ff2df060144b29a0b55d36f3e32d1707c3",
+        "size_in_bytes": 15499
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/scalarbool.py",
+        "path_type": "hardlink",
+        "sha256": "658b244244c18c2b87172dab8721f8a723ad508e426b39861cd075c2523f24fa",
+        "sha256_in_prefix": "658b244244c18c2b87172dab8721f8a723ad508e426b39861cd075c2523f24fa",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/scalarfloat.py",
+        "path_type": "hardlink",
+        "sha256": "194ae0db41f5c8c15f432ca09ae0c89abd4029b193dc739315bc473f3162c3bc",
+        "sha256_in_prefix": "194ae0db41f5c8c15f432ca09ae0c89abd4029b193dc739315bc473f3162c3bc",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/scalarint.py",
+        "path_type": "hardlink",
+        "sha256": "4bbf3146ffd4fcb4faeec0895b235594e79840cf641ef020584ba191db80f7c6",
+        "sha256_in_prefix": "4bbf3146ffd4fcb4faeec0895b235594e79840cf641ef020584ba191db80f7c6",
+        "size_in_bytes": 4255
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/scalarstring.py",
+        "path_type": "hardlink",
+        "sha256": "3e0202d423a2d4ca5fd5739f5d68eeba901107f3c6e6735a780516b945f72512",
+        "sha256_in_prefix": "3e0202d423a2d4ca5fd5739f5d68eeba901107f3c6e6735a780516b945f72512",
+        "size_in_bytes": 4260
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/scanner.py",
+        "path_type": "hardlink",
+        "sha256": "a1b8b306d1f36a1a2824ffabc41509c77e56a1a1ecb0945931d6b17d58fbb1a6",
+        "sha256_in_prefix": "a1b8b306d1f36a1a2824ffabc41509c77e56a1a1ecb0945931d6b17d58fbb1a6",
+        "size_in_bytes": 89221
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "e2724393880e71c6874b3ea645c11d868ec5e256255200d6aecf8a347a13e63d",
+        "sha256_in_prefix": "e2724393880e71c6874b3ea645c11d868ec5e256255200d6aecf8a347a13e63d",
+        "size_in_bytes": 8479
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/timestamp.py",
+        "path_type": "hardlink",
+        "sha256": "7e19b983aceb20cb7f2037052284e19f6988043597cd6ae3e7d4e3339685fbd0",
+        "sha256_in_prefix": "7e19b983aceb20cb7f2037052284e19f6988043597cd6ae3e7d4e3339685fbd0",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/tokens.py",
+        "path_type": "hardlink",
+        "sha256": "a4a2756581ad120694ef50a7641e147c54b673a0d457061fe5b7e7b836d00612",
+        "sha256_in_prefix": "a4a2756581ad120694ef50a7641e147c54b673a0d457061fe5b7e7b836d00612",
+        "size_in_bytes": 12106
+      },
+      {
+        "_path": "Lib/site-packages/ruamel/yaml/util.py",
+        "path_type": "hardlink",
+        "sha256": "3d2594c948cdfb7c5eba0e73f0d8f0e67b19c946b6774790500c5165755de4d8",
+        "sha256_in_prefix": "3d2594c948cdfb7c5eba0e73f0d8f0e67b19c946b6774790500c5165755de4d8",
+        "size_in_bytes": 8336
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ruamel.yaml==0.17.21=py38h2bbff1b_0",
+  "sha256": "500712cbfa111d020ff4b1f0e0977c4dbe7eb7cebec5a120a1e9dd7dd13e0efd",
+  "size": 178077,
+  "subdir": "win-64",
+  "timestamp": 1666305088000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ruamel.yaml-0.17.21-py38h2bbff1b_0.conda",
+  "version": "0.17.21"
+}

@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "wheel >=0.26"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "tensorboard-plugin-wit",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1660162159246,
+  "version": "1.8.1"
+}

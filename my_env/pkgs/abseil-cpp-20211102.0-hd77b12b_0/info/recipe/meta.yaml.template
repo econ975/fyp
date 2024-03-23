@@ -1,0 +1,72 @@
+{% set name = "abseil-cpp" %}
+{% set version = "20211102.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/abseil/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: dcf71b9cba8dc0ca9940c4b316a0c796be8fab42b070bb6b7cab62b48f0e66c4
+  patches:
+    #- linux-librt.patch  # [linux]
+    - clang4_osx_fix.diff  # [osx]
+    - osx_framework_fix.diff  # [osx]
+    - remove-4221.patch  # [win]
+
+build:
+  number: 0
+  run_exports:
+    - {{ pin_subpackage("abseil-cpp", max_pin="x.x") }}
+  missing_dso_whitelist:  # [s390x]
+    - '$RPATH/ld64.so.1'  # [s390x]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - patch  # [unix]
+    - m2-patch  # [win]
+    - cmake
+    - ninja
+
+# Testing section taken from Conda-Forge
+{% set absl_libs = [
+    "base", "civil_time", "cord", "cordz_functions", "cordz_handle", "cordz_info",
+    "cordz_sample_token", "examine_stack", "exponential_biased", "failure_signal_handler",
+    "flags", "flags_commandlineflag", "flags_config", "flags_marshalling", "flags_parse",
+    "flags_private_handle_accessor", "flags_program_name", "flags_reflection", "flags_usage",
+    "hash", "hashtablez_sampler", "int128", "log_severity", "low_level_hash", "periodic_sampler",
+    "random_distributions", "random_seed_gen_exception", "random_seed_sequences", "raw_hash_set",
+    "scoped_set_env", "spinlock_wait", "stacktrace", "status", "statusor", "strerror", "strings",
+    "symbolize", "synchronization", "time", "time_zone"
+] %}
+test:
+  commands:
+    # absl_libs
+    {% for each_lib in absl_libs %}
+    # presence of shared libs
+    - test -f $PREFIX/lib/libabsl_{{ each_lib }}${SHLIB_EXT}      # [unix]
+    # absence of static libs
+    - test ! -f $PREFIX/lib/libabsl_{{ each_lib }}.a              # [unix]
+    # TODO: do we want to get rid of the static windows libs?
+    # - if exist %LIBRARY_LIB%\\absl_{{ each_lib }}.lib exit 1      # [win]
+    {% endfor %}
+
+about:
+  home: https://github.com/abseil/abseil-cpp
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Abseil Common Libraries (C++)
+  description: |
+    Abseil is an open-source collection of C++ code (compliant to C++11)
+    designed to augment the C++ standard library.
+  doc_url: https://github.com/abseil/abseil-cpp
+  dev_url: https://github.com/abseil/abseil-cpp
+
+extra:
+  recipe-maintainers:
+    - njzjz
+    - bluescarni
+    - xhochy

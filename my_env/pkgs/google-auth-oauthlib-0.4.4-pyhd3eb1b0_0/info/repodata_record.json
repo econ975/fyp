@@ -1,0 +1,28 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "click",
+    "cryptography >=3.2",
+    "google-auth",
+    "python >=3.6",
+    "requests-oauthlib >=0.7.0"
+  ],
+  "features": "",
+  "fn": "google-auth-oauthlib-0.4.4-pyhd3eb1b0_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "62549bcbbd3f5c147400a211d0211939",
+  "name": "google-auth-oauthlib",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "544f0ec039234afa06bfafade7d5974e8386133d586735299458b2413f5217b4",
+  "size": 18741,
+  "subdir": "noarch",
+  "timestamp": 1617120604000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/google-auth-oauthlib-0.4.4-pyhd3eb1b0_0.conda",
+  "version": "0.4.4"
+}

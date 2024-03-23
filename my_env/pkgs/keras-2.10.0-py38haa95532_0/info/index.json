@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "constrains": [
+    "tensorflow-base  2.10.*"
+  ],
+  "depends": [
+    "keras-preprocessing >=1.1.2",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "Apache-2.0",
+  "name": "keras",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1669760735071,
+  "version": "2.10.0"
+}

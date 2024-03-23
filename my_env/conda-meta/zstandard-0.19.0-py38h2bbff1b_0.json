@@ -1,0 +1,50 @@
+{
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.11",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\zstandard-0.19.0-py38h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/zstandard-0.19.0-py3.8.egg-info/PKG-INFO",
+    "Lib/site-packages/zstandard-0.19.0-py3.8.egg-info/SOURCES.txt",
+    "Lib/site-packages/zstandard-0.19.0-py3.8.egg-info/dependency_links.txt",
+    "Lib/site-packages/zstandard-0.19.0-py3.8.egg-info/requires.txt",
+    "Lib/site-packages/zstandard-0.19.0-py3.8.egg-info/top_level.txt",
+    "Lib/site-packages/zstandard/__init__.py",
+    "Lib/site-packages/zstandard/__init__.pyi",
+    "Lib/site-packages/zstandard/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/zstandard/__pycache__/backend_cffi.cpython-38.pyc",
+    "Lib/site-packages/zstandard/_cffi.cp38-win_amd64.pyd",
+    "Lib/site-packages/zstandard/backend_c.cp38-win_amd64.pyd",
+    "Lib/site-packages/zstandard/backend_cffi.py",
+    "Lib/site-packages/zstandard/py.typed"
+  ],
+  "fn": "zstandard-0.19.0-py38h2bbff1b_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\zstandard-0.19.0-py38h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "534cefd27530046de975cbafe969aa1c",
+  "name": "zstandard",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\zstandard-0.19.0-py38h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::zstandard==0.19.0=py38h2bbff1b_0[md5=534cefd27530046de975cbafe969aa1c]",
+  "sha256": "f6cd4d8a746f1b3eb75e3abcd5767b9d161a341978a17022c26bed885eea4da8",
+  "size": 347975,
+  "subdir": "win-64",
+  "timestamp": 1677015075000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zstandard-0.19.0-py38h2bbff1b_0.conda",
+  "version": "0.19.0"
+}

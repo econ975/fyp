@@ -1,0 +1,65 @@
+# This file created by conda-build 3.21.5
+# meta.yaml template originally from:
+# C:\ci\containers\00002rhkkn7\tmp\build\80754af9\rsync-recipes\lerc-3.0-on-winbuilder, last modified Fri Oct 29 10:47:16 2021
+# ------------------------------------------------
+
+package:
+  name: lerc
+  version: '3.0'
+source:
+  sha256: 8c0148f5c22d823eff7b2c999b0781f8095e49a7d3195f13c68c5541dd5740a1
+  url: https://github.com/Esri/lerc/archive/v3.0.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - lerc >=3.0,<4.0a0
+  string: hd77b12b_0
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - cmake 3.19.6 h9ad04ae_0
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - ninja 1.10.2 h6d14046_1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h62dcd97_0
+    - zlib 1.2.11 h62dcd97_4
+    - zstd 1.4.9 h19a0ad4_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %LIBRARY_INC%\Lerc_types.h exit 1
+    - if not exist %LIBRARY_BIN%\Lerc.dll exit 1
+    - if not exist %LIBRARY_LIB%\Lerc.lib exit 1
+about:
+  description: 'LERC is an open-source image or raster format which
+
+    supports rapid encoding and decoding for any pixel type
+
+    (not just RGB or Byte). Users set the maximum compression
+
+    error per pixel while encoding, so the precision of the
+
+    original input image is preserved (within user defined
+
+    error bounds).
+
+    '
+  home: https://github.com/Esri/lerc
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: LERC - Limited Error Raster Compression
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - hmaarrfk

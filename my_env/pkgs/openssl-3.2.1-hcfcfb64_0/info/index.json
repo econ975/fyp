@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "hcfcfb64_0",
+  "build_number": 0,
+  "constrains": [
+    "pyopenssl >=22.1"
+  ],
+  "depends": [
+    "ca-certificates",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "openssl",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1706638014697,
+  "version": "3.2.1"
+}

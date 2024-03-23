@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38hdcfc7df_1",
+  "build_number": 1,
+  "depends": [
+    "blas 1.0 mkl",
+    "icc_rt >=2022.1.0",
+    "intel-openmp >=2023.1.0,<2024.0a0",
+    "mkl >=2023.1.0,<2024.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "numpy >=1.19.5,<1.27.0",
+    "pooch",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "scipy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1683289522517,
+  "version": "1.10.1"
+}

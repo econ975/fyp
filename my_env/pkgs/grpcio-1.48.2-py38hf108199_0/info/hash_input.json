@@ -1,0 +1,9 @@
+{
+  "cxx_compiler": "vs2017",
+  "openssl": "1.1.1",
+  "zlib": "1.2",
+  "channel_targets": "defaults",
+  "libprotobuf": "3.20.3",
+  "c_compiler": "vs2017",
+  "target_platform": "win-64"
+}

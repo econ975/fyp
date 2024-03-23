@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py38h7b80656_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "mkl >=2023.1.0,<2024.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "numexpr-2.8.4-py38h7b80656_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f9336b5e1c9df0d9a4162424ce861853",
+  "name": "numexpr",
+  "platform": "win32",
+  "sha256": "700b291cd67727d70032119269d1a2e82e424b80c819c9d9382a28dd1dab5b9b",
+  "size": 130713,
+  "subdir": "win-64",
+  "timestamp": 1683222215000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numexpr-2.8.4-py38h7b80656_1.conda",
+  "version": "2.8.4"
+}

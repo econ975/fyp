@@ -1,0 +1,63 @@
+{% set version = "1.2.0" %}
+
+package:
+  name: joblib
+  version: {{ version }}
+
+source:
+  url: https://github.com/joblib/joblib/archive/{{ version }}.tar.gz
+  sha256: 574eca5aaeb0a06c4fe0a8e8e67b24715218fb0f9d0fdc9d4f30519100885e53
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+  skip: True  # [py<37]
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+    # Optional dependencies are numpy, python-lz4, psutil
+
+test:
+  requires:
+    - pip
+    - pytest  # pytest is needed for some imports
+  commands:
+    - pip check
+    - python -c "from joblib import Memory, Parallel, delayed"
+  imports:
+    - joblib
+    - joblib.externals
+    - joblib.test
+    - joblib.test.data
+    - joblib.externals.cloudpickle
+    - joblib.externals.loky
+    - joblib.externals.loky.backend
+
+about:
+  home: https://joblib.readthedocs.io/
+  summary: 'Lightweight pipelining: using Python functions as pipeline jobs.'
+  description: |
+    "A set of tools to provide lightweight pipelining in Python. In particular:
+    transparent disk-caching of functions and lazy re-evaluation (memoize pattern),
+    easy simple parallel computing. Joblib is optimized to be fast and robust on
+    large data in particular and has specific optimizations for numpy arrays."
+  license: BSD-3-Clause
+  license_family: BSD
+  license_url: https://github.com/joblib/joblib/blob/{{ version }}/LICENSE.txt
+  doc_url: https://joblib.readthedocs.io/
+  dev_url: https://github.com/joblib/joblib
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - jakirkham
+    - ogrisel
+    - lesteve
+    - tomMoral
+    - pierreglaser

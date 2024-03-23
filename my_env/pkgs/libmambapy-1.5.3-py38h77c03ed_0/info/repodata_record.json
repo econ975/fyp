@@ -1,0 +1,26 @@
+{
+  "build": "py38h77c03ed_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "libmamba 1.5.3 hcd6fe79_0",
+    "openssl >=3.0.11,<4.0a0",
+    "pybind11-abi 4",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0",
+    "yaml-cpp >=0.8.0,<0.9.0a0"
+  ],
+  "fn": "libmambapy-1.5.3-py38h77c03ed_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "36a608a1a665260386167a69685a26d9",
+  "name": "libmambapy",
+  "sha256": "a7f350b864be6c3854b48a5a16f0fa530821d2c36dd21e56a962d4d128675c38",
+  "size": 421521,
+  "subdir": "win-64",
+  "timestamp": 1698783484000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libmambapy-1.5.3-py38h77c03ed_0.conda",
+  "version": "1.5.3"
+}

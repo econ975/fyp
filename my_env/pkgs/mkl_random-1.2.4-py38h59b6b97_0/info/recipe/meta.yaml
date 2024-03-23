@@ -1,0 +1,81 @@
+# This file created by conda-build 3.26.1
+# meta.yaml template originally from:
+# C:\b\abs_edwkj1_o69\clone\recipe, last modified Mon Sep 18 18:57:24 2023
+# ------------------------------------------------
+
+package:
+  name: mkl_random
+  version: 1.2.4
+source:
+  sha256: 9161eee81fbf27934eac1bc0d26ad3b933a582721fa66fe87e930ff2e9867c52
+  url: https://github.com/IntelPython/mkl_random/archive/v1.2.4.tar.gz
+build:
+  ignore_run_exports:
+    - blas
+  number: '0'
+  script: C:\\b\\abs_edwkj1_o69\\croot\\mkl_random_1695059866750\\_h_env\\python.exe
+    -m pip install --no-build-isolation --no-deps .
+  script_env:
+    - MKLROOT=C:\b\abs_edwkj1_o69\croot\mkl_random_1695059866750\_h_env
+  string: py38h59b6b97_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - blas 1.0 mkl
+    - ca-certificates 2023.08.22 haa95532_0
+    - cython 3.0.0 py38h2bbff1b_0
+    - intel-openmp 2023.1.0 h59b6b97_46319
+    - libffi 3.4.4 hd77b12b_0
+    - mkl 2023.1.0 h6b88ed4_46357
+    - mkl-devel 2023.1.0 h670ff1c_46357
+    - mkl-include 2023.1.0 haa95532_46357
+    - mkl-service 2.4.0 py38h2bbff1b_1
+    - numpy-base 1.21.5 py38h46c4fa8_4
+    - openssl 3.0.10 h2bbff1b_2
+    - pip 23.2.1 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tbb 2021.8.0 h59b6b97_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+  run:
+    - mkl >=2023.1.0,<2024.0a0
+    - mkl-service >=2.3.0,<3.0a0
+    - numpy
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - pip check
+    - nosetests -v -e test_hypergeometric mkl_random
+  imports:
+    - mkl_random
+    - mkl_random.mklrand
+  requires:
+    - nose
+    - pip
+about:
+  description: NumPy-based implementation of random number generation sampling using
+    Intel (R) Math Kernel Library, mirroring numpy.random, but exposing all choices
+    of sampling algorithms available in MKL.
+  dev_url: https://github.com/IntelPython/mkl_random
+  doc_url: https://github.com/IntelPython/mkl_random
+  home: https://github.com/IntelPython/mkl_random
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Intel (R) MKL-powered package for sampling from common probability distributions
+    into NumPy arrays.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: edc2ced0-c256-4aef-ae76-7aad6bc6efef
+  recipe-maintainers:
+    - oleksandr-pavlyk
+  remote_url: git@github.com:AnacondaRecipes/mkl_random-feedstock.git
+  sha: 15ac89a953c697da545bdf257e954f3fd63dd5e2

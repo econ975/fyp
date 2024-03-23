@@ -1,0 +1,22 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "constrains": [
+    "keras >=2.1.6"
+  ],
+  "depends": [
+    "numpy >=1.9.1",
+    "python >=3.6",
+    "scipy >=0.14",
+    "six >=1.9.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "keras-preprocessing",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1612283681320,
+  "version": "1.1.2"
+}

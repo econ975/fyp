@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "wheel >=0.26"
+  ],
+  "features": "",
+  "fn": "tensorboard-plugin-wit-1.8.1-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "afe21290791bac4eec36d00dab2800c5",
+  "name": "tensorboard-plugin-wit",
+  "platform": "win32",
+  "sha256": "264b12e933c09713e2a1ef1068cb316b72eec497ead1e3168c41c027539206f0",
+  "size": 687451,
+  "subdir": "win-64",
+  "timestamp": 1660162159000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tensorboard-plugin-wit-1.8.1-py38haa95532_0.conda",
+  "version": "1.8.1"
+}

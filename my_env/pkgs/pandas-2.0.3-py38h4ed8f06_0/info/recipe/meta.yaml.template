@@ -1,0 +1,163 @@
+{% set version = "2.0.3" %}
+
+package:
+  name: pandas
+  version: {{ version }}
+
+source:
+  url: https://github.com/pandas-dev/pandas/releases/download/v{{ version }}/pandas-{{ version }}.tar.gz
+  sha256: c02f372a88e0d17f36d3093a644c73cfc1788e876a7c4bcb4020a77512e2043c
+
+build:
+  number: 0
+  script:
+    - export PYTHONUNBUFFERED=1  # [ppc64le]
+    - {{ PYTHON }} -m pip install -vv --no-deps --no-build-isolation --ignore-installed .  # [not unix]
+    # parallel build is disabled to avoid flaky build error. See https://github.com/pandas-dev/pandas/pull/48490
+    - {{ PYTHON }} -m pip install -vv --no-deps --no-build-isolation --ignore-installed . --global-option="build_ext" --global-option="-j1" --no-use-pep517  # [unix]
+  entry_points:
+    - matplotlib = pandas:plotting._matplotlib
+  skip: true  # [py<38]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - setuptools >=61.0.0
+    - wheel
+    - cython >=0.29.33,<3
+    # Using later version of numpy as it is available on all platforms, requirements for 2.0.3 are lower for pandas
+    # For reference, pandas' requirements of for numpy are:
+    # numpy = 1.20.3  # [py<310 and not (osx and arm64)]
+    # numpy = 1.21    # [py==310 or (osx and arm64)]
+    # numpy = 1.23.2  # [py>=311]
+    - numpy {{ numpy }}
+    - versioneer
+    - tomli # [py<311]
+  run:
+    - python
+    # Base Dependencies
+    - {{ pin_compatible('numpy') }}
+    - python-dateutil >=2.8.2
+    - pytz >=2020.1
+    - python-tzdata >=2022.1
+    # Recommended dependencies to achieve large speedups
+    # see https://pandas.pydata.org/pandas-docs/version/2.0.3/getting_started/install.html#recommended-dependencies
+    # NOTE: For numexpr, there is disagreement between pyproject.toml and internal documentation.  We went with the higher of the two.
+    - numexpr >=2.7.3
+    - bottleneck >=1.3.2
+  run_constrained:
+    # Optional dependencies
+    # see https://pandas.pydata.org/pandas-docs/version/2.0.3/getting_started/install.html#optional-dependencies
+    # and https://github.com/pandas-dev/pandas/blob/v2.0.3/pyproject.toml
+    # performance
+    - numba >=0.53.1
+    # plot
+    - matplotlib-base >=3.6.1
+    # output_formatting
+    - jinja2 >=3.0.0
+    - tabulate >=0.8.9
+    # computation
+    - scipy >=1.7.1
+    - xarray >=0.21.0
+    # fss
+    - fsspec >=2021.7.0
+    # aws
+    - s3fs >=2021.08.0
+    # gcp
+    - gcsfs >=2021.7.0
+    - pandas-gbq >=0.15.0
+    # excel
+    - odfpy>=1.4.1
+    - openpyxl >=3.0.7
+    - pyxlsb >=1.0.8
+    - xlrd >=2.0.1
+    - xlsxwriter >=1.4.3
+    # parquet, feather
+    - pyarrow >=7.0.0
+    # hdf5
+    - blosc >=1.21.0
+    - pytables >=3.6.1
+    # spss
+    - pyreadstat >=1.1.2
+    # DB
+    - sqlalchemy >=1.4.16
+    - psycopg2 >=2.8.6
+    - pymysql >=1.0.2
+    # html, xml
+    - beautifulsoup4 >=4.9.3
+    - html5lib >=1.1
+    - lxml >=4.6.3
+    # compression
+    - brotli >=0.7.0
+    - python-snappy >=0.6.0
+    - zstandard >=0.15.2
+    # clipboard
+    - pyqt >=5.15.1,<6
+    - qtpy >=2.2.0
+    # uncategorized
+    - fastparquet >=0.6.3
+test:
+  requires:
+    - pip
+    - pytest >=7.3.2
+    - pytest-asyncio >=0.17.0
+    - pytest-xdist >=2.2.0
+    - pytest-cov
+    - hypothesis >=6.46.1
+    - tomli  # [py<311]
+  commands:
+    - pip check
+    # Skip `test_rolling_var_numerical_issues` on `ppc64le` and `osx-arm64 as it is a known test failure.
+    # xref: https://github.com/conda-forge/pandas-feedstock/issues/149
+    # xref: https://github.com/pandas-dev/pandas/issues/38921
+    {% set config_path = "{{ SRC_DIR }}/pyproject.toml" %}
+    {% set markers = ["not clipboard", "not single_cpu", "not slow", "not network", "not db"] %}
+    {% set markers = markers + ["not arm_slow"] %}   # [aarch64 or ppc64le]
+    {% set extra_args = ["-m " + " and ".join(markers)] %}
+    {% set extra_args = extra_args + ["-n=2"] %}
+    {% set tests_to_skip = "_not_a_real_test" %}
+    {% set tests_to_skip = tests_to_skip + " or test_can_set_locale_valid_set" %}               # [osx]
+    {% set tests_to_skip = tests_to_skip + " or test_rolling_var_numerical_issues" %}           # [ppc64le or (arm64 and osx) or s390x]
+    {% set tests_to_skip = tests_to_skip + " or test_std_timedelta64_skipna_false" %}           # [ppc64le]
+    {% set tests_to_skip = tests_to_skip + " or test_value_counts_normalized[M8[ns]]" %}        # [ppc64le]
+    {% set tests_to_skip = tests_to_skip + " or test_to_datetime_format_YYYYMMDD_with_nat" %}   # [ppc64le]
+    {% set tests_to_skip = tests_to_skip + " or (TestReductions and test_median_2d)" %}         # [ppc64le]
+    {% set tests_to_skip = tests_to_skip + " or (TestFromArrays and test_constructor)" %}         # [s390x]
+    {% set tests_to_skip = tests_to_skip + " or (TestFromBreaks and test_constructor)" %}         # [s390x]
+    {% set tests_to_skip = tests_to_skip + " or (TestFromTuples and test_constructor)" %}         # [s390x]
+    {% set tests_to_skip = tests_to_skip + " or (TestClassConstructors and test_constructor)" %}  # [s390x]
+    {% set extra_args = extra_args + ["-k", "not (" + tests_to_skip + ")"] %}
+    - python -c "import pandas; pandas.test(extra_args={{ extra_args }})"
+
+about:
+  home: https://pandas.pydata.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: High-performance, easy-to-use data structures and data analysis tools.
+  description: |
+    pandas is a Python package that provides fast, flexible, and expressive data structures
+    designed to make working with "relational" or "labeled" data both easy and intuitive.
+    It aims to be the fundamental high-level building block for doing practical, real world
+    data analysis in Python. Additionally, it has the broader goal of becoming the most
+    powerful and flexible open source data analysis / manipulation tool available in any
+    language. It is already well on its way towards this goal.
+  dev_url: https://github.com/pandas-dev/pandas
+  doc_url: https://pandas.pydata.org/pandas-docs/version/{{ version }}/index.html
+
+extra:
+  skip-lints:
+    - has_run_test_and_commands
+  recipe-maintainers:
+    - jreback
+    - jorisvandenbossche
+    - msarahan
+    - ocefpaf
+    - TomAugspurger
+    - WillAyd
+    - simonjayhawkins
+    - ryanskeith

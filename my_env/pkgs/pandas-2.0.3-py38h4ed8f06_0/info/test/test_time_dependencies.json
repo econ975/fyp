@@ -1,0 +1,1 @@
+["tomli", "pytest >=7.3.2", "pytest-cov", "pytest-xdist >=2.2.0", "pip", "hypothesis >=6.46.1", "pytest-asyncio >=0.17.0"]

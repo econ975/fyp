@@ -1,0 +1,8 @@
+{
+  "channel_targets": "defaults",
+  "cxx_compiler": "vs2019",
+  "variant": "default",
+  "libclang_soversion": "13",
+  "r_version": "3.5.0",
+  "target_platform": "win-64"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "py38hd4e2768_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "slack-sdk",
+    "requests",
+    "ipywidgets >=6"
+  ],
+  "depends": [
+    "colorama",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "fn": "tqdm-4.65.0-py38hd4e2768_0.conda",
+  "license": "MPL-2.0 AND MIT",
+  "md5": "e69ba6d57d1b6da79e2171cc7b54974a",
+  "name": "tqdm",
+  "sha256": "69bc0d8fa68c3eb97315d13c9429d461894ed5dd432901c627a5dee64515be16",
+  "size": 152066,
+  "subdir": "win-64",
+  "timestamp": 1679562394000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tqdm-4.65.0-py38hd4e2768_0.conda",
+  "version": "4.65.0"
+}

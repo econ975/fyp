@@ -1,0 +1,68 @@
+# This file created by conda-build 3.21.9
+# ------------------------------------------------
+
+package:
+  name: libbrotlidec
+  version: 1.0.9
+source:
+  fn: brotli-1.0.9.tar.gz
+  patches:
+    - 0001-Add-separate-options-to-disable-shared-static-librar.patch
+    - 0002-Fix-pkgconfig-rpath.patch
+  sha256: f9e8d81d0405ba66d181529af42a3354f838c939095ff99930da6aa9cdf6fe46
+  url: https://github.com/google/brotli/archive/v1.0.9.tar.gz
+build:
+  number: 7
+  run_exports:
+    - libbrotlidec >=1.0.9,<1.1.0a0
+  string: h2bbff1b_7
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2022.07.19 haa95532_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libffi 3.4.2 hd77b12b_4
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - ninja 1.10.2 haa95532_5
+    - ninja-base 1.10.2 h6d14046_5
+    - openssl 1.1.1q h2bbff1b_0
+    - python 3.10.4 hbb2ffb3_0
+    - sqlite 3.39.0 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2022a hda174b7_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h8cc25b3_1
+    - zlib 1.2.12 h8cc25b3_2
+    - zstd 1.5.2 h19a0ad4_0
+  host:
+    - libbrotlicommon 1.0.9 h2bbff1b_7
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - libbrotlicommon 1.0.9 h2bbff1b_7
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %LIBRARY_BIN%\\brotlidec.dll exit 1
+    - if not exist %LIBRARY_LIB%\\brotlidec.lib exit 1
+    - if exist %LIBRARY_LIB%\\brotlidec-static.lib exit 1
+about:
+  home: https://github.com/google/brotli
+  license: MIT
+  license_file: LICENSE
+  summary: Brotli compression format
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 63273a66-8414-49ca-a4de-0f68735db676
+  recipe-maintainers:
+    - CJ-Wright
+    - wesm
+    - xhochy
+  remote_url: git@github.com:AnacondaRecipes/brotli-feedstock.git
+  sha: c95b9652f4776d8ee5a1ac02efbd1111b03f04f7

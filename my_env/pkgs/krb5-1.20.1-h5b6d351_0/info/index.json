@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h5b6d351_0",
+  "build_number": 0,
+  "depends": [
+    "openssl 3.*",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "krb5",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1684424430941,
+  "version": "1.20.1"
+}

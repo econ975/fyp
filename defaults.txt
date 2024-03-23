@@ -1,0 +1,10 @@
+StartFreq=2.84
+StopFreq=2.9
+NumOfSteps=120
+DwellTime=5.0
+NumOfAvgs=10
+Power=8
+x_roi=688
+y_roi=560
+roi_width=164
+roi_height=164

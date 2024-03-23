@@ -1,0 +1,365 @@
+commit b1a19ab10bd43b7d2ae1f10ec17666a049feba18
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Mon Jul 11 08:46:22 2022 +0000
+
+    Skip py<36, add tests
+
+commit e7904a322d2fdb6d6a40a4cc671824b52a026d6c
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Mon Jul 11 08:39:52 2022 +0000
+
+    Skip py<36, add tests
+
+commit f97b8626804f8ec7f2504e276d0c353a09fa9de6
+Author: Kai Tietz <ktietz@anaconda.com>
+Date:   Fri Jun 11 08:21:44 2021 +0200
+
+    remove python version specifiers in host/run
+
+commit d75035567b2927d453fa67073cff51875c005df7
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Thu Apr 29 10:46:46 2021 +0300
+
+    Update dependencies and test requires in meta.yaml
+
+commit df23628fed2233942a7524be082fbfa6ee3fbe55
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Wed Apr 28 22:09:24 2021 +0000
+
+    DOR update to 2.1.0
+
+commit fcf4e7f6b364a2536ee894a16d76857c1e6239c4
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Sun Jan 17 19:19:50 2021 +0000
+
+    DOR update to 2.0.1
+
+commit 3dca3e465a5d19ad04c72d4841d864ba0fa8c496
+Author: Paul Yim <paul.j.yim@gmail.com>
+Date:   Tue Dec 22 17:28:56 2020 -0500
+
+    Updated for v2.0.0
+
+commit 817e85c8f001a3ca8897674df4c488115955e643
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Tue Dec 22 19:47:28 2020 +0000
+
+    DOR update to 2.0.0
+
+commit e927a54811bc1d50b81ebecfc158fd62bf8e8655
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Oct 1 09:04:23 2017 -0500
+
+    Make recipe cross-compile capable
+
+commit 852c5d87d14bff1e195129b0aeed96993b75d816
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Oct 1 09:04:17 2017 -0500
+
+    Remove noarch: python for now
+
+commit 6a4af4c2430522bbb1678bcde28d028c16f3185e
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 14:24:57 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 6888b32a4aca7a65279a6e603ca364911ce3179e
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:16:04 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit c521e415159866c4362566e2805695631f17f215
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 12:44:34 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit dc83a5f14d5886909cbfaa536d58d3f259d6fbd6
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 23:41:44 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 65520e3d8adf881f42ad967d8448b8c18153ddd6
+Merge: b344b9e 89434f4
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 22:08:10 2018 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/1.7.1
+    
+    pyjwt v1.7.1
+
+commit 89434f4669a7146ce42dc7bd4862965ecb4d5c65
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 7 14:15:16 2018 +0000
+
+    updated v1.7.1
+
+commit b344b9eeb009880bca86345afebb9d2964505887
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:20:32 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 22eeea352cc0958c64ed262e457a00f299a645ba
+Merge: bbf2000 7adc29b
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Fri Jun 1 21:12:30 2018 -0700
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.6.4
+    
+    pyjwt v1.6.4
+
+commit 7adc29b2298c3e7e7bab3f8fbb745c1cfc727a69
+Author: Travis CI User <travis@example.org>
+Date:   Thu May 24 05:11:15 2018 +0000
+
+    updated v1.6.4
+
+commit bbf2000460c212d146a0a1ea5f835971630d54db
+Merge: 1b2f66a 42484e3
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat May 19 14:12:19 2018 -0700
+
+    Merge pull request #10 from regro-cf-autotick-bot/1.6.3
+    
+    pyjwt v1.6.3
+
+commit 42484e3494ba31f1983bac3734f7f29a60c3f3b8
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat May 19 13:57:04 2018 -0700
+
+    pypi, pip
+
+commit 170f78f522f59fa681d1a480df8288a4ee9f8916
+Author: Travis CI User <travis@example.org>
+Date:   Sat May 19 17:32:20 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.4 and pinning 2018.05.07
+
+commit 8067c297d527082d77dfc50df3f296274eeb6409
+Author: Travis CI User <travis@example.org>
+Date:   Sat May 19 17:31:57 2018 +0000
+
+    updated v1.6.3
+
+commit 1b2f66aa17766df8a01d7b17483e30c4e755eb68
+Merge: b249e01 3680c38
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat Mar 31 14:11:09 2018 -0700
+
+    Merge pull request #9 from regro-cf-autotick-bot/1.6.1
+    
+    pyjwt v1.6.1
+
+commit 3680c38ce49bb4412798e2f4b9beeb3e3dc11dc0
+Merge: 010635e b249e01
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat Mar 31 14:02:33 2018 -0700
+
+    Merge branch 'master' into 1.6.1
+
+commit b249e0167664d593c26c272e1aa258443a9e7e6f
+Merge: d7b2990 fa6ce17
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat Mar 31 14:02:05 2018 -0700
+
+    Merge pull request #8 from regro-cf-autotick-bot/1.6.0
+    
+    pyjwt v1.6.0
+
+commit fa6ce17deee19ba84516ac1babb3a795ea9e5246
+Author: Peter M. Landwehr <plandweh@andrew.cmu.edu>
+Date:   Sat Mar 31 13:58:30 2018 -0700
+
+    Remove 'build' jinja
+
+commit 010635e4be7ecae3d31d66a2aa7fe7b43e861e2e
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 18 17:01:32 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 8ead13d8c610805314790ac3f8346967300c997d
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 18 17:01:24 2018 +0000
+
+    updated v1.6.1
+
+commit f7c26d05e61108b24198517633572ceddd199b0f
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 4 22:05:29 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit a5aa73f5885a6ba6b12d79c67849c9089e4eb5c3
+Author: Travis CI User <travis@example.org>
+Date:   Sun Mar 4 22:05:20 2018 +0000
+
+    updated v1.6.0
+
+commit d7b29901be08d2c1fe4723c9880e1b76cb424de8
+Merge: cd3fbdb 826dbba
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Sep 18 21:33:41 2017 -0700
+
+    Merge pull request #7 from pmlandwehr/master
+    
+    Update version, add noarch: python
+
+commit 826dbba04160aebbb1f3c9f4e88ab7454fd7558d
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Sep 18 21:14:29 2017 -0700
+
+    Fix command: jwt -> pyjwt
+
+commit 1f92bd98e34fedff9f55a8ba0a5f03abbd48a2fe
+Author: Peter <pmlandwehr@gmail.com>
+Date:   Mon Sep 18 21:09:18 2017 -0700
+
+    MNT: Re-rendered with conda-smithy 2.4.0
+
+commit 2a2053b415eca5587ae26e1ab57b61e215539586
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Mon Sep 18 21:07:58 2017 -0700
+
+    Update version, add noarch: python
+
+commit cd3fbdbd1bb2aa1c8385b25e6273ea84603b9658
+Merge: f8404d3 60c1d02
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sat Sep 16 13:09:30 2017 -0700
+
+    Merge pull request #5 from parthea/remove-optional-deps
+    
+    Remove flake8 optional dependencies in conda recipe
+
+commit 60c1d026ced0f04c61cacca054bf8b884eba8ca6
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Thu Sep 14 23:10:30 2017 -0700
+
+    Bump build number
+    
+    If we change the run reqs, we should bump the build number
+
+commit f8404d3e58ff91e65c3554d27a5f9524b558848d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:00:38 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7e916b7285dd9a7de848994801a59f1e5a305906
+Author: Anthonios Partheniou <apartheniou@electricalengineer.ca>
+Date:   Sat Jul 8 21:48:55 2017 -0400
+
+    Remove flake8 optional dependencies in conda recipe
+
+commit 956fb63cadeeafdbd42aaffd007db07333918c51
+Merge: 2cf2d0c 59ff834
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sat Jun 24 19:32:16 2017 -0700
+
+    Merge pull request #4 from pmlandwehr/master
+    
+    Ticked version, regenerated if needed. (Double-check reqs!)
+
+commit 59ff83429c6e2706a32b7b8c2d93780b0a282622
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri Jun 23 22:28:17 2017 -0700
+
+    Fixed jinja
+
+commit 7205736cc7999cd869404f41dd13242aa23e9b17
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri Jun 23 22:27:04 2017 -0700
+
+    Update template
+
+commit 27fe592c090f86ef2fb6cfce5c1c8d4cdd7f985b
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri Jun 23 21:01:28 2017 -0700
+
+    Tick version to 1.5.2
+
+commit 2cf2d0c0f43aaf40305a08104b7716a260fb55a8
+Merge: 99ad511 55d20df
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Fri May 26 10:15:04 2017 -0700
+
+    Merge pull request #3 from pmlandwehr/master
+    
+    Ticked version, regenerated if needed. (Double-check reqs!)
+
+commit 55d20df2ab7bca36ea80dda32b37d3fb533dc64d
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Thu May 25 23:10:12 2017 -0700
+
+    cryptography >= 1.0 -> cryptography >=1.0
+
+commit 0c91bdb6db2a3b7c52de254eb40f47ffd15e960f
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Thu May 25 15:04:28 2017 -0700
+
+    add extras to run reqs
+
+commit 99395d5e7c9c9e46603fe18c0e6396fc28ddb0f6
+Author: pmlandwehr <None>
+Date:   Thu May 25 13:04:33 2017 -0700
+
+    MNT: Updated the feedstock for conda-smithy version 2.3.1.
+
+commit 2c94bd3b2217e58d2b54365335be8f4f2fcb36d8
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Thu May 25 13:02:08 2017 -0700
+
+    Tick version to 1.5.0
+
+commit 99ad5119e8eea34df26369e07e97f1e3d5d22c2b
+Merge: ae9af55 ad70b9e
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Wed Feb 22 00:20:06 2017 -0800
+
+    Merge pull request #2 from pmlandwehr/master
+    
+    Tick version to 1.4.2, update template, rerender
+
+commit ad70b9ef4c05b4f0d1c180ad82d081fc8449e0ce
+Author: Pete[r] M. Landwehr <pmlandwehr@gmail.com>
+Date:   Tue Feb 21 09:30:13 2017 -0800
+
+    MNT: Re-rendered with conda-smithy 2.1.0
+
+commit 0a641c43f745b5fa84e3860b4026a0dd34a5f3e0
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Tue Feb 21 09:29:19 2017 -0800
+
+    Update template, tick version to 1.4.2
+
+commit ae9af55674076e1f2e950d9c6258b9ea1e3d54cc
+Merge: da8a742 6919df3
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Oct 6 19:47:27 2016 -0400
+
+    Merge pull request #1 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 6919df3157dff8d9400007e1131d5b93430a456d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 6 11:39:15 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.2.
+
+commit da8a742734f53c7e78e71da8c33fc7534f5eec16
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jul 12 10:34:13 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 9be02af4dae79f36a557c75ecdfbd6c1ae1bfe10
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jul 12 10:32:54 2016 +0000
+
+    Initial commit of the pyjwt feedstock.

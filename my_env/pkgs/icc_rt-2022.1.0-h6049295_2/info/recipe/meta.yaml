@@ -1,0 +1,25 @@
+# This file created by conda-build 3.22.0
+# ------------------------------------------------
+
+package:
+  name: icc_rt
+  version: 2022.1.0
+build:
+  noarch: false
+  noarch_python: false
+  number: '2'
+  script: install_runtime.bat
+  string: h6049295_2
+requirements:
+  build: []
+  run: []
+about:
+  license: Intel proprietary
+  license_file: LICENSE.txt
+  summary: Intel runtime libraries for C, C++ and Fortran compilers
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 5be5ce57-e4d6-4833-90fc-500e79885a88
+  remote_url: git@github.com:AnacondaRecipes/aggregate.git
+  sha: b854a7eb0f5ce462bc447cde9cb8812a19e0de6b

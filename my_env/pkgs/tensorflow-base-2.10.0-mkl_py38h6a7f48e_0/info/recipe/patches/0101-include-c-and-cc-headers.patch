@@ -1,0 +1,84 @@
+diff -urN a/tensorflow/cc/BUILD b/tensorflow/cc/BUILD
+--- a/tensorflow/cc/BUILD	2022-07-26 12:31:05.114112947 +0300
++++ b/tensorflow/cc/BUILD	2022-07-26 12:31:29.950315468 +0300
+@@ -17,6 +17,8 @@
+ # buildifier: disable=same-origin-load
+ load("//tensorflow:tensorflow.bzl", "tf_gen_op_wrappers_cc")
+ 
++load("//tensorflow/cc:cc_ops.bzl", "tf_cc_ops_hdrs",)
++
+ package(
+     default_visibility = ["//visibility:public"],
+     licenses = ["notice"],
+@@ -965,3 +965,52 @@
+         "//tensorflow/cc/tools:freeze_saved_model",
+     ],
+ )
++
++tf_cc_ops_hdrs(
++    name = "cc_ops_hdrs",
++    op_lib_names = [
++        "array_ops",
++        "audio_ops",
++        "candidate_sampling_ops",
++        "control_flow_ops",
++        "data_flow_ops",
++        "image_ops",
++        "io_ops",
++        "linalg_ops",
++        "logging_ops",
++        "lookup_ops",
++        "manip_ops",
++        "math_ops",
++        "nn_ops",
++        "no_op",
++        "parsing_ops",
++        "random_ops",
++        "sparse_ops",
++        "state_ops",
++        "string_ops",
++        "training_ops",
++        "user_ops",
++    ],
++    visibility = ["//tensorflow:__subpackages__"],
++)
++
++filegroup(
++    name = "cc_ops_headers",
++    srcs = [
++        "ops/const_op.h",
++        "ops/standard_ops.h",
++    ],
++    visibility = ["//tensorflow:__subpackages__"],
++)
++
++filegroup(
++    name = "cc_gen_headers",
++    srcs = glob(["ops/*.h"]) + [":cc_ops_hdrs"],
++    visibility = ["//tensorflow:__subpackages__"],
++)
++
++filegroup(
++    name = "cc_framework_headers",
++    srcs = glob(["framework/*.h"], exclude=["testutil.h"]),
++    visibility = ["//tensorflow:__subpackages__"],
++)
+diff -urN a/tensorflow/cc/cc_ops.bzl b/tensorflow/cc/cc_ops.bzl
+--- a/tensorflow/cc/cc_ops.bzl	1970-01-01 02:00:00.000000000 +0200
++++ b/tensorflow/cc/cc_ops.bzl	2022-07-26 12:31:29.950315468 +0300
+@@ -0,0 +1,15 @@
++def tf_cc_ops_hdrs(
++        name,
++        op_lib_names,
++        visibility):
++    subhdrs = []
++    internalhdrs = []
++    for n in op_lib_names:
++        subhdrs += ["ops/" + n + ".h"]
++        internalhdrs += ["ops/" + n + "_internal.h"]
++
++    native.filegroup(
++        name = name,
++        srcs = subhdrs + internalhdrs,
++        visibility = visibility,
++    )

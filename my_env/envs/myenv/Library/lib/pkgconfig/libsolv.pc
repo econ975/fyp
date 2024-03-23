@@ -1,0 +1,8 @@
+libdir=C:/Users/John Ying/miniconda3/envs/myenv/Library/lib
+includedir=C:/Users/John Ying/miniconda3/envs/myenv/Library/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.24
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}

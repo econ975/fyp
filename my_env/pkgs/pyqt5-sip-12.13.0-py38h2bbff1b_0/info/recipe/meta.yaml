@@ -1,0 +1,84 @@
+# This file created by conda-build 3.27.0
+# ------------------------------------------------
+
+package:
+  name: pyqt5-sip
+  version: 12.13.0
+source:
+  - folder: pyqt
+    sha256: d46b7804b1b10a4ff91753f8113e5b5580d2b4462f3226288e2d84497334898a
+    url: https://pypi.io/packages/source/P/PyQt5/PyQt5-5.15.10.tar.gz
+  - folder: pyqt_sip
+    sha256: 7f321daf84b9c9dbca61b80e1ef37bdaffc0e93312edae2cd7da25b953971d91
+    url: https://pypi.io/packages/source/P/PyQt5-sip/PyQt5_sip-12.13.0.tar.gz
+  - folder: pyqt_webengine
+    sha256: ae241ef2a61c782939c58b52c2aea53ad99b30f3934c8358d5e0a6ebb3fd0721
+    url: https://pypi.io/packages/source/P/PyQtWebEngine/PyQtWebEngine-5.15.6.tar.gz
+  - folder: pyqt_charts
+    sha256: 2691796fe92a294a617592a5c5c35e785dc91f7759def9eb22da79df63762339
+    url: https://pypi.io/packages/source/P/PyQtChart/PyQtChart-5.15.6.tar.gz
+build:
+  noarch: false
+  noarch_python: false
+  number: '0'
+  script: bld-pyqt-sip.bat
+  string: py38h2bbff1b_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2023.08.22 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.11 h2bbff1b_2
+    - pip 23.3 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - PyQt5.sip
+  requires:
+    - pip
+about:
+  description: 'PyQt5 is a comprehensive set of Python bindings for Qt v5.
+
+    It is implemented as more than 35 extension modules and enables Python
+
+    to be used as an alternative application development language to C++ on
+
+    all supported platforms including iOS and Android.
+
+    '
+  dev_url: https://www.riverbankcomputing.com/mailman/listinfo/pyqt/
+  doc_url: https://www.riverbankcomputing.com/static/Docs/PyQt5/
+  home: https://www.riverbankcomputing.com/software/pyqt/
+  license: GPL-3.0-only
+  license_family: GPL
+  license_file: pyqt/LICENSE
+  summary: Python bindings for the Qt cross platform application toolkit
+extra:
+  copy_test_source_files: true
+  feedstock-name: pyqt
+  final: true
+  flow_run_id: c006d7eb-b289-4a7a-9633-4aabe9e0a0b3
+  recipe-maintainers:
+    - andfoy
+    - ccordoba12
+    - gillins
+    - jschueller
+    - katietz
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/pyqt-feedstock.git
+  sha: 443f37dcddaf2631bb8152bbb0b88fe74f6aedf9

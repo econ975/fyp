@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyh0d69192_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "threadpoolctl",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1629802282940,
+  "version": "2.2.0"
+}

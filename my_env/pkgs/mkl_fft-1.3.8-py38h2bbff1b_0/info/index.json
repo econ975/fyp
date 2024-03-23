@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "depends": [
+    "blas 1.0 mkl",
+    "mkl >=2023.1.0,<2024.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "numpy",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "mkl_fft",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1695058741315,
+  "version": "1.3.8"
+}

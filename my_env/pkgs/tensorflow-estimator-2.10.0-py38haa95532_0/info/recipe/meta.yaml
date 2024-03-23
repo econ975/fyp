@@ -1,0 +1,56 @@
+# This file created by conda-build 3.23.1
+# meta.yaml template originally from:
+# C:\Users\builder\stiwari\aggregate\tensorflow_recipes\tensorflow-estimator, last modified Tue Nov 29 16:22:27 2022
+# ------------------------------------------------
+
+package:
+  name: tensorflow-estimator
+  version: 2.10.0
+source:
+  sha256: f324ea17cd57f16e33bf188711d5077e6b2e5f5a12c328d6e01a07b23888edcd
+  url: https://pypi.io/packages/py2.py3/t/tensorflow-estimator/tensorflow_estimator-2.10.0-py2.py3-none-any.whl
+build:
+  number: '0'
+  script:
+    - python -m pip install --no-deps --ignore-installed tensorflow_estimator-2.10.0-py2.py3-none-any.whl
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2022.10.11 haa95532_0
+    - certifi 2022.9.24 py38haa95532_0
+    - libffi 3.4.2 hd77b12b_6
+    - openssl 1.1.1s h2bbff1b_0
+    - pip 22.2.2 py38haa95532_0
+    - python 3.8.15 h6244533_2
+    - setuptools 65.5.0 py38haa95532_0
+    - sqlite 3.40.0 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - wincertstore 0.2 py38haa95532_2
+  run:
+    - python >=3.8,<3.9.0a0
+  run_constrained:
+    - tensorflow-base  2.10.*
+about:
+  dev_url: https://github.com/tensorflow/estimator
+  doc_url: https://www.tensorflow.org/api_docs/python/tf/estimator/Estimator
+  home: https://www.tensorflow.org/guide/estimator
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: TensorFlow Estimator is a high-level TensorFlow API that greatly simplifies
+    machine learning programming.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - dhirschfeld
+    - farhantejani
+    - ghego
+    - gilbertfrancois
+    - hajapy
+    - jschueller
+    - kyleabeauchamp
+    - sdvillal
+    - waitingkuo

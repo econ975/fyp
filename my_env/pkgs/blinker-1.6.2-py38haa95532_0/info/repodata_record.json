@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "blinker-1.6.2-py38haa95532_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "06444092c165a81fa4bc62c7afe2b3b3",
+  "name": "blinker",
+  "platform": "win32",
+  "sha256": "856449955d1c9707ca9dafaf51973e58b69defe3a703bbd3a6588e15e8dc53b2",
+  "size": 30168,
+  "subdir": "win-64",
+  "timestamp": 1696539880000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/blinker-1.6.2-py38haa95532_0.conda",
+  "version": "1.6.2"
+}

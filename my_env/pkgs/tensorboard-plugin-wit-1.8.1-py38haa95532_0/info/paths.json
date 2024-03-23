@@ -1,0 +1,479 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "70a3bda0b4af4146818cec06861461b9879b7a383514aac20112c69e11404663",
+      "size_in_bytes": 873
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "3a707e97fa6fae9e8ea14420edc44dba86ecf8798d255997b20b5826b91ed5dc",
+      "size_in_bytes": 8601
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "c868a4500e9c2affe46214a0f622eb2d808c38d0a242ca60548135fcbcf61b83",
+      "size_in_bytes": 134
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "56cdf3af62f61583d4dec7e9041f466a420d2d97cae54301e9605a0b7157c587",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit-1.8.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "3c8c451cedbb8c3fe6a16246a30a5778006c48533ad174506838e5777c5d392a",
+      "size_in_bytes": 23
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2a5e1cfef79bcb6ae19d7369e89ee5a0916b2725941e442f1e43ad06bd67c51b",
+      "size_in_bytes": 143
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/__pycache__/wit_plugin.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "a20534bc777e6f7d3d28535af6332cd55e59db25f5132781a412df901e7fefa7",
+      "size_in_bytes": 16889
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/__pycache__/wit_plugin_loader.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "1395b1c2800b3cec7f65f25734d424fce62e0b8437d416f21a6e4dc70bac7988",
+      "size_in_bytes": 2293
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3d247d46d6cc28478aa6364970460c09dc7186b8a548c980b8410fff7f7c7235",
+      "size_in_bytes": 150
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/__pycache__/common_utils.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "65da38f6072634032643b5eb2e5a0b540c6302e0c1e2dc44f82c4c08f47593c3",
+      "size_in_bytes": 3131
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/__pycache__/inference_utils.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f9bcebc49ed2ac35b8eca2ec6a1de7f03051a9f35642d8db18a7ff55655aa342",
+      "size_in_bytes": 26943
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/__pycache__/platform_utils.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9117ae8590084e756309b2475a57505d021dfa4c4eb59304191c8cedbd141433",
+      "size_in_bytes": 7802
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/common_utils.py",
+      "path_type": "hardlink",
+      "sha256": "f07f7a345fa6d2d2e087afdd7e3be10d619e79dbc0973ded527027ccf7ccf454",
+      "size_in_bytes": 3726
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/inference_utils.py",
+      "path_type": "hardlink",
+      "sha256": "a7d5bf657cab1ca33e0ea08887e8e27641038e3a326ef1a6269b51a4840a2fe6",
+      "size_in_bytes": 33258
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_utils/platform_utils.py",
+      "path_type": "hardlink",
+      "sha256": "2094599ef6080f917fec49c4acd80a02aade2d6febb6ea6d5f81031481005ef9",
+      "size_in_bytes": 10097
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f02816660a1017562617dc1c3b41c675c2cddad2485cccf14c335914e89e65d6",
+      "size_in_bytes": 151
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "5a3ed8702bc22cd1fe3196cafc69b1963a98db905793c377ec44c130fa4e0316",
+      "size_in_bytes": 170
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "6257e7b332bfd948dfd95bed32aa805bc9eb5610139e8a0d8050df79aeb538e1",
+      "size_in_bytes": 175
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/classification_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3fa0c601bdc0aefe5027fe75e405705ed894a2482b9c9927c3dbab005e41df50",
+      "size_in_bytes": 4665
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/get_model_metadata_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "dcf334f1ea0c3222106c0535b4d3fc8455cea5596056553c7f36095cb80c19d6",
+      "size_in_bytes": 5287
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/get_model_status_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "91008f5c07f42455e1b9c921c40058e633d9186ed1cfe2ab946e98ce6e8dc35c",
+      "size_in_bytes": 4445
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/inference_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ecb90310051411540db2d35c99a8d992a431ce3d1fd92d024b9f19ac7aa94e04",
+      "size_in_bytes": 5147
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/input_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8a84406b0f801eec893ba83010d89b7e97b128fd8a0752dc31f9ecd49eadc24",
+      "size_in_bytes": 3739
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/model_management_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2967ca4dc0e3336bfd37adfce4ceedde6e3bf55f84ca182ce5fa122650455b6d",
+      "size_in_bytes": 2950
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/model_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4ba68885553ce656139225bc297e8ca888f15a02dd17780998b3d04cc1b04159",
+      "size_in_bytes": 2898
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/model_service_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f020e69d495c177dc3d55acbc05a2aad11a5d9ae4f926c5b900f6c4d3fd87798",
+      "size_in_bytes": 2426
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/model_service_pb2_grpc.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "28c5091d2019eaa7984e6e225c20f7f25b00e2f4ef42f72527fcdb4af4389a91",
+      "size_in_bytes": 2974
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/predict_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ecfd49114692f3ecfcb6f36fae89a0fe5c11005e4bfe713c04bda2f78844588b",
+      "size_in_bytes": 4657
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/prediction_log_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "e59c1d9544857205b73064db00f8ec9c77f17ceea86a92c97f8bed60b87fb84e",
+      "size_in_bytes": 7798
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/prediction_service_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b87871a890b0c24197018cf4bd15fd4a6a9a37072f3ed6189efff999d1056d76",
+      "size_in_bytes": 4077
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/prediction_service_pb2_grpc.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "cad8be65dc8e6f6dc139da1711d685797b0c23f5ebfcf350837d4f003149306c",
+      "size_in_bytes": 4126
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/regression_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2f027ef0456c9984934955a15dd48b73859b0a10b18734e5dc38171c9fb6d6ca",
+      "size_in_bytes": 3995
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/__pycache__/session_service_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "6427e6b812488f15c25a6b47574c176f8ca4e2d6642d9e52f44dd42aa25c1862",
+      "size_in_bytes": 4448
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/classification_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "634acec7f9ca23813c07ee1483cbf939b4e23be1f8cd048bbe731f2316c5f90f",
+      "size_in_bytes": 9837
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/get_model_metadata_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "498094c99423fcf2bb74ede4762c958ecc9003c7117867a253c183c9216a8b56",
+      "size_in_bytes": 11261
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/get_model_status_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "d4df489d6b0c9d9a965780972a632c01ca2962859851ae348e9ec5ddaf222b6c",
+      "size_in_bytes": 8167
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/inference_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "12f0186e3a8cd78dc6df0a1c3144e5f9c84137f73cc263d967921cf9076a3952",
+      "size_in_bytes": 10442
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/input_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "b5ca303c2bf317003f5103d66f500a25e3643733a0c29906a09856fdee3a4a77",
+      "size_in_bytes": 7051
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/model_management_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "8f46651750803f701cc4f684fb80cc8a1263a25ff032d7b3e807f21a09b51af3",
+      "size_in_bytes": 4413
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/model_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "3ab87ccb9fffde923ff396a32bd44711a5abc55404e5b7bc34832d361aa48bf7",
+      "size_in_bytes": 4314
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/model_service_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "0396f1d9a907779704770229757769edfeb7f94b235ebdbea622f8fb87e55c55",
+      "size_in_bytes": 4044
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/model_service_pb2_grpc.py",
+      "path_type": "hardlink",
+      "sha256": "fb9e80b6b255990ab8e469770f3640985c96a0e9c9dbbda67f588d0099502158",
+      "size_in_bytes": 4493
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/predict_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "45fe997ef5d0ef7ffaec92b746f871fc5a2609c5ffaa65ef2e367cee9f85c26f",
+      "size_in_bytes": 9657
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/prediction_log_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "c05aec7f2a63d3ef9955cfcfe14d508c0d79efc63e572eaf3715cfece6fe0857",
+      "size_in_bytes": 17693
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/prediction_service_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "51531faa50b968f5be8908e4a15d4ed314f5394f997e15fdf94443a764356e0f",
+      "size_in_bytes": 6523
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/prediction_service_pb2_grpc.py",
+      "path_type": "hardlink",
+      "sha256": "94d8e84179c7f205ace590864cdeac543017d5253349f5a10ce8b0af5fa4cb44",
+      "size_in_bytes": 7039
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/regression_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "f77ecb68c5e5145b1ec500760ba8b0db856dfc1d72aa17132c0ff2a23a463d7c",
+      "size_in_bytes": 7890
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/apis/session_service_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "62dcd5d82ea1852826648c54c6f026a2e228dc4f9b04e7cd6179e7745fd12da8",
+      "size_in_bytes": 7788
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b336efe611018fe63e7e2232ac81fe0e8009f961cbc9ea7c93181fbb5a92fc5d",
+      "size_in_bytes": 177
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/__pycache__/log_collector_config_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "58315673bc2070d2f05b1253e298b21e04867c10793adb3ccbd6cb4c02d78872",
+      "size_in_bytes": 2185
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/__pycache__/logging_config_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "e2602d4f2e6fe1ade96b5e322c7ffff46ecb03d8d1c4d753c1a9ca28b5d6cb2a",
+      "size_in_bytes": 2959
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/__pycache__/model_server_config_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ec2461323a9429954bcdcba2f32f505125d52e5b93214175949692586f2ca114",
+      "size_in_bytes": 5924
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/log_collector_config_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "d4066dfeb978b375299c06fdd5c8c02f7e29011c55908c1a7d5ae9845028a8f2",
+      "size_in_bytes": 2711
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/logging_config_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "1d36ffee6ed2d4bc6b8072b257aa48a6bdac7453438fd6f7c7884df22deaf87d",
+      "size_in_bytes": 4527
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/config/model_server_config_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "4bc2f7863eb92fa228442661780ee3b16e38c9a58404611a1e55752baf48c4bd",
+      "size_in_bytes": 11207
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2547e5d3637e9f9676ae43a7564b80eb43b06d27cbb29738ea57dae5d19af8ca",
+      "size_in_bytes": 178
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/storage_path/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/storage_path/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3ec3f6400e82e215a1ecfe9fd29dd4a3c4904261bf2b24285b01bd4a379df033",
+      "size_in_bytes": 191
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/storage_path/__pycache__/file_system_storage_path_source_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "eaaccd5abc74cbb2bf93de45681c707b71f70ec013c370c5c7cfe30167130025",
+      "size_in_bytes": 7201
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/sources/storage_path/file_system_storage_path_source_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "482a71c5f4c77ec843ddd6f340aafaed51a1c6b3c710eb25e8d6cbd64723d990",
+      "size_in_bytes": 16981
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/util/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/util/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f6efd7213be264d584511fafb1df056ad9d0a8281e0cc46d1585967e9b51dbb9",
+      "size_in_bytes": 175
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/util/__pycache__/status_pb2.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2cc88a5694b32a6230062647c2366c0f0dbb673ea2b607db60bf5a27d53a9505",
+      "size_in_bytes": 2350
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/_vendor/tensorflow_serving/util/status_pb2.py",
+      "path_type": "hardlink",
+      "sha256": "47adeec746da971842519c1ca48ec3e6b93129856c9cb0c034b3ed5dc3a44294",
+      "size_in_bytes": 2943
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/static/index.js",
+      "path_type": "hardlink",
+      "sha256": "451b31d8cb2a993a15f1293aac788ea6f87f03cad9c7f11c39c8c219bb065352",
+      "size_in_bytes": 1296
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/static/wit_tb_bin.html",
+      "path_type": "hardlink",
+      "sha256": "c6c513c727af303c1595162d7cb03437bdb12dc6a280c92cdfa1cf4a23dd52c3",
+      "size_in_bytes": 487787
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/static/wit_tb_bin.js",
+      "path_type": "hardlink",
+      "sha256": "36fe8c9262bd9bffac3a2157a9cb0f68b1fae6a6b24ee97a4bb447028d6e9709",
+      "size_in_bytes": 2457493
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/wit_plugin.py",
+      "path_type": "hardlink",
+      "sha256": "d31738d61af373c711e72259022fead9873147cbac4121d10639d8b174b80caf",
+      "size_in_bytes": 21895
+    },
+    {
+      "_path": "Lib/site-packages/tensorboard_plugin_wit/wit_plugin_loader.py",
+      "path_type": "hardlink",
+      "sha256": "71a2cbe031aa8f8926eec327beb075c76376379e9abf8167b5df32d98d33e8ce",
+      "size_in_bytes": 3223
+    }
+  ],
+  "paths_version": 1
+}

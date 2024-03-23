@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "fa1d9138dfe0cbe0090363a14871b0339bf3abf1d57c30b8017166f172ba49b5",
+      "size_in_bytes": 4227
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "dbf4449b423330fe91f6073eaccf9e97e886bf5e408d6d0582ff78dfd51f10bb",
+      "size_in_bytes": 926
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "dc34a64b2604d520c444edbeac8dea51b315a2f06cefefa081cee6b9b39e9ac7",
+      "size_in_bytes": 86
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "59704b441444823014fbc9a99f1f21d76966a673c1beea8ae96007aaa10fc1b2",
+      "size_in_bytes": 89
+    },
+    {
+      "_path": "Lib/site-packages/termcolor-2.1.0.dist-info/licenses/COPYING.txt",
+      "path_type": "hardlink",
+      "sha256": "e79b6bd82962c1330caaa7c42278567b08667777673f8e2371a624d5715d4c0e",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "Lib/site-packages/termcolor/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "0469c24bbbb47926f3660fffa8922b552729218265f088a3684203ec9a5cb7b3",
+      "size_in_bytes": 282
+    },
+    {
+      "_path": "Lib/site-packages/termcolor/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4e07012cb8eb16b1682ee548e98920787c78be8a019431065b091972687f7abb",
+      "size_in_bytes": 450
+    },
+    {
+      "_path": "Lib/site-packages/termcolor/__pycache__/termcolor.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "1cd8437993e769df64f95dcbda40cb382b86f45b79ccb4ee47da09e365224aed",
+      "size_in_bytes": 4020
+    },
+    {
+      "_path": "Lib/site-packages/termcolor/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/termcolor/termcolor.py",
+      "path_type": "hardlink",
+      "sha256": "00e264412c722785f52111711d5a8a63b49205d13c1e5ba2259bdeab1670b8ec",
+      "size_in_bytes": 6101
+    }
+  ],
+  "paths_version": 1
+}

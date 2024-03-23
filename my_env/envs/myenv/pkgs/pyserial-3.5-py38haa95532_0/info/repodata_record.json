@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pyserial-3.5-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "0df47df272dbc622b65c8e30ac0d8e8f",
+  "name": "pyserial",
+  "platform": "win32",
+  "sha256": "9ac9fc26639ba39491a1b483faee9974577172baacb13a88cc8998f3776a32e9",
+  "size": 166651,
+  "subdir": "win-64",
+  "timestamp": 1606431299000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyserial-3.5-py38haa95532_0.conda",
+  "version": "3.5"
+}

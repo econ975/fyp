@@ -1,0 +1,70 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# C:\Windows\TEMP\abs_7c3dd407-1390-477a-b542-fd15df6a24085_diwiza\clone\recipe, last modified Thu Jul 14 16:00:21 2022
+# ------------------------------------------------
+
+package:
+  name: wrapt
+  version: 1.14.1
+source:
+  sha256: 380a85cf89e0e69b7cfbe2ea9f765f004ff419f34194018a6827ac0e3edfed4d
+  url: https://pypi.io/packages/source/w/wrapt/wrapt-1.14.1.tar.gz
+build:
+  number: '0'
+  script: C:\\Windows\\TEMP\\abs_7c3dd407-1390-477a-b542-fd15df6a24085_diwiza\\croots\\recipe\\wrapt_1657814452175\\_h_env\\python.exe
+    -m pip install . --no-deps -vv
+  string: py38h2bbff1b_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2022.4.26 haa95532_0
+    - certifi 2022.6.15 py38haa95532_0
+    - openssl 1.1.1q h2bbff1b_0
+    - pip 22.1.2 py38haa95532_0
+    - python 3.8.13 h6244533_0
+    - setuptools 61.2.0 py38haa95532_0
+    - sqlite 3.38.5 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - wincertstore 0.2 py38haa95532_2
+  run:
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - wrapt
+  requires:
+    - pip
+about:
+  description: 'The aim of the wrapt module is to provide a transparent object proxy
+    for
+
+    Python, which can be used as the basis for the construction of function
+
+    wrappers and decorator functions.
+
+    '
+  dev_url: https://github.com/GrahamDumpleton/wrapt
+  doc_source_url: https://github.com/GrahamDumpleton/wrapt/blob/master/docs/index.rst
+  doc_url: https://wrapt.readthedocs.io/en/latest/
+  home: https://github.com/GrahamDumpleton/wrapt
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Module for decorators, wrappers and monkey patching
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 7c3dd407-1390-477a-b542-fd15df6a2408
+  recipe-maintainers:
+    - jakirkham
+    - nehaljwani
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/wrapt-feedstock.git
+  sha: bfae7c23ef352e783411f248ab92196f6ca8cdd1

@@ -1,0 +1,67 @@
+# This file created by conda-build 3.24.0
+# ------------------------------------------------
+
+package:
+  name: libpq
+  version: '12.15'
+source:
+  patches:
+    - 0001-fix-win-zlib-name.patch
+    - 0002-disable-new-dtags.patch
+    - 0003-update-location-of-krb5-files.patch
+    - 0004-fix-windows-openssl-links-for-openssl-1.1.1.patch
+    - 0005-change-setenv-on-windows.patch
+  sha256: bb5206e2864c1c4579938b96ea6096d155f22abf2d2cc2aa57571e3c4cb12b36
+  url: https://ftp.postgresql.org/pub/source/v12.15/postgresql-12.15.tar.bz2
+build:
+  missing_dso_whitelist:
+    - $RPATH/LIBECPG.dll
+    - $RPATH/LIBPGTYPES.dll
+    - $RPATH/gssapi64.dll
+    - $RPATH/libcrypto-3-x64.dll
+    - $RPATH/libssl-3-x64.dll
+    - $RPATH/zlib.dll
+    - '*/libcrypto-1_1*.dll'
+    - '*/libssl-1_1*.dll'
+    - '*/postgres.exe'
+    - Library\bin\LIBPQ.dll
+  number: 1
+  run_exports:
+    - libpq >=12.15,<13.0a0
+  string: hb652d5d_1
+requirements:
+  build:
+    - perl 5.26.2.1 h0c8e037_0
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2023.05.30 haa95532_0
+    - krb5 1.20.1 h5b6d351_1
+    - openssl 1.1.1u h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - krb5 >=1.20.1,<1.21.0a0
+    - openssl >=1.1.1u,<1.1.2a
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - zlib >=1.2.13,<1.3.0a0
+test:
+  commands:
+    - pg_config
+    - IF NOT EXIST %LIBRARY_BIN%\libpq.dll EXIT 1
+    - IF NOT EXIST %LIBRARY_BIN%\pg_config.exe EXIT 1
+about:
+  summary: The postgres runtime libraries and utilities (not the server itself)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 0f7055a2-ee6d-4a65-a221-42572cb6e536
+  recipe-maintainers:
+    - gillins
+    - mariusvniekerk
+    - msarahan
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/postgresql-feedstock.git
+  sha: 766a2a4dbeaea4aa659f6edd8d8cc1e58935ddc4

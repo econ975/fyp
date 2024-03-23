@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py38hd3f51b4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "debugpy-1.8.1-py38hd3f51b4_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f411dc7f3c0ae3b8cc78ca8d179ba323",
+  "name": "debugpy",
+  "platform": "win32",
+  "sha256": "743d40284aca75e510cd816dd98f9596d6d2a74cdef1167ae20b2118ae7097e4",
+  "size": 2821173,
+  "subdir": "win-64",
+  "timestamp": 1707445002000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/debugpy-1.8.1-py38hd3f51b4_0.conda",
+  "version": "1.8.1"
+}

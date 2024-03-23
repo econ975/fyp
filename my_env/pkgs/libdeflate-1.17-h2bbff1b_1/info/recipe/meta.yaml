@@ -1,0 +1,85 @@
+# This file created by conda-build 3.26.1
+# meta.yaml template originally from:
+# C:\b\abs_9fyursftmc\clone\recipe, last modified Fri Sep 29 15:08:21 2023
+# ------------------------------------------------
+
+package:
+  name: libdeflate
+  version: '1.17'
+source:
+  patches:
+    - patches/0001-don_t_use_bzhi_intrinsics.patch
+  sha256: fa4615af671513fa2a53dc2e7a89ff502792e2bdfc046869ef35160fcc373763
+  url: https://github.com/ebiggers/libdeflate/archive/v1.17.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - libdeflate >=1.17,<1.18.0a0
+  string: h2bbff1b_1
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.08.22 haa95532_0
+    - cmake 3.26.4 h693b641_0
+    - libffi 3.4.4 hd77b12b_0
+    - libuv 1.44.2 h2bbff1b_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - ninja 1.10.2 haa95532_5
+    - ninja-base 1.10.2 h6d14046_5
+    - openssl 3.0.11 h2bbff1b_2
+    - python 3.11.5 he1021f5_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2023c h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.5 hd43e919_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - libdeflate-gzip -h
+    - libdeflate-gunzip -h
+    - if not exist %LIBRARY_BIN%\\deflate.dll exit 1
+    - if not exist %LIBRARY_LIB%\\deflate.lib exit 1
+    - if not exist %LIBRARY_INC%\\libdeflate.h exit 1
+about:
+  description: 'libdeflate is heavily optimized. It is significantly faster than the
+    zlib
+
+    library, both for compression and decompression, and especially on x86
+
+    processors. In addition, libdeflate provides optional high compression
+
+    modes that provide a better compression ratio than the zlib''s "level 9".
+
+    '
+  dev_url: https://github.com/ebiggers/libdeflate
+  doc_url: https://github.com/ebiggers/libdeflate/blob/master/README.md
+  home: https://github.com/ebiggers/libdeflate
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: libdeflate is a library for fast, whole-buffer DEFLATE-based compression
+    and decompression.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 9fa3824c-1bd9-48a8-8270-9270b78b8b99
+  recipe-maintainers:
+    - dpryan79
+    - hmaarrfk
+    - rhpvorderman
+  remote_url: git@github.com:AnacondaRecipes/libdeflate-feedstock.git
+  sha: 4338f0bfe70a16820148448072ed476e934f614c

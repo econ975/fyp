@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h8cc25b3_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "giflib-5.2.1-h8cc25b3_3.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "19a68ffd8034087e8b8fcfc0ccd0db51",
+  "name": "giflib",
+  "platform": "win32",
+  "sha256": "acc87d2da9847a1e2eeb455cc0f07c8f1141685c1a573fe80285e7cce0939467",
+  "size": 89885,
+  "subdir": "win-64",
+  "timestamp": 1676983264000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/giflib-5.2.1-h8cc25b3_3.conda",
+  "version": "5.2.1"
+}

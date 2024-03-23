@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "termcolor-2.1.0-py38haa95532_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1e98f39e7fa0178ba476ab5f67eabd4a",
+  "name": "termcolor",
+  "platform": "win32",
+  "sha256": "7d028df7ea6c30187ad2c105751543a308dd2ac38802fae5c3135a5dfafda41f",
+  "size": 12229,
+  "subdir": "win-64",
+  "timestamp": 1668084865000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/termcolor-2.1.0-py38haa95532_0.conda",
+  "version": "2.1.0"
+}

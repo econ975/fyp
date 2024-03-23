@@ -1,0 +1,184 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# C:\b\abs_5211gb1uti\clone\recipe, last modified Fri May  5 12:24:36 2023
+# ------------------------------------------------
+
+package:
+  name: scipy
+  version: 1.10.1
+source:
+  - sha256: 8f08e1742c9b09eb58640fa5a56031d6e1844806899e883fbe7447ca86fe8c55
+    url: https://github.com/scipy/scipy/archive/refs/tags/v1.10.1.tar.gz
+  - folder: scipy/_lib/boost
+    sha256: 088c4ddd32e1318069eca8f98610a74e8effd52f0b9509a062ea7e380b610b63
+    url: https://github.com/scipy/boost-headers-only/archive/3af99e6d566043072e95bc882d32c9c26f37e0ba.tar.gz
+  - folder: scipy/_lib/highs
+    patches:
+      - patches/0003-highs-missing-includes-win.patch
+    sha256: 8ce0e816d8c7517c95e0e404648eef3aaee0d5b919226b46f592c87a4eca24f4
+    url: https://github.com/scipy/HiGHS/archive/4a122958a82e67e725d08153e099efe4dad099a2.tar.gz
+  - folder: scipy/_lib/unuran
+    sha256: 2412fdb1d46cc5c677d7fe2b42895f444b2c544040f835083cf814ca93e8c2f5
+    url: https://github.com/scipy/unuran/archive/a63d39160e5ecc4402e7ed0e8417f4c3ff9634cb.tar.gz
+  - folder: scipy/sparse/linalg/_propack/PROPACK
+    sha256: 15880c83d2d77e748ab8273ed8b61e152bcb43d828dd0938bdf6f82950bc9b25
+    url: https://github.com/scipy/PROPACK/archive/cc32f3ba6cf941e4f9f96d96e2fc5762ea0c1014.tar.gz
+build:
+  ignore_run_exports:
+    - numpy
+  number: '1'
+  string: py38hdcfc7df_1
+requirements:
+  build:
+    - clang 14.0.6 haa95532_1
+    - clang-14 14.0.6 default_h120b48b_1
+    - intel-fortran_win-64 2022.1.0 h950cae3_2
+    - libclang-cpp 14.0.6 default_h120b48b_1
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vs2019_win-64 19.27.29111 ha89c4d3_2
+    - vswhere 2.8.4 haa95532_0
+    - zlib 1.2.13 h8cc25b3_0
+  host:
+    - beniget 0.4.1 pyhd3eb1b0_0
+    - blas 1.0 mkl
+    - ca-certificates 2023.01.10 haa95532_0
+    - certifi 2022.12.7 py38haa95532_0
+    - clang 14.0.6 haa95532_1
+    - clang-14 14.0.6 default_h120b48b_1
+    - clangxx 14.0.6 default_h120b48b_1
+    - cython 0.29.32 py38hd77b12b_0
+    - gast 0.5.3 pyhd3eb1b0_0
+    - icc_rt 2022.1.0 h6049295_2
+    - intel-openmp 2023.1.0 h59b6b97_46319
+    - libclang-cpp 14.0.6 default_h120b48b_1
+    - libffi 3.4.2 hd77b12b_6
+    - mkl 2023.1.0 h8bd8f75_46356
+    - mkl-devel 2023.1.0 h74d85ca_46356
+    - mkl-include 2023.1.0 haa95532_46356
+    - mkl-service 2.4.0 py38h2bbff1b_1
+    - mkl_fft 1.3.6 py38hf11a4ad_1
+    - mkl_random 1.2.2 py38hf11a4ad_1
+    - numpy 1.19.5 py38h749eb61_5
+    - numpy-base 1.19.5 py38h9413944_5
+    - openssl 1.1.1t h2bbff1b_0
+    - pip 23.0.1 py38haa95532_0
+    - ply 3.11 py38_0
+    - pybind11 2.10.1 py38h59b6b97_0
+    - pybind11-global 2.10.1 py38h59b6b97_0
+    - python 3.8.16 h6244533_3
+    - pythran 0.12.1 py38hd4e2768_0
+    - setuptools 58.0.4 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tbb 2021.8.0 h59b6b97_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+    - wincertstore 0.2 py38haa95532_2
+    - xsimd 10.0.0 h59b6b97_0
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - blas 1.0 mkl
+    - icc_rt >=2022.1.0
+    - intel-openmp >=2023.1.0,<2024.0a0
+    - mkl >=2023.1.0,<2024.0a0
+    - mkl-service >=2.3.0,<3.0a0
+    - numpy >=1.19.5,<1.27.0
+    - pooch
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vc >=14.2,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - vs2015_runtime >=14.27.29016,<15.0a0
+test:
+  commands:
+    - python -c "import sys, scipy, numpy; print(scipy.__version__, numpy.__version__,
+      sys.version_info)"
+    - python -c "import numpy; numpy.show_config()"
+    - python -c "import scipy, sys; sys.exit(not scipy.test(verbose=1, label='full',
+      tests=None, extra_argv=['-k', 'not (_not_a_real_test or test_x0_equals_Mb[bicgstab]
+      or test_svdp or test_examples)', '-n', '3', '--timeout=1800', '--durations=50']))"
+    - python -c "import scipy, sys; scipy.test(verbose=2, label='full', tests=None,
+      extra_argv=['-k', '(test_svdp or test_examples)', '-n', '3', '--timeout=1800',
+      '--durations=50']); sys.exit(0)"
+    - python -c "import scipy, sys; scipy.test(verbose=2, label='full', tests=None,
+      extra_argv=['-k', '(_not_a_real_test or test_x0_equals_Mb[bicgstab])', '-n',
+      '3', '--timeout=1800', '--durations=50']); sys.exit(0)"
+  imports:
+    - scipy
+    - scipy.cluster
+    - scipy.cluster.hierarchy
+    - scipy.cluster.vq
+    - scipy.constants
+    - scipy.datasets
+    - scipy.fft
+    - scipy.fftpack
+    - scipy.integrate
+    - scipy.interpolate
+    - scipy.io
+    - scipy.io.arff
+    - scipy.io.matlab
+    - scipy.io.wavfile
+    - scipy.linalg
+    - scipy.linalg.blas
+    - scipy.linalg.cython_blas
+    - scipy.linalg.cython_lapack
+    - scipy.linalg.interpolative
+    - scipy.linalg.lapack
+    - scipy.misc
+    - scipy.ndimage
+    - scipy.odr
+    - scipy.optimize
+    - scipy.signal
+    - scipy.signal.windows
+    - scipy.sparse
+    - scipy.sparse.csgraph
+    - scipy.sparse.linalg
+    - scipy.spatial
+    - scipy.spatial.distance
+    - scipy.spatial.transform
+    - scipy.special
+    - scipy.stats
+    - scipy.stats.contingency
+    - scipy.stats.distributions
+    - scipy.stats.mstats
+    - scipy.stats.qmc
+    - scipy.stats.sampling
+  requires:
+    - intel-openmp 2023.*
+    - mpmath
+    - pytest
+    - pytest-timeout
+    - pytest-xdist
+    - threadpoolctl
+about:
+  description: 'SciPy is a Python-based ecosystem of open-source software for mathematics,
+
+    science, and engineering.
+
+    '
+  dev_url: https://github.com/scipy/scipy
+  doc_url: https://docs.scipy.org/doc/scipy/
+  home: https://scipy.org/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Scientific Library for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 5265e296-c580-43e5-a0eb-cb48cf917bd5
+  recipe-maintainers:
+    - h-vetinari
+    - jakirkham
+    - msarahan
+    - ocefpaf
+    - rgommers
+  remote_url: git@github.com:AnacondaRecipes/scipy-feedstock.git
+  sha: 43384f146afda05819982df61535f96a8a62ae1a
+  skip-lints:
+    - uses_setup_py

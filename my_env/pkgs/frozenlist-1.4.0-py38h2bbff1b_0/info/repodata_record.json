@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "frozenlist-1.4.0-py38h2bbff1b_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "c49b94d418e6a52808d3d927f209abd6",
+  "name": "frozenlist",
+  "platform": "win32",
+  "sha256": "87ebc8a123c00ff3d296a1ed1615f77670dd41d066e5ef02875e20868e76ee6b",
+  "size": 47438,
+  "subdir": "win-64",
+  "timestamp": 1698702702000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/frozenlist-1.4.0-py38h2bbff1b_0.conda",
+  "version": "1.4.0"
+}

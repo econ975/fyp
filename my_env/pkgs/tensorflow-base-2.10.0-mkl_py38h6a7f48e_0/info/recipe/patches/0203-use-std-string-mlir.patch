@@ -1,0 +1,13 @@
+diff --git a/tensorflow/compiler/mlir/xla/hlo_function_importer.cc b/tensorflow/compiler/mlir/xla/hlo_function_importer.cc
+index 7977b24a866..f5dc4fcc539 100644
+--- a/tensorflow/compiler/mlir/xla/hlo_function_importer.cc
++++ b/tensorflow/compiler/mlir/xla/hlo_function_importer.cc
+@@ -1376,7 +1376,7 @@ StatusOr<mlir::Operation*> HloFunctionImporter::ImportInstructionImpl(
+     }
+     case HloOpcode::kDomain: {
+       auto domain_kind = mlir::mhlo::symbolizeDomainKind(
+-          instruction->user_side_metadata().Kind());
++          std::string(instruction->user_side_metadata().Kind()));
+       if (!domain_kind || *domain_kind != mlir::mhlo::DomainKind::sharding) {
+         return tensorflow::errors::InvalidArgument(
+             "Invalid domain kind in hlo -> mhlo import. Only 'sharding' is "

@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "tensorflow-base 2.10.*"
+  ],
+  "depends": [
+    "keras-preprocessing >=1.1.2",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "keras-2.10.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "md5": "733924d54059f4cece58a903182a2a07",
+  "name": "keras",
+  "platform": "win32",
+  "sha256": "ac6189b110bfcb3b28c5fed11be01407f133bc90ed25d851d5ea07fb2b0de135",
+  "size": 1643037,
+  "subdir": "win-64",
+  "timestamp": 1669760735000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/keras-2.10.0-py38haa95532_0.conda",
+  "version": "2.10.0"
+}

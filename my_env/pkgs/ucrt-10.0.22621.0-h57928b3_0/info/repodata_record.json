@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "h57928b3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "vs2015_runtime >=14.29.30037"
+  ],
+  "depends": [],
+  "features": "",
+  "fn": "ucrt-10.0.22621.0-h57928b3_0.tar.bz2",
+  "license": "LicenseRef-Proprietary",
+  "md5": "72608f6cd3e5898229c3ea16deb1ac43",
+  "name": "ucrt",
+  "platform": "win32",
+  "sha256": "f29cdaf8712008f6b419b8b1a403923b00ab2504bfe0fb2ba8eb60e72d4f14c6",
+  "size": 1283972,
+  "subdir": "win-64",
+  "timestamp": 1666630199000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.22621.0-h57928b3_0.tar.bz2",
+  "version": "10.0.22621.0"
+}

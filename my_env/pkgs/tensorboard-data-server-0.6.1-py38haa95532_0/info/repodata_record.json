@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "tensorboard-data-server-0.6.1-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "4261d2006c8b2f96d4d23a286b906465",
+  "name": "tensorboard-data-server",
+  "platform": "win32",
+  "sha256": "0a1417b1a31f6b745f7f12a942a97f6b0c5e82525772c6c33b758c46e9082d3c",
+  "size": 16981,
+  "subdir": "win-64",
+  "timestamp": 1670853847000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tensorboard-data-server-0.6.1-py38haa95532_0.conda",
+  "version": "0.6.1"
+}

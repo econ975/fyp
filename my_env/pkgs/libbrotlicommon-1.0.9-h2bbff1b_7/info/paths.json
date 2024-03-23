@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/brotlicommon.dll",
+      "path_type": "hardlink",
+      "sha256": "4ab3827c1010d9d36a0c732d867b2976900d6ecd5ec865c47da2cb29db657948",
+      "size_in_bytes": 136704
+    },
+    {
+      "_path": "Library/lib/brotlicommon.lib",
+      "path_type": "hardlink",
+      "sha256": "1335e1c066e36d06481d38b163dc08950c8f6717d8f03046dacdd2697676a748",
+      "size_in_bytes": 3514
+    },
+    {
+      "_path": "Library/lib/pkgconfig/libbrotlicommon.pc",
+      "path_type": "hardlink",
+      "sha256": "e15129dd2ca59cea1e80c778640b249546904b87324adc588b4dabc2139f3fc2",
+      "size_in_bytes": 433
+    }
+  ],
+  "paths_version": 1
+}

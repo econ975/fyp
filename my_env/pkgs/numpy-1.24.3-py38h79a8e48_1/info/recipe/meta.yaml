@@ -1,0 +1,100 @@
+# This file created by conda-build 3.24.0
+# ------------------------------------------------
+
+package:
+  name: numpy
+  version: 1.24.3
+source:
+  patches:
+    - patches/0001-Obtain-and-prefer-custom-gfortran-from-env-variable.patch
+    - patches/0002-intel_mkl-version.patch
+    - patches/0003-intel_init_mkl.patch
+    - patches/0004-disable-autorun-for-cmd-test.patch
+    - patches/0005-array_coercion_fix.patch
+    - patches/0006-popcnt_fix.patch
+  sha256: ab344f1bf21f140adab8e47fdbc7c35a477dc01408791f8ba00d018dd0bc5155
+  url: https://github.com/numpy/numpy/releases/download/v1.24.3/numpy-1.24.3.tar.gz
+build:
+  number: 1
+  string: py38h79a8e48_1
+requirements:
+  build:
+    - vs2019_win-64 19.27.29111 ha89c4d3_2
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - blas 1.0 mkl
+    - ca-certificates 2023.01.10 haa95532_0
+    - certifi 2022.12.7 py38haa95532_0
+    - cython 0.29.33 py38hd77b12b_0
+    - intel-openmp 2023.1.0 h59b6b97_46319
+    - libffi 3.4.2 hd77b12b_6
+    - mkl 2023.1.0 h8bd8f75_46356
+    - mkl-devel 2023.1.0 h74d85ca_46356
+    - mkl-include 2023.1.0 haa95532_46356
+    - openssl 1.1.1t h2bbff1b_0
+    - python 3.8.16 h6244533_3
+    - setuptools 58.0.4 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tbb 2021.8.0 h59b6b97_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+    - wincertstore 0.2 py38haa95532_2
+  run:
+    - blas 1.0 mkl
+    - mkl >=2023.1.0,<2024.0a0
+    - mkl-service >=2.3.0,<3.0a0
+    - mkl_fft
+    - mkl_random
+    - numpy-base 1.24.3 py38h8a87ada_1
+    - python >=3.8,<3.9.0a0
+    - vc >=14.2,<15.0a0
+    - vs2015_runtime >=14.27.29016,<15.0a0
+test:
+  commands:
+    - f2py -h
+    - python -c "import numpy; numpy.show_config()"
+    - set OPENBLAS_NUM_THREADS=1
+    - pytest -vvv --pyargs numpy -k "not (_not_a_real_test or test_overrides or test_partial_iteration_cleanup)"
+      --durations=0
+  imports:
+    - numpy
+    - numpy.core.multiarray
+    - numpy.core.numeric
+    - numpy.core.umath
+    - numpy.linalg.lapack_lite
+    - numpy.random.mtrand
+  requires:
+    - hypothesis >=6.29.3
+    - intel-fortran_win-64 2022.1.0.*
+    - mypy >=0.981
+    - pip
+    - pytest
+    - pytest-cov
+    - pytest-xdist
+    - pytz >=2021.3
+    - setuptools <60.0.0
+    - typing-extensions >=4.2.0
+    - vs2019_win-64
+about:
+  description: 'NumPy is the fundamental package needed for scientific computing with
+    Python.
+
+    '
+  dev_url: https://github.com/numpy/numpy
+  doc_url: https://numpy.org/doc/stable/reference/
+  home: https://numpy.org/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Array processing for numbers, strings, records, and objects.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - chenghlee
+    - jakirkham
+    - msarahan
+    - ocefpaf
+    - pelson
+    - rgommers

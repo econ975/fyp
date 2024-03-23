@@ -1,0 +1,9 @@
+{
+  "target_platform": "win-64",
+  "libpng": "1.6",
+  "libtiff": "4.1",
+  "c_compiler": "vs2017",
+  "zlib": "1.2",
+  "channel_targets": "defaults",
+  "cxx_compiler": "vs2017"
+}

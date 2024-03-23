@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "Apache-2.0 or BSD-2-Clause",
+  "license_family": "Apache",
+  "name": "packaging",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1693575419691,
+  "version": "23.1"
+}

@@ -1,0 +1,44 @@
+{% set version = "1.6.3" %}
+
+package:
+  name: astunparse
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/a/astunparse/astunparse-{{ version }}.tar.gz
+  sha256: 5ad93a8456f0d084c3456d059fd9a92cce667963232cbf763eac3bc5b7940872
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - six >=1.6.1,<2.0
+
+test:
+  imports:
+    - astunparse
+
+about:
+  home: https://github.com/simonpercivall/astunparse
+  license: BSD-3-Clause AND PSF-2.0
+  license_file: LICENSE
+  summary: An AST unparser for Python.
+  description: |
+    This is a factored out version of unparse found in the Python source
+    distribution; under Demo/parser in Python 2 and under Tools/parser in
+    Python 3.
+  dev_url: https://github.com/simonpercivall/astunparse
+  doc_url: http://astunparse.readthedocs.io/en/latest/
+
+extra:
+  recipe-maintainers:
+    - goanpeca
+    - hoechenberger
+    - jjhelmus

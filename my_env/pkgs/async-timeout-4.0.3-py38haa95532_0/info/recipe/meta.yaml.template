@@ -1,0 +1,46 @@
+{% set name = "async-timeout" %}
+{% set version = "4.0.3" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+  skip: true  # [py<38]
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+
+test:
+  imports:
+    - async_timeout
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/aio-libs/async_timeout
+  description: asyncio-compatible timeout context manager.
+  license: Apache-2.0
+  license_file: LICENSE
+  license_family: Apache
+  summary: Timeout context manager for asyncio programs
+  doc_url: https://github.com/aio-libs/async-timeout/blob/master/README.rst
+  dev_url: https://github.com/aio-libs/async_timeout
+
+extra:
+  recipe-maintainers:
+    - sodre

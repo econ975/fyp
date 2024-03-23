@@ -1,0 +1,79 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\b\abs_44riqpe5gg\clone\recipe, last modified Wed Mar 22 13:53:51 2023
+# ------------------------------------------------
+
+package:
+  name: oauthlib
+  version: 3.2.2
+source:
+  sha256: 9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918
+  url: https://pypi.org/packages/source/o/oauthlib/oauthlib-3.2.2.tar.gz
+build:
+  number: '0'
+  script: python -m pip install --no-deps --ignore-installed . -vv
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2023.01.10 haa95532_0
+    - certifi 2022.12.7 py38haa95532_0
+    - libffi 3.4.2 hd77b12b_6
+    - openssl 1.1.1t h2bbff1b_0
+    - pip 23.0.1 py38haa95532_0
+    - python 3.8.16 h6244533_3
+    - setuptools 65.6.3 py38haa95532_0
+    - sqlite 3.41.1 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.38.4 py38haa95532_0
+    - wincertstore 0.2 py38haa95532_2
+  run:
+    - blinker >=1.4.0
+    - cryptography >=3.0.0
+    - pyjwt >=2.0.0,<3
+    - python >=3.8,<3.9.0a0
+test:
+  commands:
+    - pip check
+    - pytest tests/
+  imports:
+    - oauthlib
+    - oauthlib.oauth1
+    - oauthlib.oauth1.rfc5849
+    - oauthlib.oauth1.rfc5849.endpoints
+    - oauthlib.oauth2
+    - oauthlib.oauth2.rfc6749
+    - oauthlib.oauth2.rfc6749.clients
+    - oauthlib.oauth2.rfc6749.endpoints
+    - oauthlib.oauth2.rfc6749.grant_types
+  requires:
+    - pip
+    - pytest >=4.0
+  source_files:
+    - tests/
+about:
+  description: 'oauthlib is a Python package that provides a framework for implementing
+    OAuth 1.0 and 2.0 providers and clients. OAuth is a protocol that
+
+    allows users to grant third-party access to their resources without sharing their
+    credentials. It is commonly used in
+
+    web applications and APIs to enable authorization and authentication.
+
+    '
+  dev_url: https://github.com/oauthlib/oauthlib
+  doc_url: https://oauthlib.readthedocs.io/en/latest/
+  home: https://github.com/oauthlib/oauthlib
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing
+    logic
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 44ad860c-7055-4ba1-96e2-fa3245603bc6
+  recipe-maintainers:
+    - pmlandwehr
+  remote_url: git@github.com:AnacondaRecipes/oauthlib-feedstock.git
+  sha: ee8f0c889026df91a93cfa4a8613bccedb33dc8f

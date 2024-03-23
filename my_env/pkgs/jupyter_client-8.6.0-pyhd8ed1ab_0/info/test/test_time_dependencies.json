@@ -1,0 +1,1 @@
+["pytest-timeout", "pytest-jupyter-client >=0.4.1", "pytest-cov", "ipykernel >=6.14", "paramiko", "pip", "coverage", "pytest"]

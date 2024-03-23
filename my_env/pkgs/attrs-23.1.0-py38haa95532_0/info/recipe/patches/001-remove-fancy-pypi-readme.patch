@@ -1,0 +1,67 @@
+From cf4a6c16634a20dda78aa08869496469e5d5d99a Mon Sep 17 00:00:00 2001
+From: Serhii Kupriienko
+Date: Fri, 22 Sep 2023 16:39:27 +0300
+Subject: [PATCH] Fix deps
+
+---
+ pyproject.toml                                | 37 +--------
+ 1 files changed, 1 insertions(+), 36 deletions(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index fb8fae3..010357e 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,7 +1,7 @@
+ # SPDX-License-Identifier: MIT
+ 
+ [build-system]
+-requires = ["hatchling", "hatch-vcs", "hatch-fancy-pypi-readme"]
++requires = ["hatchling", "hatch-vcs"]
+ build-backend = "hatchling.build"
+ 
+ 
+@@ -75,41 +75,6 @@ raw-options = { local_scheme = "no-local-version" }
+ [tool.hatch.build.targets.wheel]
+ packages = ["src/attr", "src/attrs"]
+ 
+-[tool.hatch.metadata.hooks.fancy-pypi-readme]
+-content-type = "text/markdown"
+-
+-# PyPI doesn't support the <picture> tag.
+-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+-text = """<p align="center">
+-  <a href="https://www.attrs.org/">
+-    <img src="https://raw.githubusercontent.com/python-attrs/attrs/main/docs/_static/attrs_logo.svg" width="35%" alt="attrs" />
+-  </a>
+-</p>
+-"""
+-
+-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+-path = "README.md"
+-start-after = "<!-- teaser-begin -->"
+-
+-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+-text = """
+-
+-## Release Information
+-
+-"""
+-
+-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+-path = "CHANGELOG.md"
+-pattern = "\n(###.+?\n)## "
+-
+-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+-text = """
+-
+----
+-
+-[Full changelog](https://www.attrs.org/en/stable/changelog.html)
+-"""
+-
+ 
+ # Make coverage play nicely with pytest-xdist.
+ [tool.hatch.build.targets.wheel.hooks.autorun]
+-- 
+2.39.0
+

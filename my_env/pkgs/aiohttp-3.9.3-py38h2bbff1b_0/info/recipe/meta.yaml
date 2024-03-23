@@ -1,0 +1,86 @@
+# This file created by conda-build 3.28.4
+# meta.yaml template originally from:
+# C:\b\abs_27h_1rpxgd\clone\recipe, last modified Wed Feb  7 21:45:26 2024
+# ------------------------------------------------
+
+package:
+  name: aiohttp
+  version: 3.9.3
+source:
+  sha256: 90842933e5d1ff760fae6caca4b2b3edba53ba8f4b71e95dacf2818a2aca06f7
+  url: https://pypi.io/packages/source/a/aiohttp/aiohttp-3.9.3.tar.gz
+build:
+  number: '0'
+  script: C:\\b\\abs_27h_1rpxgd\\croot\\aiohttp_1707342354614\\_h_env\\python.exe
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py38h2bbff1b_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2023.12.12 haa95532_0
+    - cython 3.0.6 py38h2bbff1b_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.13 h2bbff1b_0
+    - pip 23.3.1 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.2.2 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - aiosignal >=1.1.2
+    - async-timeout >=4.0,<5.0
+    - attrs >=17.3.0
+    - frozenlist >=1.1.1
+    - multidict >=4.5,<7.0
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - yarl >=1.0,<2.0
+test:
+  commands:
+    - pip check
+    - rmdir /s /q tests\autobahn
+    - pytest -k "not (_not_a_real_test or test_expires or test_max_age or test_cookie_jar_clear_expired
+      or test_http_response_parser_bad_chunked_strict_c[pyloop] or test_http_response_parser_bad_chunked_strict_py[pyloop]
+      or test_http_response_parser_strict_headers[c-parser-pyloop] or test_access_root_of_static_handler[pyloop-index_forbidden]
+      or test_client_session_timeout_zero or test_run_app_preexisting_inet6_socket[pyloop]  or
+      test_handler_cancellation or test_no_handler_cancellation or test_shutdown_pending_handler_responds
+      or test_no_warnings[aiohttp.worker])" --ignore=tests/test_proxy_functional.py
+  imports:
+    - aiohttp
+  requires:
+    - brotli-python
+    - freezegun
+    - pip
+    - pytest
+    - pytest-cov
+    - pytest-mock
+    - re-assert
+    - trustme
+  source_files:
+    - README.rst
+    - setup.cfg
+    - tests
+about:
+  description: Async http client/server framework (asyncio)
+  dev_url: https://github.com/aio-libs/aiohttp
+  doc_url: https://docs.aiohttp.org/
+  home: https://github.com/aio-libs/aiohttp
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: Async http client/server framework (asyncio)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 2700e9c7-36cb-4531-b901-2c318fd6c79d
+  recipe-maintainers:
+    - ocefpaf
+    - sodre
+    - xhochy
+  remote_url: git@github.com:AnacondaRecipes/aiohttp-feedstock.git
+  sha: bcf532142065d0eb65ca0510217617ce9de2a96b

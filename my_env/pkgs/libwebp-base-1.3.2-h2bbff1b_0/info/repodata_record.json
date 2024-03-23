@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "libwebp 1.3.2"
+  ],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "libwebp-base-1.3.2-h2bbff1b_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "6d83c1a76175955dc1033a643a17e65c",
+  "name": "libwebp-base",
+  "platform": "win32",
+  "sha256": "77fc4d6399a2d0bcabbba4abbc8e9482e59dc33f71b50f7f080db1e1b8ac897e",
+  "size": 313640,
+  "subdir": "win-64",
+  "timestamp": 1694777084000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libwebp-base-1.3.2-h2bbff1b_0.conda",
+  "version": "1.3.2"
+}

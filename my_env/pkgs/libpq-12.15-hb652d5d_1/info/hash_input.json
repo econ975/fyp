@@ -1,0 +1,8 @@
+{
+  "zlib": "1.2",
+  "openssl": "1.1.1",
+  "vc": "14",
+  "c_compiler": "vs2017",
+  "channel_targets": "defaults",
+  "target_platform": "win-64"
+}

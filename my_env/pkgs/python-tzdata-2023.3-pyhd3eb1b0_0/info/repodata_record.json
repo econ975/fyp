@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "python-tzdata-2023.3-pyhd3eb1b0_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "479c037de0186d114b9911158427624e",
+  "name": "python-tzdata",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "df49723e943a5a7b8bfe3b0f7463b39225aedba73f75d4cb4cb5a794c2a4755d",
+  "size": 143832,
+  "subdir": "noarch",
+  "timestamp": 1690578151000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-tzdata-2023.3-pyhd3eb1b0_0.conda",
+  "version": "2023.3"
+}

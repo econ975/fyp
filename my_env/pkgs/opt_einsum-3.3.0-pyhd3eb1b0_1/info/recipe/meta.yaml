@@ -1,0 +1,74 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/opt_einsum-3.3.0-on-linux_64, last modified Thu May 20 08:22:10 2021
+# ------------------------------------------------
+
+package:
+  name: opt_einsum
+  version: 3.3.0
+source:
+  sha256: 59f6475f77bbc37dcf7cd748519c0ec60722e91e63ca114e68821c0c54a46549
+  url: https://pypi.io/packages/source/o/opt_einsum/opt_einsum-3.3.0.tar.gz
+build:
+  noarch: python
+  number: '1'
+  script: /tmp/build/80754af9/opt_einsum_1621500238896/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+    -m pip install . -vv
+  string: pyhd3eb1b0_1
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.4.13 h06a4308_1
+    - certifi 2020.12.5 py39h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1k h27cfd23_0
+    - pip 21.0.1 py39h06a4308_0
+    - python 3.9.4 hdb3f193_0
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py39h06a4308_0
+    - sqlite 3.35.4 hdfb4753_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2020f h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - numpy
+    - python >=3.5
+test:
+  commands:
+    - pytest --verbose --pyargs opt_einsum
+    - pip check
+  requires:
+    - pip
+    - pytest
+    - pytest-cov
+    - pytest-pep8
+    - python >=3.5
+about:
+  description: 'Einsum is a very powerful function for contracting tensors of arbitrary
+    dimension and index. However, it is typically only optimized to contract two terms
+    at a time resulting in non-optimal scaling. This package optimizes the contraction
+    order for arbitrarily large speedups.
+
+    See the docs for more information: http://optimized-einsum.readthedocs.io
+
+    '
+  dev_url: https://github.com/dgasmith/opt_einsum
+  home: http://github.com/dgasmith/opt_einsum
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Optimizing einsum functions in NumPy, Tensorflow, Dask, and more with contraction
+    order optimization.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - dgasmith
+    - loriab
+    - xhochy

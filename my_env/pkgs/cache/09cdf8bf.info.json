@@ -1,0 +1,11 @@
+{
+  "url": "https://conda.anaconda.org/conda-forge/noarch",
+  "etag": "\"aa840fd6fda1ac096bc10d71ddc08eea\"",
+  "mod": "Fri, 22 Mar 2024 15:44:23 GMT",
+  "cache_control": "public, max-age=1200",
+  "mtime_ns": 1711122810671219900,
+  "size": 88044809,
+  "refresh_ns": 1711122810768801400,
+  "blake2_256_nominal": "0c886505b0f6ffe8d484c1c8271d890ee513a250e224541698ac264b4b92f460",
+  "blake2_256": "0c886505b0f6ffe8d484c1c8271d890ee513a250e224541698ac264b4b92f460"
+}

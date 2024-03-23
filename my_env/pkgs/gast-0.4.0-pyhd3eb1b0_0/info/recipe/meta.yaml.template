@@ -1,0 +1,46 @@
+{% set name = "gast" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "40feb7b8b8434785585ab224d1568b857edb18297e5a3047f1ba012bc83b42c1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  noarch: python
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - gast
+
+about:
+  home: https://github.com/serge-sans-paille/gast
+  license: BSD-3-Clause
+  license_family: BSD
+  # https://github.com/serge-sans-paille/gast/pull/17
+  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  summary: "A generic AST to represent Python2 and Python3's Abstract Syntax Tree(AST)."
+
+  description: |
+    GAST provides a compatibility layer between the AST of various Python 
+    versions, as produced by ast.parse from the standard ast module.
+  dev_url: https://github.com/serge-sans-paille/gast
+
+extra:
+  recipe-maintainers:
+    - CurtLH
+    - martinRenou

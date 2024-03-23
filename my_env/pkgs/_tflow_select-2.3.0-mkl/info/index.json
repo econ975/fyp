@@ -1,0 +1,11 @@
+{
+  "arch": "x86_64",
+  "build": "mkl",
+  "build_number": 0,
+  "depends": [],
+  "name": "_tflow_select",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1538709809837,
+  "version": "2.3.0"
+}

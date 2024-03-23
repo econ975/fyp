@@ -1,0 +1,81 @@
+# This file created by conda-build 3.28.4
+# meta.yaml template originally from:
+# C:\b\abs_e22m71t0cb\clone\recipe, last modified Tue Feb  6 15:24:47 2024
+# ------------------------------------------------
+
+package:
+  name: pillow
+  version: 10.2.0
+source:
+  sha256: e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e
+  url: https://pypi.io/packages/source/p/pillow/pillow-10.2.0.tar.gz
+build:
+  number: '0'
+  string: py38h2bbff1b_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2023.12.12 haa95532_0
+    - freetype 2.10.4 hd328e21_0
+    - jpeg 9e h2bbff1b_1
+    - libffi 3.4.4 hd77b12b_0
+    - libpng 1.6.39 h8cc25b3_0
+    - libtiff 4.2.0 h8a3f274_2
+    - libwebp-base 1.3.2 h2bbff1b_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - openjpeg 2.3.0 h5ec785f_1
+    - openssl 3.0.13 h2bbff1b_0
+    - pip 23.3.1 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.2.2 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+    - xz 5.4.5 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.5 hd43e919_0
+  run:
+    - freetype >=2.10.4,<3.0a0
+    - jpeg >=9e,<10a
+    - libtiff >=4.2.0,<5.0a0
+    - libwebp-base >=1.3.2,<2.0a0
+    - openjpeg >=2.3.0,<3.0a0
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - zlib >=1.2.13,<1.3.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - PIL
+    - PIL.Image
+  requires:
+    - pip
+about:
+  description: 'Pillow is the friendly PIL fork. PIL is the Python Imaging Library,
+
+    adds image processing capabilities to your Python interpreter.
+
+    '
+  dev_url: https://github.com/python-pillow/Pillow
+  doc_url: https://pillow.readthedocs.io/
+  home: https://pillow.readthedocs.io
+  license: HPND AND TCL
+  license_family: Other
+  license_file: LICENSE
+  summary: Pillow is the friendly PIL fork by Alex Clark and Contributors
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: e2c29221-2635-4f48-9630-cc0859f4352c
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf
+    - patricksnape
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pillow-feedstock.git
+  sha: 6aed6bbb72ba381a05ce67d42a71b8b100d8c6f6

@@ -1,0 +1,60 @@
+{% set name = "keras" %}
+{% set version = "2.10.0" %}
+{% set major_minor = version.rsplit('.', 1)[0] %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  - url: https://pypi.io/packages/py2.py3/k/keras/keras-{{ version }}-py2.py3-none-any.whl
+    sha256: 26a6e2c2522e7468ddea22710a99b3290493768fc08a39e75d1173a0e3452fdf
+  - url: https://raw.githubusercontent.com/keras-team/keras/v{{ version }}/LICENSE
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+
+build:
+  number: 0
+  script:
+    - python -m pip install --no-deps --ignore-installed keras-{{ version }}-py2.py3-none-any.whl
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+    - keras-preprocessing  >=1.1.2
+  run_constrained:
+    # Other dependencies (such as h5py, numpy, ...) in their correct versions
+    # will be pulled in by tensorflow-base.
+    - tensorflow-base  {{ major_minor }}.*
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://github.com/keras-team/keras
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: Deep Learning Library for Theano and TensorFlow
+  description: |
+    Keras is a minimalist, highly modular neural networks library
+    written in Python and capable on running on top of either
+    TensorFlow or Theano. It was developed with a focus on enabling
+    fast experimentation. Being able to go from idea to result with
+    the least possible delay is key to doing good research.
+  doc_url: https://keras.io
+  dev_url: https://github.com/keras-team/keras
+
+extra:
+  recipe-maintainers:
+    - ericdill
+    - mariusvniekerk
+    - croth1
+    - ocefpaf
+    - jjhelmus

@@ -1,0 +1,50 @@
+From 19a22232513de54674f03b0dd1d71da58e287a21 Mon Sep 17 00:00:00 2001
+From: Eric Biggers <ebiggers3@gmail.com>
+Date: Tue, 12 Sep 2023 22:18:19 -0700
+Subject: [PATCH] Don't use bzhi intrinsics on old MSVC versions
+
+A test failure, narrowed down to a problem in deflate_decompress_bmi2(),
+was reported when libdeflate is built in release mode with MSVC from
+VS2017.  VS2022 works fine.  Currently, in MSVC builds of libdeflate,
+the only difference between the bmi2 and default decompression functions
+is whether the bzhi instrinsics (_bzhi_u64() and _bzhi_u32()) are used.
+But as far as I can tell, libdeflate uses these intrinsics correctly.
+
+Avoid this issue by disabling the use of bzhi intrinsics if the compiler
+is MSVC before VS2022.
+
+MSVC is closed source, so root causing this issue is not possible.  But
+one hypothesis is that MSVC may have overlooked that the bzhi intrinsics
+are supposed to always truncate the index argument to 8 bits, matching
+the corresponding CPU instructions and as specified by Intel at
+https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/bzhi-u32-64.html.
+Most software that uses these intrinsics probably doesn't rely on this
+behavior, but libdeflate does.  So a compiler bug seems plausible here,
+especially considering the issue went away in newer compiler versions.
+
+Fixes https://github.com/ebiggers/libdeflate/issues/325
+---
+ lib/x86/cpu_features.h | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/lib/x86/cpu_features.h b/lib/x86/cpu_features.h
+index 3cb3f465..ad14e435 100644
+--- a/lib/x86/cpu_features.h
++++ b/lib/x86/cpu_features.h
+@@ -145,6 +145,16 @@ static inline u32 get_x86_cpu_features(void) { return 0; }
+ #else
+ #  define HAVE_BMI2_INTRIN	0
+ #endif
++/*
++ * MSVC from VS2017 (toolset v141) apparently miscompiles the _bzhi_*()
++ * intrinsics.  It seems to be fixed in VS2022.
++ */
++#if defined(_MSC_VER) && _MSC_VER < 1930 /* older than VS2022 (toolset v143) */
++#  undef HAVE_BMI2_NATIVE
++#  undef HAVE_BMI2_INTRIN
++#  define HAVE_BMI2_NATIVE	0
++#  define HAVE_BMI2_INTRIN	0
++#endif
+ 
+ #endif /* ARCH_X86_32 || ARCH_X86_64 */
+ 

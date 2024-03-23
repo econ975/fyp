@@ -1,0 +1,24 @@
+{
+  "build": "h1aa4202_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.4,<3.5",
+    "openssl >=3.0.10,<4.0a0",
+    "sqlite >=3.41.2,<4.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "pip"
+  ],
+  "fn": "python-3.8.18-h1aa4202_0.conda",
+  "license": "PSF-2.0",
+  "md5": "5228bd15694367b93764960010806aa8",
+  "name": "python",
+  "sha256": "31323428dadc8879335920d4e98190e671f634ed115bec11401fc233576e84d9",
+  "size": 21443810,
+  "subdir": "win-64",
+  "timestamp": 1694439806000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.8.18-h1aa4202_0.conda",
+  "version": "3.8.18"
+}

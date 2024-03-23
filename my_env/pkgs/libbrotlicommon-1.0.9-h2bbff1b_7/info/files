@@ -1,0 +1,3 @@
+Library/bin/brotlicommon.dll
+Library/lib/brotlicommon.lib
+Library/lib/pkgconfig/libbrotlicommon.pc

@@ -1,0 +1,8 @@
+{
+  "c_compiler": "vs2019",
+  "target_platform": "win-64",
+  "python": "3.8.* *_cpython",
+  "cxx_compiler": "vs2019",
+  "channel_targets": "conda-forge main",
+  "zeromq": "4.3.5"
+}

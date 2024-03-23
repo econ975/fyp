@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/libclang-13.dll",
+      "path_type": "hardlink",
+      "sha256": "9e6ce8f5cfed924116fa4a4de67f928ca55c293ba890ba97389224de9bcac38e",
+      "size_in_bytes": 85337600
+    }
+  ],
+  "paths_version": 1
+}

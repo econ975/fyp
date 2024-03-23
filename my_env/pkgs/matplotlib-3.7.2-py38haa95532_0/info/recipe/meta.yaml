@@ -1,0 +1,59 @@
+# This file created by conda-build 3.26.1
+# ------------------------------------------------
+
+package:
+  name: matplotlib
+  version: 3.7.2
+source:
+  sha256: be06fea01c57517dbed17dd1aa8f2b3f5750c54203553f9d2096cf2e43a23b1e
+  url: https://github.com/matplotlib/matplotlib/archive/v3.7.2.tar.gz
+build:
+  number: 0
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2023.05.30 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.10 h2bbff1b_2
+    - python 3.8.17 h1aa4202_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - matplotlib-base >=3.7.2,<3.7.3.0a0
+    - pyqt >=5
+    - python >=3.8,<3.9.0a0
+    - tornado >=5
+test:
+  imports:
+    - matplotlib
+about:
+  description: 'Matplotlib produces publication-quality figures in a variety of hardcopy
+    formats
+
+    and interactive environments across platforms. Matplotlib can be used in
+
+    Python scripts, Python/IPython shells, web application servers,
+
+    and various graphical user interface toolkits.
+
+    '
+  dev_url: https://github.com/matplotlib/matplotlib/
+  doc_url: https://matplotlib.org/stable/users/index.html
+  home: https://matplotlib.org/
+  license: LicenseRef-PSF-based
+  license_family: PSF
+  license_file: LICENSE/LICENSE
+  summary: Publication quality figures in Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 08dc1893-6012-4a14-a45e-cf3c681368df
+  recipe-maintainers:
+    - dopplershift
+    - mdboom
+    - ocefpaf
+    - pelson
+    - tacaswell
+  remote_url: git@github.com:AnacondaRecipes/matplotlib-feedstock.git
+  sha: e16123b42d1bfdb10ba5be717c34566803d108a7

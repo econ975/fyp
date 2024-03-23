@@ -1,0 +1,51 @@
+{% set name = "Werkzeug" %}
+{% set version = "2.3.8" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
+  sha256: 554b257c74bbeb7a0d254160a4f8ffe185243f52a52035060b761ca62d977f03
+
+build:
+  skip: True  # [py<38]
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -v --no-build-isolation
+
+requirements:
+  host:
+    - python
+    - pip
+    - flit-core <4
+  run:
+    - python
+    - MarkupSafe >=2.1.1
+  run_constrained:
+    - watchdog >=2.3
+
+test:
+  requires:
+    - pip
+  imports:
+    - werkzeug
+    - werkzeug.debug
+  commands:
+    - pip check
+
+about:
+  home: https://palletsprojects.com/p/werkzeug/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.rst
+  summary: The comprehensive WSGI web application library.
+  description: |
+    Werkzeug is a WSGI utility library for Python. It's widely used and BSD licensed.
+  doc_url: https://werkzeug.palletsprojects.com/
+  dev_url: https://github.com/pallets/werkzeug
+
+extra:
+  recipe-maintainers:
+    - goanpeca
+    - mcs07

@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "e18d7bb8f513e2c46bb585c94b585bd30720dd3ccb21ddb0786f72d16658f92c",
+      "size_in_bytes": 568
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "ae5a7328a820dcbec348d2e288d42d8bc92260b2b0d78e89eff33810c8f72d88",
+      "size_in_bytes": 4340
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "2f85c6aa9c3cb9985b5b4517349070498ca312f4f70c7c2be8f946503c2b1347",
+      "size_in_bytes": 1016
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "e7a647d86b9a7ebaa48d70c30e2a4ffbfdba0c4c3e93c6e5823e58933cf68cc4",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout-4.0.3.dist-info/zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "03454ea83190ddc08f169d0d6492886f1fd544fd58db13ed40e65e6d521407cf",
+      "size_in_bytes": 7242
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "292777db002431a58414dee4c5cb6e13af348a97e2761a2eece98637d26afc2c",
+      "size_in_bytes": 6522
+    },
+    {
+      "_path": "Lib/site-packages/async_timeout/py.typed",
+      "path_type": "hardlink",
+      "sha256": "b72a33cd14f57f38971130f1a249aecadea384e9ad8d46e754d25d65c1bb8a4d",
+      "size_in_bytes": 12
+    }
+  ],
+  "paths_version": 1
+}

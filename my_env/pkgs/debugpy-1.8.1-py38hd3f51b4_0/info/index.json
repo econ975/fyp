@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py38hd3f51b4_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "debugpy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1707445002216,
+  "version": "1.8.1"
+}

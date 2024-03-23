@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "tomli-2.0.1-py38haa95532_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "a6a59419d614f46e73d5b3860695bed6",
+  "name": "tomli",
+  "platform": "win32",
+  "sha256": "6e022c1a9e360f4fd20791da9ddd3f7b9667492aa88dfc6a48317ae70e551aad",
+  "size": 25414,
+  "subdir": "win-64",
+  "timestamp": 1657175797000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tomli-2.0.1-py38haa95532_0.conda",
+  "version": "2.0.1"
+}

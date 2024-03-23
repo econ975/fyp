@@ -1,0 +1,46 @@
+{
+  "build": "py38h2bbff1b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml.clib-0.2.6-py38h2bbff1b_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/_ruamel_yaml.cp38-win_amd64.pyd",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/INSTALLER",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/LICENSE",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/METADATA",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/RECORD",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/REQUESTED",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/WHEEL",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/direct_url.json",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/namespace_packages.txt",
+    "Lib/site-packages/ruamel.yaml.clib-0.2.6.dist-info/top_level.txt"
+  ],
+  "fn": "ruamel.yaml.clib-0.2.6-py38h2bbff1b_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml.clib-0.2.6-py38h2bbff1b_1",
+    "type": 1
+  },
+  "md5": "75732db3570fd2375d5f3eba7d0e0cd2",
+  "name": "ruamel.yaml.clib",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\ruamel.yaml.clib-0.2.6-py38h2bbff1b_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::ruamel.yaml.clib==0.2.6=py38h2bbff1b_1[md5=75732db3570fd2375d5f3eba7d0e0cd2]",
+  "sha256": "04f43ac72817f959731dc71a61449c49a5fd5705850101f463b95261b42eb2a6",
+  "size": 103147,
+  "subdir": "win-64",
+  "timestamp": 1666302982000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ruamel.yaml.clib-0.2.6-py38h2bbff1b_1.conda",
+  "version": "0.2.6"
+}

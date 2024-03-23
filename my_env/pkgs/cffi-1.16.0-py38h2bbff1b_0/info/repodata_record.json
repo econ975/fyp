@@ -1,0 +1,22 @@
+{
+  "build": "py38h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "pycparser",
+    "python >=3.8,<3.9.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "cffi-1.16.0-py38h2bbff1b_0.conda",
+  "license": "MIT",
+  "md5": "8754e9b79e05030c8064ed31288ea7ba",
+  "name": "cffi",
+  "sha256": "8492f7e7eefc16c498fed5d8953c752e35144d04455d99ea04a3a7437821a8a2",
+  "size": 247992,
+  "subdir": "win-64",
+  "timestamp": 1700254694000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/cffi-1.16.0-py38h2bbff1b_0.conda",
+  "version": "1.16.0"
+}

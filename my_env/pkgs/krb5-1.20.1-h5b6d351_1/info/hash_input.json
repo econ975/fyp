@@ -1,0 +1,8 @@
+{
+  "cxx_compiler": "vs2017",
+  "channel_targets": "defaults",
+  "tk": "8.6",
+  "vc": "14",
+  "c_compiler": "vs2017",
+  "target_platform": "win-64"
+}

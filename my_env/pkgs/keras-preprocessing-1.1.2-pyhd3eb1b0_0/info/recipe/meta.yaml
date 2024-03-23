@@ -1,0 +1,71 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Tue Feb  2 16:33:29 2021
+# ------------------------------------------------
+
+package:
+  name: keras-preprocessing
+  version: 1.1.2
+source:
+  sha256: add82567c50c8bc648c14195bf544a5ce7c1f76761536956c3d2978970179ef3
+  url: https://pypi.io/packages/source/K/Keras-Preprocessing/Keras_Preprocessing-1.1.2.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: python -m pip install --no-deps --ignore-installed .
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.1.19 h06a4308_0
+    - certifi 2020.12.5 py39h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libedit 3.1.20191231 h14c3975_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1i h27cfd23_0
+    - pip 20.3.3 py39h06a4308_0
+    - python 3.9.1 hdb3f193_2
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py39h06a4308_0
+    - sqlite 3.33.0 h62c20be_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2020f h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - numpy >=1.9.1
+    - python >=3.6
+    - scipy >=0.14
+    - six >=1.9.0
+  run_constrained:
+    - keras >=2.1.6
+test:
+  imports:
+    - keras_preprocessing
+about:
+  description: 'Keras Preprocessing is the data preprocessing and data augmentation
+    module
+
+    of the Keras deep learning library. It provides utilities for working
+
+    with image data, text data, and sequence data.
+
+    '
+  dev_url: https://github.com/keras-team/keras-preprocessing
+  doc_url: https://keras.io/
+  home: https://github.com/keras-team/keras-preprocessing
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Data preprocessing and data augmentation module of the Keras deep learning
+    library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CurtLH
+    - h-vetinari

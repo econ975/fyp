@@ -1,0 +1,36 @@
+# This file created by conda-build 24.1.2
+# ------------------------------------------------
+
+package:
+  name: importlib_metadata
+  version: 7.0.2
+source:
+  sha256: 198f568f3230878cb1b44fbd7975f87906c22336dba2e4a7f05278c281fbd792
+  url: https://pypi.io/packages/source/i/importlib_metadata/importlib_metadata-7.0.2.tar.gz
+build:
+  noarch: generic
+  number: 0
+  string: hd8ed1ab_0
+requirements:
+  build: []
+  run:
+    - importlib-metadata >=7.0.2,<7.0.3.0a0
+test:
+  imports:
+    - importlib_metadata
+about:
+  home: https://github.com/python/importlib_metadata
+  license: Apache-2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: A library to access the metadata for a Python package
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240307.2.1
+  recipe-maintainers:
+    - marcelotrevisani
+    - nehaljwani
+    - nicoddemus
+  remote_url: https://github.com/conda-forge/importlib_metadata-feedstock
+  sha: b14f94fb3e24d408b3db90d6d1ff1655ee97aad7

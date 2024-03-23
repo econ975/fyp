@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64",
+  "build": "h6072711_9",
+  "build_number": 9,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "qt >=5.15.2,<6"
+  ],
+  "depends": [
+    "icu >=58.2,<59.0a0",
+    "jpeg >=9e,<10a",
+    "krb5 >=1.20.1,<1.21.0a0",
+    "libclang >=14.0.6,<15.0a0",
+    "libclang13 >=14.0.6",
+    "libpng >=1.6.39,<1.7.0a0",
+    "libpq >=12.15,<13.0a0",
+    "openssl >=1.1.1u,<1.1.2a",
+    "sqlite >=3.41.2,<4.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "features": "",
+  "fn": "qt-main-5.15.2-h6072711_9.conda",
+  "license": "LGPL-3.0-only",
+  "license_family": "LGPL",
+  "md5": "0f7290042ae928d8c7669bd3349f92dc",
+  "name": "qt-main",
+  "platform": "win32",
+  "sha256": "855dd9814f4fe192a585a5f6edb918b8b08d901e5d24b20a8fef17d1e8545553",
+  "size": 62316326,
+  "subdir": "win-64",
+  "timestamp": 1688781574000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/qt-main-5.15.2-h6072711_9.conda",
+  "version": "5.15.2"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "gast-0.4.0-pyhd3eb1b0_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "72ea9c092397d2f0e47bc364e9dfd5aa",
+  "name": "gast",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "6eaa288ae4838867bf392389653743d3413a28a0f8bd588993cbf8934b484ecf",
+  "size": 13525,
+  "subdir": "noarch",
+  "timestamp": 1628588912000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/gast-0.4.0-pyhd3eb1b0_0.conda",
+  "version": "0.4.0"
+}

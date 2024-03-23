@@ -1,0 +1,65 @@
+# This file created by conda-build 3.28.4
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.2.1
+source:
+  sha256: 83c7329fe52c850677d75e5d0b0ca245309b97e8ecbcfdc1dfdc4ab9fac35b39
+  url: http://www.openssl.org/source/openssl-3.2.1.tar.gz
+build:
+  number: 0
+  run_exports:
+    - openssl >=3.2.1,<4.0a0
+  string: hcfcfb64_0
+requirements:
+  build:
+    - m2w64-gcc-libgfortran 5.3.0 6
+    - m2w64-gcc-libs 5.3.0 7
+    - m2w64-gcc-libs-core 5.3.0 7
+    - m2w64-gmp 6.1.0 2
+    - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+    - make 4.3 h3d2af85_1
+    - msys2-conda-epoch 20160418 1
+    - perl 5.32.1.1 7_h57928b3_strawberry
+    - vs2019_win-64 19.29.30139 he1865b1_18
+    - vswhere 3.1.4 h57928b3_0
+  host:
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 hcf57466_18
+    - vc14_runtime 14.38.33130 h82b7239_18
+  run:
+    - ca-certificates
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+  run_constrained:
+    - pyopenssl >=22.1
+test:
+  commands:
+    - copy NUL checksum.txt
+    - '%LIBRARY_BIN%\openssl sha256 checksum.txt'
+    - pkg-config --print-errors --exact-version "3.2.1" openssl
+  requires:
+    - pkg-config
+about:
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://www.openssl.org/docs/man3.0/
+  home: http://www.openssl.org/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+  copy_test_source_files: true
+  feedstock-name: openssl
+  final: true
+  flow_run_id: azure_20240130.7.1
+  recipe-maintainers:
+    - h-vetinari
+    - jakirkham
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: https://github.com/conda-forge/openssl-feedstock
+  sha: c18bc0fd7eb4feef204b3bb2bb0ccb7cd31b9765

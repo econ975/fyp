@@ -1,0 +1,56 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# C:\ci\containers\0000124pkpk\tmp\build\80754af9\combined_recipe, last modified Thu Nov 26 22:51:08 2020
+# ------------------------------------------------
+
+package:
+    name: pyserial
+    version: '3.5'
+source:
+    fn: pyserial-3.5.tar.gz
+    sha256: 3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb
+    url: https://pypi.io/packages/source/p/pyserial/pyserial-3.5.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py38haa95532_0
+requirements:
+    host:
+        - ca-certificates 2020.10.14 0
+        - certifi 2020.11.8 py38haa95532_0
+        - openssl 1.1.1h he774522_0
+        - python 3.8.5 h5fd99cc_1
+        - setuptools 50.3.1 py38haa95532_1
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wincertstore 0.2 py38_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - serial
+about:
+    description: 'pySerial encapsulates the access for the serial port. It provides
+        backends
+
+        for Python running on Windows, OSX, Linux, BSD (possibly any POSIX
+
+        compliant system) and IronPython. The module named "serial" automatically
+
+        selects the appropriate backend.
+
+        '
+    dev_url: https://github.com/pyserial/pyserial
+    doc_source_url: https://github.com/pyserial/pyserial/blob/master/documentation/index.rst
+    doc_url: https://pyserial.readthedocs.io/en/latest/
+    home: https://github.com/pyserial/pyserial
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: Python serial port access library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - shaunwbell

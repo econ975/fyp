@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h6c2663c_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "snappy-1.1.10-h6c2663c_1.conda",
+  "license": "BSD-3-clause AND CC-BY-3.0 AND MIT AND CC-BY AND Public Domain",
+  "license_family": "BSD",
+  "md5": "e83710bf964bb4e7e5ca067bb1b5d6aa",
+  "name": "snappy",
+  "platform": "win32",
+  "sha256": "50ae24d982c4638d6d8117a785468c468e2794ade0f1f5dedc760e07d97fc6f2",
+  "size": 93815,
+  "subdir": "win-64",
+  "timestamp": 1702909533000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/snappy-1.1.10-h6c2663c_1.conda",
+  "version": "1.1.10"
+}

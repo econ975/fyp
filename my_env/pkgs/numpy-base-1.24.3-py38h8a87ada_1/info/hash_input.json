@@ -1,0 +1,10 @@
+{
+  "numpy": "1.16",
+  "cxx_compiler": "vs2019",
+  "channel_targets": "defaults",
+  "mkl": "2023.*",
+  "target_platform": "win-64",
+  "only_build_numpy_base": "no",
+  "c_compiler": "vs2019",
+  "blas_impl": "mkl"
+}

@@ -1,0 +1,19 @@
+{
+  "build": "py38haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "fn": "pluggy-1.0.0-py38haa95532_1.conda",
+  "license": "MIT",
+  "md5": "64d43664a199ecfdc0f6bc0a6185117b",
+  "name": "pluggy",
+  "sha256": "b14ec60bb6bf7c077addbccc32a54b506f9b408ea0689d7df49a4b14479a9bb1",
+  "size": 29713,
+  "subdir": "win-64",
+  "timestamp": 1648042829000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pluggy-1.0.0-py38haa95532_1.conda",
+  "version": "1.0.0"
+}

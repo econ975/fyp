@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/astunparse-1.6.3-on-linux_64, last modified Tue May 19 18:36:14 2020
+# ------------------------------------------------
+
+package:
+    name: astunparse
+    version: 1.6.3
+source:
+    sha256: 5ad93a8456f0d084c3456d059fd9a92cce667963232cbf763eac3bc5b7940872
+    url: https://pypi.io/packages/source/a/astunparse/astunparse-1.6.3.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/astunparse_1589913500937/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.3 he6710b0_1
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.0.2 py36_3
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 46.4.0 py36_0
+        - sqlite 3.31.1 h62c20be_1
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+        - six >=1.6.1,<2.0
+test:
+    imports:
+        - astunparse
+about:
+    description: 'This is a factored out version of unparse found in the Python source
+
+        distribution; under Demo/parser in Python 2 and under Tools/parser in
+
+        Python 3.
+
+        '
+    dev_url: https://github.com/simonpercivall/astunparse
+    doc_url: http://astunparse.readthedocs.io/en/latest/
+    home: https://github.com/simonpercivall/astunparse
+    license: BSD-3-Clause AND PSF-2.0
+    license_file: LICENSE
+    summary: An AST unparser for Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - hoechenberger
+        - jjhelmus

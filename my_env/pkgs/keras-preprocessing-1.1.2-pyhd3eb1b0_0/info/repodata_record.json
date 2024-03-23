@@ -1,0 +1,29 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [
+    "keras >=2.1.6"
+  ],
+  "depends": [
+    "numpy >=1.9.1",
+    "python >=3.6",
+    "scipy >=0.14",
+    "six >=1.9.0"
+  ],
+  "features": "",
+  "fn": "keras-preprocessing-1.1.2-pyhd3eb1b0_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "6d013a9c4915ce351c057b21821f4264",
+  "name": "keras-preprocessing",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f3a75ad09e16594efd35e8b60133fe74bc408eee308d127f3a90dd317d479b02",
+  "size": 35747,
+  "subdir": "noarch",
+  "timestamp": 1612283681000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/keras-preprocessing-1.1.2-pyhd3eb1b0_0.conda",
+  "version": "1.1.2"
+}

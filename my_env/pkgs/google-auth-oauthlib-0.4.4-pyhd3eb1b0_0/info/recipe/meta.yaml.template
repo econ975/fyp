@@ -1,0 +1,59 @@
+{% set name = "google-auth-oauthlib" %}
+{% set version = "0.4.4" %}
+{% set sha256 = "09832c6e75032f93818edf1affe4746121d640c625a5bef9b5c96af676e98eee" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  entry_points:
+    - google-oauthlib-tool = google_auth_oauthlib.tool.__main__:main
+
+requirements:
+  build:
+    - python >=3.6
+    - pip
+
+  run:
+    - python >=3.6
+    - cryptography >=3.2
+    - google-auth
+    - requests-oauthlib >=0.7.0
+    - click
+
+test:
+  requires:
+    - python >=3.6
+    - pip
+  imports:
+    - google_auth_oauthlib
+  commands:
+    - google-oauthlib-tool --help
+    - python -m pip check
+
+about:
+  home: https://github.com/googleapis/google-auth-library-python-oauthlib
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Google Authentication Library, oauthlib integration with google-auth
+  description: This library provides oauthlib integration with google-auth.
+  doc_url: http://google-auth-oauthlib.readthedocs.io/en/latest/
+  dev_url: https://github.com/googleapis/google-auth-library-python-oauthlib
+
+extra:
+  recipe-maintainers:
+    - cpcloud
+    - jreback
+    - leahecole
+    - parthea
+    - tswast

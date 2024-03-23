@@ -1,0 +1,1 @@
+["setuptools <60.0.0", "pytest", "typing-extensions >=4.2.0", "pytest-cov", "pytest-xdist", "intel-fortran_win-64 2022.1.0.*", "vs2019_win-64", "pytz >=2021.3", "pip", "hypothesis >=6.29.3", "mypy >=0.981"]

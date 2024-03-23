@@ -1,0 +1,57 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cryptography >=38.0.0,<42,!=40.0.0,!=40.0.1",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pyopenssl-23.2.0-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/OpenSSL/SSL.py",
+    "Lib/site-packages/OpenSSL/__init__.py",
+    "Lib/site-packages/OpenSSL/__pycache__/SSL.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/_util.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/crypto.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/debug.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/rand.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/OpenSSL/_util.py",
+    "Lib/site-packages/OpenSSL/crypto.py",
+    "Lib/site-packages/OpenSSL/debug.py",
+    "Lib/site-packages/OpenSSL/rand.py",
+    "Lib/site-packages/OpenSSL/version.py",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/LICENSE",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/METADATA",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/RECORD",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/WHEEL",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/pyOpenSSL-23.2.0.dist-info/top_level.txt"
+  ],
+  "fn": "pyopenssl-23.2.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pyopenssl-23.2.0-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "30c65768a5732b6941c09173e17d77a0",
+  "name": "pyopenssl",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\pyopenssl-23.2.0-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::pyopenssl==23.2.0=py38haa95532_0[md5=30c65768a5732b6941c09173e17d77a0]",
+  "sha256": "c9e72e2bef69452020038a67abafacc91cf5621232a9bdb4bd14269ad98b6904",
+  "size": 99080,
+  "subdir": "win-64",
+  "timestamp": 1690225579000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyopenssl-23.2.0-py38haa95532_0.conda",
+  "version": "23.2.0"
+}

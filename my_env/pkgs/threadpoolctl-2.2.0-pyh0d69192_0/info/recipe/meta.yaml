@@ -1,0 +1,82 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /Users/ktietz/demo/src/aggregate/threadpoolctl-feedstock/recipe, last modified Sat Aug  7 09:30:31 2021
+# ------------------------------------------------
+
+package:
+  name: threadpoolctl
+  version: 2.2.0
+source:
+  sha256: c61876ccd453f10c964d161272cbae165c2233cc5323ce0c3f544d8b8335fb9c
+  url: https://github.com/joblib/threadpoolctl/archive/2.2.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script:
+    - FLIT_ROOT_INSTALL=1 /Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+      -m flit install
+  string: pyh0d69192_0
+requirements:
+  host:
+    - brotlipy 0.7.0 py38h1230e6a_1002
+    - ca-certificates 2021.7.5 hca03da5_1
+    - certifi 2021.5.30 py38hca03da5_0
+    - cffi 1.14.6 py38h1a28f6b_0
+    - chardet 4.0.0 py38hca03da5_1003
+    - cryptography 3.4.7 py38h9dbe03d_0
+    - docutils 0.17 py38hca03da5_1
+    - flit 3.2.0 pyhd3eb1b0_0
+    - flit-core 3.2.0 pyhd3eb1b0_0
+    - idna 2.10 pyhd3eb1b0_0
+    - libcxx 12.0.0 hf6beb65_1
+    - libffi 3.3 hc377ac9_2
+    - ncurses 6.2 hc4ed4cf_0
+    - openssl 1.1.1j h1230e6a_0
+    - pip 21.2.2 py38hca03da5_0
+    - pycparser 2.20 py_2
+    - pyopenssl 20.0.1 pyhd3eb1b0_1
+    - pysocks 1.7.1 py38hca03da5_0
+    - python 3.8.11 hbdb9e5c_5
+    - readline 8.1 h1a28f6b_0
+    - requests 2.25.1 pyhd3eb1b0_0
+    - requests_download 0.1.2 py38hca03da5_0
+    - setuptools 52.0.0 py38hca03da5_0
+    - six 1.16.0 pyhd3eb1b0_0
+    - sqlite 3.36.0 h1058600_0
+    - tk 8.6.10 hb8d0fd4_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - urllib3 1.26.6 pyhd3eb1b0_1
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h1a28f6b_0
+    - zlib 1.2.11 hca03da5_3
+  run:
+    - python >=3.6
+test:
+  commands:
+    - python -m threadpoolctl -i numpy
+  imports:
+    - threadpoolctl
+  requires:
+    - numpy
+about:
+  description: 'Python helpers to introspect and limit the number of threads used
+
+    in native libraries that handle their own internal threadpool
+
+    (BLAS and OpenMP implementations).
+
+    '
+  dev_url: https://github.com/joblib/threadpoolctl
+  doc_url: https://github.com/joblib/threadpoolctl
+  home: https://github.com/joblib/threadpoolctl
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Python helpers to control the threadpools of native libraries
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jeremiedbb
+    - ogrisel
+    - tomMoral

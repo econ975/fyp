@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=4.4",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "markdown-3.4.1-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "150df8c12bb7f8ceecd9e780b3d60a7b",
+  "name": "markdown",
+  "platform": "win32",
+  "sha256": "1ff4762534da4142a3d478c56382226359bc831aa1728c86a15c9336b7fc342f",
+  "size": 151499,
+  "subdir": "win-64",
+  "timestamp": 1671542078000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/markdown-3.4.1-py38haa95532_0.conda",
+  "version": "3.4.1"
+}

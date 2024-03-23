@@ -1,0 +1,73 @@
+# This file created by conda-build 3.27.0
+# ------------------------------------------------
+
+package:
+  name: importlib_resources
+  version: 6.1.1
+source:
+  sha256: 3893a00122eafde6894c59914446a512f728a0c1a45f9bb9b63721b6bacf0b4a
+  url: https://pypi.io/packages/source/i/importlib_resources/importlib_resources-6.1.1.tar.gz
+build:
+  noarch: false
+  noarch_python: false
+  number: '1'
+  script: install.bat
+  string: py38haa95532_1
+requirements:
+  host:
+    - ca-certificates 2023.12.12 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.12 h2bbff1b_0
+    - packaging 23.1 py38haa95532_0
+    - pip 23.3.1 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.2.2 py38haa95532_0
+    - setuptools-scm 7.1.0 py38haa95532_0
+    - setuptools_scm 7.1.0 hd3eb1b0_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tomli 2.0.1 py38haa95532_0
+    - typing-extensions 4.7.1 py38haa95532_0
+    - typing_extensions 4.7.1 py38haa95532_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+    - zipp >=3.1.0
+test:
+  commands:
+    - pip check
+  imports:
+    - importlib_resources
+  requires:
+    - pip
+about:
+  description: 'importlib_resources is a backport of Python standard library importlib.resources
+    module for older Pythons.
+
+
+    The key goal of this module is to replace parts of pkg_resources with a solution
+    in Python''s stdlib that
+
+    relies on well-defined APIs. This makes reading resources included in packages
+    easier, with more stable
+
+    and consistent semantics.
+
+    '
+  dev_url: https://github.com/python/importlib_resources/
+  doc_url: https://importlib-resources.readthedocs.io
+  home: https://importlib-resources.readthedocs.io
+  license: Apache-2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: Backport of Python 3.7's standard library `importlib.resources`
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: d02ff3a9-135e-47a5-a948-71cea386b465
+  recipe-maintainers:
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/importlib_resources-feedstock.git
+  sha: 3b5e38986cd69f0a076032e4cf1cc42587e6670d

@@ -1,0 +1,70 @@
+# This file created by conda-build 3.28.4
+# meta.yaml template originally from:
+# C:\b\abs_35d7n66oz9\clone\recipe, last modified Tue Feb  6 14:20:20 2024
+# ------------------------------------------------
+
+package:
+  name: certifi
+  version: 2024.2.2
+source:
+  - folder: certifi
+    sha256: 0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f
+    url: https://pypi.io/packages/source/c/certifi/certifi-2024.2.2.tar.gz
+  - folder: pip_wheel
+    sha256: 7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be
+    url: https://pypi.io/packages/py3/p/pip/pip-23.2.1-py3-none-any.whl
+  - folder: setuptools_wheel
+    sha256: b454a35605876da60632df1a60f736524eb73cc47bbc9f3f1ef1b644de74fd2a
+    url: https://pypi.io/packages/py3/s/setuptools/setuptools-68.2.2-py3-none-any.whl
+build:
+  number: '0'
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2023.12.12 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.13 h2bbff1b_0
+    - python 3.8.18 h1aa4202_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - certifi
+  requires:
+    - pip
+about:
+  description: 'Certifi is a curated collection of Root Certificates for validating
+    the
+
+    trustworthiness of SSL certificates while verifying the identity of TLS
+
+    hosts.
+
+    '
+  dev_url: https://github.com/certifi/python-certifi
+  doc_url: https://github.com/certifi/python-certifi/blob/master/README.rst
+  home: https://certifi.io/
+  license: MPL-2.0
+  license_family: Other
+  license_file: certifi/LICENSE
+  summary: Python package for providing Mozilla's CA Bundle.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 35756ae8-a8e0-4e03-a53d-479758a632ae
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - ocefpaf
+    - pelson
+    - sigmavirus24
+  remote_url: git@github.com:AnacondaRecipes/certifi-feedstock.git
+  sha: 39634f7f327bb0d2b57a9dd2f8d58e4f5f7d414a
+  skip-lints:
+    - missing_python_build_tool

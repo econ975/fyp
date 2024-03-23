@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "six >=1.6.1,<2.0"
+  ],
+  "license": "BSD-3-Clause AND PSF-2.0",
+  "name": "astunparse",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1589913528863,
+  "version": "1.6.3"
+}

@@ -1,0 +1,173 @@
+commit 566bb4bfa20d0c26028bbce629c9059a8405c6ea
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon May 18 15:59:53 2020 -0500
+
+    update to SPDX license
+
+commit 5681d79602ac69cce85b343e37cd2a25958efd32
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon May 18 15:56:53 2020 -0500
+
+    add jjhelmus to maintainers
+
+commit ace49a1d9d8bb6dac06409739a5335f05bcd59b3
+Author: Jonathan Helmus <jjhelmus@gmail.com>
+Date:   Mon May 18 15:56:33 2020 -0500
+
+    update to 1.6.3
+
+commit 08004be6f3e82fa771e8cb39c7dd2c25e435f843
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 06:43:08 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit e11744710e583f5244a31eee61d739715205f97c
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri May 15 18:38:21 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 7bc05766e277811ebf5e393181430b739c206505
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 02:58:23 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit 3ad8ffbd1c61a193cf7d97c1a7fcdfcc6107bb1b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 19:07:51 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 7fb3fa162ab8d85c4d686b5a70a2a3abb21fb917
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 13:52:05 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit c9f8094dde672ca9831751f170f436adfa82b57a
+Merge: 5f61d77 dbdcfe0
+Author: Richard Höchenberger <richard.hoechenberger@gmail.com>
+Date:   Tue Jan 22 10:48:20 2019 +0100
+
+    Merge pull request #7 from regro-cf-autotick-bot/1.6.2
+    
+    astunparse v1.6.2
+
+commit dbdcfe00fb471b90017c86c1088a7eba2a68faa0
+Author: Richard Höchenberger <richard.hoechenberger@gmail.com>
+Date:   Tue Jan 22 09:35:20 2019 +0100
+
+    Match script options with latest example recipe on staged-recipes
+
+commit 6fefa5d3d258f6e795910e9e5cf3073eb10ce33f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 19 18:14:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.18
+
+commit 55db004e28b997a630db40942233776175965c61
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jan 19 18:14:14 2019 +0000
+
+    updated v1.6.2
+
+commit 5f61d774afbe51b4f9f4c60ffe1651b474ef756e
+Merge: 1737382 ebad5b4
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Oct 12 20:08:09 2018 -0300
+
+    Merge pull request #6 from hoechenberger/maintainers
+    
+    Add hoechenberger to list of maintainers
+
+commit ebad5b4783b83338b7731e223ec62321aac11212
+Author: Richard Höchenberger <richard.hoechenberger@gmail.com>
+Date:   Sat Oct 13 00:48:39 2018 +0200
+
+    Increase build number
+
+commit 72b1eb98cd4a603d3cf43b1374b553cbe5a8da22
+Author: Richard Höchenberger <richard.hoechenberger@gmail.com>
+Date:   Sat Oct 13 00:41:44 2018 +0200
+
+    Add hoechenberger to list of maintainers
+
+commit 17373825c87a3e1236a0817cd9ba965328e9d93e
+Merge: a47909d 86a9df0
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Oct 12 19:01:56 2018 -0300
+
+    Merge pull request #4 from regro-cf-autotick-bot/1.6.1
+    
+    astunparse v1.6.1
+
+commit 86a9df03d474d8fc52284cc23e8581b198421e26
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 09:16:15 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.01
+
+commit a8f283aa58fc440cc07f79419418a9c62fb59f1b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 3 09:16:10 2018 +0000
+
+    updated v1.6.1
+
+commit a47909d420f4f44e3065943f99342b0da4d4f58e
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 19:16:59 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 3fe42536eb8c126d7a21ce491b2bd7a13e5fcd6f
+Merge: 7933d1b 2c834db
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon May 28 10:20:51 2018 -0300
+
+    Merge pull request #1 from cmutel/master
+    
+    Build for all architectures
+
+commit 2c834db666282a1be2b5984605497fd8b879d516
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon May 28 13:14:17 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.5 and pinning 2018.05.22
+
+commit d6cb8311b016cb95720b5ac0e3ee7d29c3ad9db8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon May 28 10:13:15 2018 -0300
+
+    Update meta.yaml
+
+commit a9b062fe7a0b5102d9ee84aa1e7d4041dc25f294
+Author: Chris Mutel <cmutel@gmail.com>
+Date:   Wed Feb 14 10:46:50 2018 +0100
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 22ff2a563b2429789a83edeb99c49faaeaa3812c
+Author: Chris Mutel <cmutel@gmail.com>
+Date:   Fri Oct 27 08:17:51 2017 +0200
+
+    Build for all architectures
+
+commit 7933d1b00c4367c5052e05d702ed0c5b0b4258a1
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:54:13 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7e8083a3698aa4c3759f0d3001f466433116ba4a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jun 11 13:20:45 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 9aa1a1ae210b8f8902e1dad6f4e167fcceac9afd
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Jun 11 13:18:53 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.3.1.

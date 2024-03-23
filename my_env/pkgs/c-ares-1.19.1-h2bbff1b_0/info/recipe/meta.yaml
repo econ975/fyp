@@ -1,0 +1,63 @@
+# This file created by conda-build 3.26.1
+# ------------------------------------------------
+
+package:
+  name: c-ares
+  version: 1.19.1
+source:
+  sha256: 321700399b72ed0e037d0074c629e7741f6b2ec2dda92956abe3e9671d3e268e
+  url: https://c-ares.org/download/c-ares-1.19.1.tar.gz
+build:
+  number: 0
+  run_exports:
+    - c-ares >=1.19.1,<2.0a0
+  string: h2bbff1b_0
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - cmake 3.26.4 h693b641_0
+    - libuv 1.44.2 h2bbff1b_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.5 hd43e919_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+  run_constraint:
+    - c-ares-static <0a0
+test:
+  commands:
+    - if not exist %PREFIX%\\Library\\include\\ares.h exit 1
+    - if not exist %PREFIX%\\Library\\bin\\cares.dll exit 1
+    - if not exist %PREFIX%\\Library\\lib\\cares.lib exit 1
+    - if exist %PREFIX%\\Library\\lib\\cares_static.lib exit 1
+about:
+  description: 'c-ares is a C library for asynchronous DNS requests (including name
+    resolves).
+
+    '
+  dev_url: https://github.com/c-ares/c-ares
+  doc_url: https://c-ares.org/docs.html
+  home: https://c-ares.org/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.md
+  summary: This is c-ares, an asynchronous resolver library
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 4e071830-74a3-4dd5-a9fb-e53038d4aefb
+  recipe-maintainers:
+    - ocefpaf
+    - wesm
+    - xhochy
+  remote_url: git@github.com:AnacondaRecipes/c-ares-feedstock.git
+  sha: ad2761d18574c8f2dbc14f4e4c3c82bd5fe1d62a

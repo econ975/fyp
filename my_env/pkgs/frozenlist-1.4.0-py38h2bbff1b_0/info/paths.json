@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6",
+      "size_in_bytes": 11332
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "76dbc91c7acfd4eb3010daca7ea72019230d45885ad77bce9ca192ee474aae53",
+      "size_in_bytes": 5349
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "b714c3f5aee07e30a900156582b7330e401b0fc07e11c296fd2c02ef63d8f02f",
+      "size_in_bytes": 1157
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "2a9956320c1265b7803ae9afc4dc48ad56cd3e79ff2d5cdf047ee5dfc8c30953",
+      "size_in_bytes": 100
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "e2c90340e84597202b1b339b910972aaa9ca4a06f1d0b6a69f7b2845a55331e1",
+      "size_in_bytes": 90
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist-1.4.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "8e2bedc6c3d70379cadd60565b62d6e4cb6efc61edf14640d7735e0acd9c2ae0",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9dad1c4993cf50e4d54bd312c6b7f0325afa090174a87986ac3768e1c509453f",
+      "size_in_bytes": 2315
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "bcc128112d7119e80fb555e80a2f57c9d11e1eccae22af8a75e5f03f93ddb1a0",
+      "size_in_bytes": 1470
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "81853226eb5c4dc877a4daf549e7d9e19cf3e94d212b9848d2043a4a9086c540",
+      "size_in_bytes": 3220
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/_frozenlist.cp38-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "da15cc18efc41239b8029a28e65f8382ccc1993aa5c85c7c4f17a588ba3befa8",
+      "size_in_bytes": 77824
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/_frozenlist.pyx",
+      "path_type": "hardlink",
+      "sha256": "f55e19d449fa4d9c20143dba77eb23c72854cd49b7dfc1f5422cf8fa2e6e92fd",
+      "size_in_bytes": 2983
+    },
+    {
+      "_path": "Lib/site-packages/frozenlist/py.typed",
+      "path_type": "hardlink",
+      "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+      "size_in_bytes": 7
+    }
+  ],
+  "paths_version": 1
+}

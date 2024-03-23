@@ -1,0 +1,64 @@
+{% set name = "oauthlib" %}
+{% set version = "3.2.2" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: "9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918"
+
+build:
+  number: 0
+  skip: True  # [py<36]
+  script: python -m pip install --no-deps --ignore-installed . -vv
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+  run:
+    - python
+    - cryptography >=3.0.0
+    - pyjwt >=2.0.0,<3
+    - blinker >=1.4.0
+
+test:
+  imports:
+    - oauthlib
+    - oauthlib.oauth1
+    - oauthlib.oauth1.rfc5849
+    - oauthlib.oauth1.rfc5849.endpoints
+    - oauthlib.oauth2
+    - oauthlib.oauth2.rfc6749
+    - oauthlib.oauth2.rfc6749.clients
+    - oauthlib.oauth2.rfc6749.endpoints
+    - oauthlib.oauth2.rfc6749.grant_types
+  requires:
+    - pip
+    - pytest >=4.0
+  source_files:
+    - tests/
+  commands:
+    - pip check
+    - pytest tests/
+
+about:
+  home: https://github.com/oauthlib/oauthlib
+  license_file: LICENSE
+  license: BSD-3-Clause
+  license_family: BSD
+  summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+  description: |
+    oauthlib is a Python package that provides a framework for implementing OAuth 1.0 and 2.0 providers and clients. OAuth is a protocol that 
+    allows users to grant third-party access to their resources without sharing their credentials. It is commonly used in 
+    web applications and APIs to enable authorization and authentication.
+  dev_url: https://github.com/oauthlib/oauthlib
+  doc_url: https://oauthlib.readthedocs.io/en/latest/
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr

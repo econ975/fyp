@@ -1,0 +1,58 @@
+{% set name = "yarl" %}
+{% set version = "1.9.3" %}
+{% set sha256 = "4a14907b597ec55740f63e52d7fee0e9ee09d5b9d57a4f399a7423268e457b57" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+  skip: true  # [py<=37]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - expandvars
+    - setuptools >=47
+    - wheel
+    - tomli  # [py<311]
+    - pip
+    - cython 3.0
+  run:
+    - python
+    - multidict >=4.0
+    - idna >=2.0
+    - typing-extensions >=3.7.4 # [py<38]
+
+test:
+  imports:
+    - yarl
+  source_files:
+    - tests
+  requires:
+    - pip
+    - pytest
+  commands:
+    - pip check
+    - py.test tests
+
+about:
+  home: https://github.com/aio-libs/yarl
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Yet another URL library
+  doc_url: https://yarl.aio-libs.org
+  dev_url: https://github.com/aio-libs/yarl
+
+extra:
+  recipe-maintainers:
+    - sodre

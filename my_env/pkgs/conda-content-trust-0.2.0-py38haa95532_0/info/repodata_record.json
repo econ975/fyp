@@ -1,0 +1,20 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cryptography >=41",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "fn": "conda-content-trust-0.2.0-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "ed5b88003052b92d5fd70548bcaf93ce",
+  "name": "conda-content-trust",
+  "sha256": "173b088dc4acf768aa9dafa827be71d60375063fd628089d500b094c06a8ac12",
+  "size": 74166,
+  "subdir": "win-64",
+  "timestamp": 1693491039000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/conda-content-trust-0.2.0-py38haa95532_0.conda",
+  "version": "0.2.0"
+}

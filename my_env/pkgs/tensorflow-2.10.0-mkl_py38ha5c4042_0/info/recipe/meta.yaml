@@ -1,0 +1,39 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\Users\builder\stiwari\aggregate\tensorflow_recipes\tensorflow, last modified Fri Dec  9 13:44:07 2022
+# ------------------------------------------------
+
+package:
+  name: tensorflow
+  version: 2.10.0
+build:
+  number: '0'
+  string: mkl_py38ha5c4042_0
+requirements:
+  build: []
+  run:
+    - _tflow_select 2.3.0 mkl
+    - python 3.8.*
+    - tensorboard 2.10.*
+    - tensorflow-base 2.10.0 mkl_py38h6a7f48e_0
+    - tensorflow-estimator 2.10.*
+test:
+  commands:
+    - python run_test.py
+about:
+  description: 'TensorFlow provides multiple APIs.The lowest level API, TensorFlow
+    Core
+
+    provides you with complete programming control.
+
+    '
+  dev_url: https://github.com/tensorflow/tensorflow
+  doc_source_url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/docs_src
+  doc_url: https://www.tensorflow.org/get_started/get_started
+  home: https://tensorflow.org/
+  license: Apache-2.0
+  license_family: Apache
+  summary: TensorFlow is a machine learning library.
+extra:
+  copy_test_source_files: true
+  final: true

@@ -1,0 +1,64 @@
+# This file created by conda-build 3.26.1
+# meta.yaml template originally from:
+# C:\b\abs_d9y2dm7cw2\clone\recipe, last modified Thu Oct  5 22:02:09 2023
+# ------------------------------------------------
+
+package:
+  name: blinker
+  version: 1.6.2
+source:
+  sha256: 4afd3de66ef3a9f8067559fb7a1cbe555c17dcbe15971b05d1b625c3e7abe213
+  url: https://pypi.io/packages/source/b/blinker/blinker-1.6.2.tar.gz
+build:
+  number: '0'
+  script: pip install . --no-deps --no-build-isolation --ignore-installed --no-cache-dir
+    -vv
+  string: py38haa95532_0
+requirements:
+  host:
+    - ca-certificates 2023.08.22 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.11 h2bbff1b_2
+    - pip 23.2.1 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+test:
+  commands:
+    - pip check
+    - pytest --pyargs tests -vv
+  imports:
+    - blinker
+  requires:
+    - pip
+    - pytest
+    - pytest-asyncio
+  source_files:
+    - tests
+about:
+  description: 'Blinker provides fast & simple object-to-object and broadcast
+
+    signaling for Python objects.
+
+    '
+  dev_url: https://github.com/pallets-eco/blinker
+  doc_url: https://blinker.readthedocs.io/
+  home: https://blinker.readthedocs.io/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.rst
+  summary: Fast, simple object-to-object and broadcast signaling
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: d943e488-e309-4285-97ba-b5477518bb29
+  recipe-maintainers:
+    - frol
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/blinker-feedstock.git
+  sha: 164c5593384ecbe9cbf000727d3485d8138f88af

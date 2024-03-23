@@ -1,0 +1,12 @@
+{
+  "channel_targets": "defaults",
+  "cxx_compiler": "vs2019",
+  "target_platform": "win-64",
+  "libpng": "1.6",
+  "openssl": "1.1.1",
+  "jpeg": "9",
+  "icu": "58",
+  "sqlite": "3",
+  "zstd": "1.5.2",
+  "zlib": "1.2"
+}

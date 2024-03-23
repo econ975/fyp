@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/brotlienc.dll",
+      "path_type": "hardlink",
+      "sha256": "1bd8e65c6f4d4ba1c801597fd4555054a0f07a2bf1728ab55d3d123f0cbad1bc",
+      "size_in_bytes": 3081216
+    },
+    {
+      "_path": "Library/lib/brotlienc.lib",
+      "path_type": "hardlink",
+      "sha256": "5a2313a3adb168a612a35cfc4e172dd235cf71f1b820fc4cc7c725191e777fdd",
+      "size_in_bytes": 4082
+    },
+    {
+      "_path": "Library/lib/pkgconfig/libbrotlienc.pc",
+      "path_type": "hardlink",
+      "sha256": "f60d0a02452c2832c544f171187e730f4d52cded5a76992d6b3653da9de2f8ce",
+      "size_in_bytes": 461
+    }
+  ],
+  "paths_version": 1
+}

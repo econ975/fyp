@@ -1,0 +1,80 @@
+# This file created by conda-build 3.27.0
+# ------------------------------------------------
+
+package:
+  name: intel-openmp
+  version: 2023.1.0
+source:
+  - folder: mkl
+    sha256: 767fbbe50157e9f365eca77d42a1495b66661b5845a1c13b8e33fe79d3b4a9f4
+    url: https://anaconda.org/intel/mkl/2023.1.0/download/win-64/mkl-2023.1.0-intel_46356.tar.bz2
+  - folder: mkl-devel
+    patches:
+      - patches/0001-MKLConfig-windows.patch
+    sha256: 078060b6d4aacd32f9cda2657fcd9b0f7575a084223d82388d169825eb90289f
+    url: https://anaconda.org/intel/mkl-devel/2023.1.0/download/win-64/mkl-devel-2023.1.0-intel_46356.tar.bz2
+  - folder: mkl-include
+    sha256: 19eb554a8c9c75325e26f4f4a8b9b80538d420016065d5ec918fd9c10354c96b
+    url: https://anaconda.org/intel/mkl-include/2023.1.0/download/win-64/mkl-include-2023.1.0-intel_46356.tar.bz2
+  - folder: intel-openmp
+    sha256: e38a929816dbaa01ff338b4f0792ce9034f9c6497905dd479d9ee580065d9967
+    url: https://anaconda.org/intel/intel-openmp/2023.1.0/download/win-64/intel-openmp-2023.1.0-intel_46319.tar.bz2
+  - folder: dal
+    sha256: ed825bfd4bbbce1600a5f2cda11b81f7927c7a54111133fd3c9b5e6a7401e474
+    url: https://anaconda.org/intel/dal/2023.1.1/download/win-64/dal-2023.1.1-intel_48681.tar.bz2
+  - folder: dal-include
+    sha256: 5cc36b5653dcce33c7f7fbee9590f46441f44043a570f684968b67ac9f388eb6
+    url: https://anaconda.org/intel/dal-include/2023.1.1/download/win-64/dal-include-2023.1.1-intel_48681.tar.bz2
+  - folder: dal-static
+    sha256: a6c48ef1bfc9c7eccd098cecff64d72c12d5f6229b71ec043899ef1812d8b747
+    url: https://anaconda.org/intel/dal-static/2023.1.1/download/win-64/dal-static-2023.1.1-intel_48681.tar.bz2
+  - folder: dal-devel
+    sha256: c92c58ef9b1aa66ac22b63d74174b7edf98851996ec7099d32a4653359da8d14
+    url: https://anaconda.org/intel/dal-devel/2023.1.1/download/win-64/dal-devel-2023.1.1-intel_48681.tar.bz2
+build:
+  missing_dso_whitelist:
+    - $RPATH/OpenCL.dll
+    - $RPATH/sycl6.dll
+    - $RPATH/ze_loader.dll
+  number: 46320
+  string: h59b6b97_46320
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - IF NOT EXIST %PREFIX%\Library\bin\libiomp*.dll EXIT /B 1
+    - IF NOT EXIST %PREFIX%\Library\bin\omp*.dll EXIT /B 1
+    - IF NOT EXIST %PREFIX%\Library\lib\libiomp5md.lib echo "%PREFIX%\Library\lib\libiomp5md.lib
+      is missing" & EXIT /B 1
+about:
+  description: 'Intel openmp runtime implementation
+
+    This package is a repackaged set of binaries obtained directly from Intel\''s
+    anaconda.org channel.
+
+    '
+  doc_url: https://software.intel.com/en-us/node/522690
+  home: https://software.intel.com/en-us/node/522690
+  license: LicenseRef-ProprietaryIntel
+  license_family: Proprietary
+  license_file: mkl/info/licenses/license.txt
+  summary: Math library for Intel and compatible processors
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 67ab2f31-780a-4f01-973e-fdd63141a1a3
+  recipe-maintainers:
+    - beckermr
+    - isuruf
+  remote_url: git@github.com:AnacondaRecipes/intel_repack-feedstock.git
+  sha: 0bc41c1db65d5f175895b74d768a885347526960
+  skip-lints:
+    - missing_tests

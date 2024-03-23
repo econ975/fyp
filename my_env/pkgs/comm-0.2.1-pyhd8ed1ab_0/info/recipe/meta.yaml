@@ -1,0 +1,80 @@
+# This file created by conda-build 3.28.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Jan  3 10:38:23 2024
+# ------------------------------------------------
+
+package:
+  name: comm
+  version: 0.2.1
+source:
+  sha256: 0bc91edae1344d39d3661dcbc36937181fdaddb304790458f8b044dbc064b89a
+  url: https://pypi.io/packages/source/c/comm/comm-0.2.1.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/comm_1704278392174/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 hd590300_5
+    - ca-certificates 2023.11.17 hbcca054_0
+    - editables 0.3 pyhd8ed1ab_0
+    - hatchling 1.21.0 pyhd8ed1ab_0
+    - importlib-metadata 7.0.1 pyha770c72_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libexpat 2.5.0 hcb278e6_1
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 13.2.0 h807b86a_3
+    - libgomp 13.2.0 h807b86a_3
+    - libnsl 2.0.1 hd590300_0
+    - libsqlite 3.44.2 h2797004_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4 h59595ed_2
+    - openssl 3.2.0 hd590300_1
+    - packaging 23.2 pyhd8ed1ab_0
+    - pathspec 0.12.1 pyhd8ed1ab_0
+    - pip 23.3.2 pyhd8ed1ab_0
+    - pluggy 1.3.0 pyhd8ed1ab_0
+    - python 3.12.1 hab00c5b_1_cpython
+    - readline 8.2 h8228510_1
+    - setuptools 69.0.3 pyhd8ed1ab_0
+    - tk 8.6.13 noxft_h4845f30_101
+    - tomli 2.0.1 pyhd8ed1ab_0
+    - trove-classifiers 2023.11.29 pyhd8ed1ab_0
+    - tzdata 2023d h0c530f3_0
+    - wheel 0.42.0 pyhd8ed1ab_0
+    - xz 5.2.6 h166bdaf_0
+    - zipp 3.17.0 pyhd8ed1ab_0
+  run:
+    - python >=3.6
+    - traitlets >=5.3
+test:
+  commands:
+    - pip check
+  imports:
+    - comm
+    - comm.base_comm
+  requires:
+    - pip
+about:
+  description: Python Comm implementation for the Jupyter kernel protocol
+  dev_url: https://github.com/ipython/comm
+  doc_url: https://github.com/ipython/comm
+  home: https://github.com/ipython/comm
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Python Comm implementation for the Jupyter kernel protocol
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240103.3.1
+  recipe-maintainers:
+    - martinRenou
+  remote_url: https://github.com/conda-forge/comm-feedstock
+  sha: c951b8bc94a20a3b7568ab91fcae6870b30513bf

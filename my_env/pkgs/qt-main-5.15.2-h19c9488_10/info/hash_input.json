@@ -1,0 +1,11 @@
+{
+  "libpng": "1.6",
+  "sqlite": "3",
+  "zlib": "1.2",
+  "openssl": "3.0",
+  "channel_targets": "defaults",
+  "target_platform": "win-64",
+  "cxx_compiler": "vs2019",
+  "zstd": "1.5.2",
+  "jpeg": "9"
+}

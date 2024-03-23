@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "absl-py-1.4.0-py38haa95532_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "71dff4461a50839689ab66b5eb26191a",
+  "name": "absl-py",
+  "platform": "win32",
+  "sha256": "e2f03d38d972f5a57c5e10e00f1ea1a257852e28c732baf37eff05207e70e653",
+  "size": 183866,
+  "subdir": "win-64",
+  "timestamp": 1686852627000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/absl-py-1.4.0-py38haa95532_0.conda",
+  "version": "1.4.0"
+}

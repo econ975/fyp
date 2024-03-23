@@ -1,0 +1,58 @@
+{
+  "build": "py38haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\idna-3.4-py38haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/idna-3.4.dist-info/INSTALLER",
+    "Lib/site-packages/idna-3.4.dist-info/LICENSE.md",
+    "Lib/site-packages/idna-3.4.dist-info/METADATA",
+    "Lib/site-packages/idna-3.4.dist-info/RECORD",
+    "Lib/site-packages/idna-3.4.dist-info/REQUESTED",
+    "Lib/site-packages/idna-3.4.dist-info/WHEEL",
+    "Lib/site-packages/idna-3.4.dist-info/direct_url.json",
+    "Lib/site-packages/idna/__init__.py",
+    "Lib/site-packages/idna/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/codec.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/compat.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/core.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/idnadata.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/intranges.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/package_data.cpython-38.pyc",
+    "Lib/site-packages/idna/__pycache__/uts46data.cpython-38.pyc",
+    "Lib/site-packages/idna/codec.py",
+    "Lib/site-packages/idna/compat.py",
+    "Lib/site-packages/idna/core.py",
+    "Lib/site-packages/idna/idnadata.py",
+    "Lib/site-packages/idna/intranges.py",
+    "Lib/site-packages/idna/package_data.py",
+    "Lib/site-packages/idna/py.typed",
+    "Lib/site-packages/idna/uts46data.py"
+  ],
+  "fn": "idna-3.4-py38haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\idna-3.4-py38haa95532_0",
+    "type": 1
+  },
+  "md5": "613f8e2a3f1773dc7881b740a05f699a",
+  "name": "idna",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\idna-3.4-py38haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::idna==3.4=py38haa95532_0[md5=613f8e2a3f1773dc7881b740a05f699a]",
+  "sha256": "fcf551e6795dab58e31d4e2ec2c0bc050774e5e24b06f23c2df26bed27415c92",
+  "size": 95885,
+  "subdir": "win-64",
+  "timestamp": 1666125760000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/idna-3.4-py38haa95532_0.conda",
+  "version": "3.4"
+}

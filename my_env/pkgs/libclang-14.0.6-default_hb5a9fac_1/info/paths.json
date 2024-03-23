@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/lib/libclang.lib",
+      "path_type": "hardlink",
+      "sha256": "e6b5c604c53ec111bb594193af867bf084db3d207ca9f56262d5816f6094a63e",
+      "size_in_bytes": 106510
+    }
+  ],
+  "paths_version": 1
+}

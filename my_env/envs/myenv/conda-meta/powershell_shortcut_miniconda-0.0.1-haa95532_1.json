@@ -1,0 +1,55 @@
+{
+  "build": "haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "anaconda-navigator >=1.9.8"
+  ],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\John Ying\\miniconda3\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1",
+  "features": "",
+  "files": [
+    "Menu/Iconleak-Atrous-PSConsole.ico",
+    "Menu/powershell_shortcut.json",
+    ".nonadmin",
+    "Menu/powershell_shortcut.json"
+  ],
+  "fn": "powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\John Ying\\miniconda3\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1",
+    "type": 1
+  },
+  "md5": "19b6facebf1a84f97fcfdc7f7c0dab6a",
+  "name": "powershell_shortcut_miniconda",
+  "package_tarball_full_path": "C:\\Users\\John Ying\\miniconda3\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Menu/Iconleak-Atrous-PSConsole.ico",
+        "path_type": "hardlink",
+        "sha256": "92183372a2d388578c5c7b9d72c7b4c1aaccd9078ec44fd12b500777026a3395",
+        "sha256_in_prefix": "92183372a2d388578c5c7b9d72c7b4c1aaccd9078ec44fd12b500777026a3395",
+        "size_in_bytes": 432254
+      },
+      {
+        "_path": "Menu/powershell_shortcut.json",
+        "path_type": "hardlink",
+        "sha256": "b599e162c7df2d1263c13cec3a7ddc077034052cc488dd6561784406233b57f4",
+        "sha256_in_prefix": "b599e162c7df2d1263c13cec3a7ddc077034052cc488dd6561784406233b57f4",
+        "size_in_bytes": 498
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "powershell_shortcut_miniconda==0.0.1=haa95532_1",
+  "sha256": "cef38de4a2f8a921bafc09b6edf9a6bbfd61a34c6604d23aa6481c36d21f7631",
+  "size": 130909,
+  "subdir": "win-64",
+  "timestamp": 1674501034000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "version": "0.0.1"
+}

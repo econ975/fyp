@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "python-flatbuffers-2.0-pyhd3eb1b0_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "b848de75ec55f6df43b8af29adcd3582",
+  "name": "python-flatbuffers",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "3d481ab0a3e72b2da31b1c6a15f21a7b8b0026763d8b9d1429424193b98cb9d9",
+  "size": 35080,
+  "subdir": "noarch",
+  "timestamp": 1634039130000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-flatbuffers-2.0-pyhd3eb1b0_0.conda",
+  "version": "2.0"
+}

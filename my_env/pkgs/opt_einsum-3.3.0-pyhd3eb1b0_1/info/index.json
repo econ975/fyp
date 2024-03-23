@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "depends": [
+    "numpy",
+    "python >=3.5"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "opt_einsum",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1621500274746,
+  "version": "3.3.0"
+}

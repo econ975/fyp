@@ -1,0 +1,590 @@
+commit bdb56dbe1f74fd6974d73e8799b597727f057018
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Fri May 13 10:11:10 2022 +0300
+
+    We don't currently provide Abseil DLL (win)
+
+commit 8cc30e8ec9a306048600bb674b50b387e5f295c9
+Merge: f5e10b3 bbd6c1e
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Thu May 12 22:13:11 2022 +0300
+
+    Merge pull request #2 from AnacondaRecipes/abseil-20211102.0
+    
+    Update abseil to version 20211102.0
+
+commit bbd6c1e7e3c5360fecb84ddb3e14c39f2a5d99da
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Thu May 12 11:13:12 2022 +0300
+
+    Copy tests from Conda-Forge recipe
+
+commit c4c05c4d3148abd545d8f9bb7672a9e6f6a673c9
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Wed May 11 17:41:18 2022 +0300
+
+    Add $RPATH/ld64.so.1 to missing_dso_whitelist on s390x
+
+commit 437dad6617b6734e86fd499812e4df94d0ab0c14
+Author: Tobias "Tobi" Koch <tkoch@anaconda.com>
+Date:   Wed May 11 17:14:39 2022 +0300
+
+    Update abseil to version 20211102.0
+
+commit f5e10b37c71db4b41253ed80b8e82ef4183dc6c5
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Tue Jun 1 18:20:10 2021 +0000
+
+    DOR update to 20210324.2
+
+commit 54375be823fd7e84d8a4bfc8cc1f2718624d0d6e
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun Dec 6 02:52:30 2020 +0100
+
+    Add patch
+
+commit 9e4c043db7a1d399489c4fbfac4f6984276d52cb
+Merge: f45a3c6 a48941a
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Jan 20 09:24:31 2021 +0100
+
+    Merge pull request #20 from regro-cf-autotick-bot/20200923.3_he9a185
+    
+    abseil-cpp v20200923.3
+
+commit a48941a70daee1b7c1e8fa7f8b24eab1836d601a
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Jan 19 22:42:30 2021 +0000
+
+    MNT: Re-rendered with conda-build 3.21.4, conda-smithy 3.8.6, and conda-forge-pinning 2021.01.19.11.36.16
+
+commit 80d07448a94a49a64ade6995756b6f839e32f2c7
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Tue Jan 19 22:42:19 2021 +0000
+
+    updated v20200923.3
+
+commit f45a3c60164820972470d449ce0059d68ac96a95
+Merge: a5a1aec 0a720de
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Dec 16 14:29:10 2020 +0100
+
+    Merge pull request #19 from xhochy/rerender
+    
+    Rerender
+
+commit 0a720defb802388aa0a72d87729772cc326830e4
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Dec 16 14:03:05 2020 +0100
+
+    Bump build no
+
+commit 8cf5f48e5a8ab02529dc2da42be4c947f8020536
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Dec 16 14:02:49 2020 +0100
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.12.16.10.46.05
+
+commit a5a1aec494cab2b0d83584730b6ec27ff54a2b22
+Merge: e1a74be 895253e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Oct 28 08:49:36 2020 +0000
+
+    abseil-cpp v20200923.2
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 895253e141e65358e28fc31f7bdd08817c644acc
+Author: Uwe L. Korn <uwelk@xhochy.com>
+Date:   Wed Oct 28 09:34:46 2020 +0100
+
+    rm recipe/linux-librt.patch
+
+commit d8f8a7343344bf6925eb370a062906d6e8f1d7d7
+Author: Jinzhe Zeng <jinzhe.zeng@rutgers.edu>
+Date:   Tue Oct 27 21:52:06 2020 -0400
+
+    comment linux-librt.patch
+
+commit 005e4dc37ad02a7e647070836c51007332be1e08
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 25 06:07:17 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.4, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.24.16.47.03
+
+commit eaa88b3368ca5fe86e54f44de6dd068c7b04a8fa
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 25 06:07:05 2020 +0000
+
+    updated v20200923.2
+
+commit e1a74beda4b9d3f6613be75502618cfcec17062c
+Merge: 092739e f351206
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Sep 8 20:11:21 2020 +0200
+
+    Merge pull request #15 from regro-cf-autotick-bot/bot-pr_arm_osx_h1f7d9e
+    
+    ARM OSX Migrator
+
+commit f35120611f1f707d0f61a09e180dbf263afb9e1e
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Sep 8 15:50:37 2020 +0000
+
+    migration: OSXArm
+
+commit 092739e55765d0adb1e5baad94d562562f3e6a90
+Merge: 10c053d dc2e209
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Sep 8 17:28:50 2020 +0200
+
+    Merge pull request #14 from xhochy/osx-arm64
+    
+    osx-arm64
+
+commit dc2e2098321b18c62bd5fb785b5626d1d83332df
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Sep 8 16:26:23 2020 +0200
+
+    osx-arm64
+
+commit 10c053df6cd96d54a07907222b09b0953a8a0882
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri Aug 7 18:05:48 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 2fc3a16d6eb0bfcf346812c2fb4517205635e085
+Merge: 32f530f 28af695
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu Jul 30 11:13:42 2020 +0000
+
+    Remove -ignore:4221 as it affects downstreams
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 28af695ab73ee71f4826688cec9beff77bd74c65
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Jul 30 13:01:32 2020 +0200
+
+    Add recipe/remove-4221.patch
+
+commit 2fd8480ed7475f13bfa6431efcc44e398357ab0f
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Jul 30 13:01:13 2020 +0200
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.5, and conda-forge-pinning 2020.07.29.10.14.20
+
+commit 7bb73f444ef671915e93f586cd954a2ded163988
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Jul 30 12:59:31 2020 +0200
+
+    Remove -ignore:4221 as it affects downstreams
+
+commit 32f530f9cc1876760ceaa9854e1b2b0e1820787f
+Merge: 53173e3 57c4d2d
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Tue Jul 21 14:57:16 2020 +0000
+
+    CFEP-18: Remove static libraries from main build
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 57c4d2d02ab2146b412f29a7b38368cdbbbdd289
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Jul 21 16:44:45 2020 +0200
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.21.08.49.43
+
+commit 803d447bc44a52a41a6f4f11c479cf24a1fcf5a5
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Jul 21 16:44:26 2020 +0200
+
+    CFEP-18: Remove static libraries from main build
+
+commit 53173e3c2a9fc500802bb9593ea011e972b31765
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 06:38:41 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 0c043de7bd13a7234ab07234d638f1ee9654a25e
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Fri May 15 17:04:42 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 082cb31b5d56c9dc15ca9b8642f9d8b34b19e0ea
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 02:44:38 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit 5de73bc20945c5de651704a2bf76cf9957da162e
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 16:48:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 2370a856a9b5b235ac688c8cd723b8dea75d793d
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Apr 22 16:43:47 2020 -0400
+
+    abseil-cpp v20200225.2 (#11)
+    
+    * updated v20200225.2
+    
+    * MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.17, and conda-forge-pinning 2020.04.22.03.51.02
+    
+    Co-authored-by: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+
+commit 2b312287ab977b0eb24f8af624079dd1f595379a
+Merge: 30ae181 2b7da5e
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Mon Mar 16 14:24:21 2020 +0100
+
+    Merge pull request #10 from xhochy/linux-librt
+    
+    Remove absolute path to librt
+
+commit 2b7da5e9e38b82767511ff4662c1a97974409715
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Mon Mar 16 13:09:38 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.0, conda-smithy 3.6.12, and conda-forge-pinning 2020.03.14
+
+commit 82f3f935f72740d90c38996e54d08ca7ab69e9ec
+Author: Uwe L. Korn <uwelk@xhochy.com>
+Date:   Mon Mar 16 14:04:56 2020 +0100
+
+    Remove absolute path to librt
+
+commit 30ae181e5e2cbe3e755f563a177af75e669716a0
+Merge: dadc473 51466d6
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Thu Mar 5 16:17:33 2020 +0100
+
+    Merge pull request #9 from regro-cf-autotick-bot/20200225.1
+    
+    abseil-cpp v20200225.1
+
+commit 51466d6f2b9ac658c452667ca60da2c30cef1ebd
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Mar 5 16:04:45 2020 +0100
+
+    Use ninja for builds
+
+commit 52f9d250f3c9780551247d0d3d01ae0f215f779d
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Thu Mar 5 10:17:06 2020 +0100
+
+    Update meta.yaml
+
+commit ed38e4db16450e50806b30b70de7c506cf33674a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 4 22:41:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.12, conda-smithy 3.6.9, and conda-forge-pinning 2020.03.06
+
+commit 23786ab84155636e3acc277e56fd2dcd4a3975f2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 4 22:41:21 2020 +0000
+
+    updated v20200225.1
+
+commit dadc473d73fc6ee50edeedbfbe3fd489aef9c156
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 01:07:20 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** added webservices and automerge action configs
+
+commit e22bf7d38508d06e8b0edef67fd3aa8a54876891
+Merge: 0c65904 321dd4d
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Thu Feb 27 11:52:46 2020 +0100
+
+    Merge pull request #7 from regro-cf-autotick-bot/20200225
+    
+    abseil-cpp v20200225
+
+commit 321dd4db1b3213d683bedd42a66b9a601220c063
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Thu Feb 27 11:39:54 2020 +0100
+
+    Added @xhochy as maintainer.
+
+commit 57d1414d095376d1d912f044a9b75bbb7af1ac57
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Thu Feb 27 11:29:15 2020 +0100
+
+    More cleanups.
+
+commit a97568754eaf1935c81dad6d450727aae91903f7
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Thu Feb 27 11:19:31 2020 +0100
+
+    Try disabling a couple of patches.
+
+commit 6059272233e2d419789e1a049622ae72627a57f1
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 26 19:21:44 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.20
+
+commit 647e775820f93ed8cef1e37829a5140df5de002a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 26 19:21:05 2020 +0000
+
+    updated v20200225
+
+commit 0c659046acdd282fc33729e2ca320418a26be3c2
+Merge: 2ad873a 5f8a8e1
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Feb 5 15:32:07 2020 +0100
+
+    Merge pull request #6 from regro-cf-autotick-bot/bot-pr_arch
+    
+    Arch Migrator
+
+commit 5f8a8e193d828a86da37cf420a63b895e0ced190
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Wed Feb 5 15:08:44 2020 +0100
+
+    Use aarch64 AES optimizations
+
+commit 336410a5b047f86182657dab3095700a39f88e46
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 5 13:32:43 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.7, and conda-forge-pinning 2020.01.28
+
+commit ce2142263fbf4417a4f4e727e4917839d411ace7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Feb 5 13:32:22 2020 +0000
+
+    migration: ArchRebuild
+
+commit 2ad873a3a43f7d02afe1bb0ef466079ea247e442
+Merge: dfb7d2d 0796fd0
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Tue Oct 15 00:57:59 2019 +0200
+
+    Merge pull request #5 from bluescarni/fpic
+    
+    Fpic
+
+commit 0796fd0979e975230052875a241e50d0475e4d3b
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Tue Oct 15 00:34:42 2019 +0200
+
+    -fPIC is actually already implied by the conda flags.
+
+commit b2e4ef5af78d9917307ffd6afc1ae501fe4ebaca
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Tue Oct 15 00:17:42 2019 +0200
+
+    Try to retain existing CXXFLAGS, and apply the osx fix at link time only.
+
+commit 51edd409301f0fa26aeea4b590a1bdda6841f101
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Tue Oct 15 00:05:50 2019 +0200
+
+    Another stab at the fix, also increase verbosity.
+
+commit 4545b811132d2cb8974c50c7466c40037b8ba9fd
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Mon Oct 14 23:59:37 2019 +0200
+
+    Try fixing the osx patch.
+
+commit 5ec079e23c588ed04f7ca246a67247793a70379e
+Merge: 37458a3 be8129d
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Mon Oct 14 23:51:39 2019 +0200
+
+    Merge branch 'fpic' of github.com:bluescarni/abseil-cpp-feedstock into fpic
+
+commit 37458a306bd18d805054da09e5dfeb480079407f
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Mon Oct 14 23:50:15 2019 +0200
+
+    Script fix.
+
+commit be8129d79b026819952b064982a2cf14c852a9e0
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 14 21:46:01 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 2689fde72cbd28cd977ce74a9928b207a9e6d6f6
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Mon Oct 14 23:42:35 2019 +0200
+
+    Another stab at osx fixing.
+
+commit 786ba45e521eaa073f9c1ec95a662808671fbaa8
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Mon Oct 14 23:19:29 2019 +0200
+
+    Enable the -fPIC flag for Unix builds.
+
+commit dfb7d2d6268db5cbaeaed6cf6f66ab45a974cae6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 2 16:42:14 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 00170d94c9783b171e305200c9bc0826c7abc0ed
+Merge: 3a06230 56fce05
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 21:50:59 2019 +0200
+
+    Merge pull request #4 from bluescarni/osx_framework_fix
+    
+    Tentative fix for linking to the CoreFoundation framework on OSX.
+
+commit 56fce056abbe335562198fce35056a43b3cbc2ea
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 21:39:26 2019 +0200
+
+    Tentative fix for linking to the CoreFoundation framework on OSX.
+
+commit 3a06230e0b24527c3fd729994a7dad30b42b6a06
+Merge: 1371a95 1caf92b
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 16:08:14 2019 +0200
+
+    Merge pull request #3 from bluescarni/osx_fix
+    
+    Use the default compilers for the package build.
+
+commit 1caf92b5fc71280b5f4bd04e4ed8f496870b7e76
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 15:06:43 2019 +0200
+
+    Lint fix.
+
+commit 30015c3a94712b680f86f78126b8926cccbea500
+Merge: 3de1229 e13e277
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 15:06:04 2019 +0200
+
+    Merge branch 'osx_fix' of github.com:bluescarni/abseil-cpp-feedstock into osx_fix
+
+commit 3de122921ac73a858a8074725130d7aace562776
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 15:05:46 2019 +0200
+
+    Try to patch out the build issue on clang4 osx.
+
+commit e13e277e932c0a755fdebeca8da65de34ed5dd4c
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Sep 21 12:52:39 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 83925ac66c184c3c1662823382e84569b934f206
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Sat Sep 21 14:50:30 2019 +0200
+
+    Use the default compilers for the package build.
+
+commit 1371a9507f389b8135903ca1815594e35278704a
+Merge: aadf7e7 a910b13
+Author: Jinzhe Zeng <jinzhe.zeng@rutgers.edu>
+Date:   Fri Sep 20 15:16:08 2019 -0400
+
+    Merge pull request #2 from bluescarni/win_osx
+    
+    Try enabling osx/win.
+
+commit a910b13a70c5304268a9912fc6c185e7094ae892
+Merge: c797f23 ceaedde
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Sep 20 20:59:23 2019 +0200
+
+    Merge branch 'win_osx' of github.com:bluescarni/abseil-cpp-feedstock into win_osx
+
+commit c797f2365983a92f2bdb2808337ff8f13c4b39e7
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Sep 20 20:57:44 2019 +0200
+
+    Another windows try.
+
+commit ceaedde7826bf453b3c555961d7e6baad83add1d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 20 18:48:49 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 010f3acde3f09b06b4c015b3548b211eedb85506
+Merge: 1ef450b b9de185
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Sep 20 20:47:34 2019 +0200
+
+    Merge branch 'win_osx' of github.com:bluescarni/abseil-cpp-feedstock into win_osx
+
+commit 1ef450ba601ea68d5700ec6f6734668a17ba316b
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Sep 20 20:47:22 2019 +0200
+
+    Some tentative tweaks.
+
+commit b9de1851869454940f1d843da264bc5341ff1415
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 20 18:37:53 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.8, and conda-forge-pinning 2019.09.08
+
+commit 528130dd485db110bee1633ddfabf3bf8be23292
+Author: Francesco Biscani <bluescarni@gmail.com>
+Date:   Fri Sep 20 20:35:58 2019 +0200
+
+    Try enabling osx/win.
+
+commit aadf7e799fce3092fee88578cb10d6374129574f
+Merge: 0f9aa13 2e4c5fc
+Author: Jinzhe Zeng <jinzhe.zeng@rutgers.edu>
+Date:   Wed Sep 4 21:53:53 2019 -0400
+
+    Merge pull request #1 from njzjz/njzjz-patch-1
+    
+    pin compiler versions
+
+commit 2e4c5fc67cf70910e9ba986a390c57f7fab8ecee
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Sep 5 01:43:26 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.2, and conda-forge-pinning 2019.08.27
+
+commit 4347abe50f4884d6db3b2a448cacf4bebf8c60bf
+Author: Jinzhe Zeng <jzzeng@stu.ecnu.edu.cn>
+Date:   Wed Sep 4 21:42:05 2019 -0400
+
+    bump version
+
+commit 60d9637f7ed959ec072c112b2e5c0b04a457d622
+Author: Jinzhe Zeng <jzzeng@stu.ecnu.edu.cn>
+Date:   Wed Sep 4 21:41:32 2019 -0400
+
+    pin compiler versions
+
+commit 0f9aa13a0155ec4a41e90279557030384f63ac30
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 11 19:22:29 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b0d8a4c523aa30ff5ddc7010551de684f01bce7d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 11 19:13:25 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit cf03665085eedee6bcca10c83f9823520c9adf84
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Aug 11 19:10:07 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.4.1.

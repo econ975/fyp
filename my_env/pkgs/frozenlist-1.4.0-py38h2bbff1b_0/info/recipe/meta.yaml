@@ -1,0 +1,59 @@
+# This file created by conda-build 3.27.0
+# meta.yaml template originally from:
+# C:\b\abs_d8e__s1ys3\clone\recipe, last modified Mon Oct 30 22:49:50 2023
+# ------------------------------------------------
+
+package:
+  name: frozenlist
+  version: 1.4.0
+source:
+  sha256: 09163bdf0b2907454042edb19f887c6d33806adc71fbd54afc14908bfdc22251
+  url: https://pypi.io/packages/source/f/frozenlist/frozenlist-1.4.0.tar.gz
+build:
+  number: '0'
+  script: C:\\b\\abs_d8e__s1ys3\\croot\\frozenlist_1698702612014\\_h_env\\python.exe
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py38h2bbff1b_0
+requirements:
+  build:
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ca-certificates 2023.08.22 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.11 h2bbff1b_2
+    - pip 23.3 py38haa95532_0
+    - python 3.8.18 h1aa4202_0
+    - setuptools 68.0.0 py38haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py38haa95532_0
+  run:
+    - python >=3.8,<3.9.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - frozenlist
+  requires:
+    - pip
+about:
+  description: A list-like structure which implements collections.abc.MutableSequence
+  dev_url: https://github.com/aio-libs/frozenlist
+  doc_url: https://frozenlist.aio-libs.org/
+  home: https://github.com/aio-libs/frozenlist
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: A list-like structure which implements collections.abc.MutableSequence
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: d8e55429-c867-427e-abad-baa28aedf5c8
+  recipe-maintainers:
+    - cbouss
+  remote_url: git@github.com:AnacondaRecipes/frozenlist-feedstock.git
+  sha: e9776208e50011795911bc4b91527d8afa185a90

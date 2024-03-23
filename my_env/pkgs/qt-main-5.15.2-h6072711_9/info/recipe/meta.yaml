@@ -1,0 +1,157 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# C:\b\abs_83tuv_k8jq\clone\recipe, last modified Sat Jul  8 00:30:18 2023
+# ------------------------------------------------
+
+package:
+  name: qt-main
+  version: 5.15.2
+source:
+  - folder: qt
+    patches:
+      - patches/qt/0001-add-utility-to-unique_anyhpp.patch
+      - patches/qt/0005-qtbase-link-xcb-shm.patch
+    sha256: 3a530d1b243b5dec00bc54937455471aaa3e56849d2593edb8ded07228202240
+    url: https://download.qt.io/official_releases/qt/5.15/5.15.2/single/qt-everywhere-src-5.15.2.tar.xz
+  - folder: opengl32sw
+    sha256: 2a0d2f92c60e0962ef5f6039d3793424c6f39e49ba27ac04a5b21ca4ae012e15
+    url: http://download.qt.io/development_releases/prebuilt/llvmpipe/windows/opengl32sw-64-mesa_12_0_rc2.7z
+  - folder: gnuwin32
+    sha256: 4a9dc893cc0a1695a16102a42ef47ef2e228652891f4afea67fadd452b63656b
+    url: https://download.qt.io/development_releases/gnuwin32/gnuwin32.zip
+build:
+  detect_binary_files_with_prefix: true
+  number: '9'
+  run_exports:
+    - qt-main >=5.15.2,<5.16.0a0
+  string: h6072711_9
+  version: 5.15.2
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.05.30 haa95532_0
+    - curl 8.1.1 h2bbff1b_1
+    - jom 1.1.2 h3bd88b9_0
+    - libcurl 8.1.1 h86230a5_1
+    - libffi 3.4.4 hd77b12b_0
+    - libssh2 1.10.0 hcd4344a_2
+    - m2-bash 4.3.042 5
+    - m2-bison 3.0.4 2
+    - m2-flex 2.6.0 2
+    - m2-gcc-libs 5.3.0 4
+    - m2-gperf 3.0.4 4
+    - m2-gzip 1.7 2
+    - m2-info 6.0 2
+    - m2-less 481 2
+    - m2-libiconv 1.14 3
+    - m2-libintl 0.19.7 4
+    - m2-libpcre 8.38 2
+    - m2-m4 1.4.17 5
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-ncurses 6.0.20160220 2
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - ninja 1.10.2 haa95532_5
+    - ninja-base 1.10.2 h6d14046_5
+    - openssl 1.1.1u h2bbff1b_0
+    - perl 5.32.1.1 0_haa95532_strawberry
+    - python 3.11.4 h966fe2a_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2023c h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2019_win-64 19.27.29111 ha89c4d3_2
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+  host:
+    - ca-certificates 2023.05.30 haa95532_0
+    - clang 14.0.6 haa95532_1
+    - clang-14 14.0.6 default_h120b48b_1
+    - clang-format 14.0.6 default_h120b48b_1
+    - clang-tools 14.0.6 default_h120b48b_1
+    - clangdev 14.0.6 default_h120b48b_1
+    - clangxx 14.0.6 default_h120b48b_1
+    - icu 58.2 ha925a31_3
+    - jpeg 9e h2bbff1b_1
+    - krb5 1.20.1 h5b6d351_1
+    - libclang 14.0.6 default_hb5a9fac_1
+    - libclang-cpp 14.0.6 default_h120b48b_1
+    - libclang13 14.0.6 default_h8e68704_1
+    - libiconv 1.16 h2bbff1b_2
+    - libllvm14 14.0.6 h4157e71_3
+    - libpng 1.6.39 h8cc25b3_0
+    - libpq 12.15 hb652d5d_1
+    - libxml2 2.10.3 h0ad7f3c_0
+    - llvm-tools 14.0.6 h4157e71_3
+    - llvmdev 14.0.6 h4157e71_3
+    - lz4-c 1.9.4 h2bbff1b_0
+    - openssl 1.1.1u h2bbff1b_0
+    - postgresql 12.15 hb652d5d_1
+    - sqlite 3.41.2 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.2 h19a0ad4_0
+  run:
+    - icu >=58.2,<59.0a0
+    - jpeg >=9e,<10a
+    - krb5 >=1.20.1,<1.21.0a0
+    - libclang >=14.0.6,<15.0a0
+    - libclang13 >=14.0.6
+    - libpng >=1.6.39,<1.7.0a0
+    - libpq >=12.15,<13.0a0
+    - openssl >=1.1.1u,<1.1.2a
+    - sqlite >=3.41.2,<4.0a0
+    - vc >=14.2,<15.0a0
+    - vs2015_runtime >=14.27.29016,<15.0a0
+    - zlib >=1.2.13,<1.3.0a0
+    - zstd >=1.5.2,<1.6.0a0
+  run_constrained:
+    - qt >=5.15.2,<6
+test:
+  commands:
+    - if not exist %LIBRARY_PREFIX%\plugins\sqldrivers\qsqlite.dll exit 1
+  files:
+    - test/qt/hello.pro
+    - test/qt/main-qtwebengine.cpp
+    - test/qt/main.cpp
+    - test/qt/main.qml
+    - test/qt/qml.qrc
+    - test/qt/qrc_qml.cpp
+    - test/qt/qtwebengine.pro
+    - xcodebuild
+    - xcrun
+  requires:
+    - vs2019_win-64
+  script: run_qt_test.bat
+about:
+  description: 'Qt helps you create connected devices, UIs & applications that run
+
+    anywhere on any device, on any operating system at any time.
+
+    '
+  dev_url: https://github.com/qt
+  doc_url: https://doc.qt.io/
+  home: https://www.qt.io/
+  license: LGPL-3.0-only
+  license_family: LGPL
+  license_file: LICENSE.LGPLv3
+  summary: Qt is a cross-platform application and UI framework.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 83520cb9-e34a-4087-a275-c8cb46ce031f
+  recipe-maintainers:
+    - Tobias-Fischer
+    - andfoy
+    - ccordoba12
+    - duncanmmacleod
+    - gillins
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - stuarteberg
+  remote_url: git@github.com:AnacondaRecipes/qt-main-feedstock.git
+  sha: 2204b89b40df8ee06f89f35f55c3fa1280ee30d2

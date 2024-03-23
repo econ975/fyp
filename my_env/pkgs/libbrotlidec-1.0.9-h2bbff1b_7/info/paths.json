@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/brotlidec.dll",
+      "path_type": "hardlink",
+      "sha256": "75c967411240e99d67d4fb5d9bbdd5948ba4ef003bbe3fe3e71b5a5547cae2a1",
+      "size_in_bytes": 46592
+    },
+    {
+      "_path": "Library/lib/brotlidec.lib",
+      "path_type": "hardlink",
+      "sha256": "0367c77604c1b4670584f2c5e9158586c1ba6f7e01023910c3ad2a8efb09a485",
+      "size_in_bytes": 4546
+    },
+    {
+      "_path": "Library/lib/pkgconfig/libbrotlidec.pc",
+      "path_type": "hardlink",
+      "sha256": "52f9dc568096e7c02114f9c751deab93e9f315a3ade9a1d9656c5c1b4cb792ec",
+      "size_in_bytes": 461
+    }
+  ],
+  "paths_version": 1
+}

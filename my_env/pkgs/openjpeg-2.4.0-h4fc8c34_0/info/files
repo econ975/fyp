@@ -1,0 +1,11 @@
+Library/bin/openjp2.dll
+Library/bin/opj_compress.exe
+Library/bin/opj_decompress.exe
+Library/bin/opj_dump.exe
+Library/include/openjpeg-2.4/openjpeg.h
+Library/include/openjpeg-2.4/opj_config.h
+Library/include/openjpeg-2.4/opj_stdint.h
+Library/lib/openjp2.lib
+Library/lib/openjpeg-2.4/OpenJPEGConfig.cmake
+Library/lib/openjpeg-2.4/OpenJPEGTargets-release.cmake
+Library/lib/openjpeg-2.4/OpenJPEGTargets.cmake

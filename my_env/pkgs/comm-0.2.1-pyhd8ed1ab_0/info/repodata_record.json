@@ -1,0 +1,25 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "traitlets >=5.3"
+  ],
+  "features": "",
+  "fn": "comm-0.2.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "f4385072f4909bc974f6675a36e76796",
+  "name": "comm",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "bd90a200e6f7092a89f02c4800729a4a6d2b2de49d70a9706aeb083a635308c1",
+  "size": 12198,
+  "subdir": "noarch",
+  "timestamp": 1704278590000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/comm-0.2.1-pyhd8ed1ab_0.conda",
+  "version": "0.2.1"
+}

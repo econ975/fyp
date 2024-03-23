@@ -1,0 +1,60 @@
+{% set version = "1.2.4" %}
+
+package:
+  name: mkl_random
+  version: {{ version }}
+
+source:
+  url: https://github.com/IntelPython/mkl_random/archive/v{{ version }}.tar.gz
+  sha256: 9161eee81fbf27934eac1bc0d26ad3b933a582721fa66fe87e930ff2e9867c52
+
+build:
+  number: 0
+  skip: true  # [not x86]
+  script: {{PYTHON}} -m pip install --no-build-isolation --no-deps .
+  script_env:
+    - MKLROOT={{PREFIX}}
+  ignore_run_exports:
+    - blas
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - setuptools
+    - wheel
+    - mkl-devel  {{ mkl }}
+    - cython 3
+    - numpy-base {{ numpy }}
+  run:
+    - python
+    - mkl
+    - {{ pin_compatible('numpy') }}
+
+test:
+  commands:
+    - pip check
+    # nose is incompatible with python 3.12
+    - nosetests -v -e test_hypergeometric mkl_random   # [py<312]
+  requires:
+    - pip
+    - nose                                             # [py<312]
+  imports:
+    - mkl_random
+    - mkl_random.mklrand
+
+about:
+  home: https://github.com/IntelPython/mkl_random
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  license_family: BSD
+  description: NumPy-based implementation of random number generation sampling using Intel (R) Math Kernel Library, mirroring numpy.random, but exposing all choices of sampling algorithms available in MKL.
+  summary: Intel (R) MKL-powered package for sampling from common probability distributions into NumPy arrays.
+  dev_url: https://github.com/IntelPython/mkl_random
+  doc_url: https://github.com/IntelPython/mkl_random
+
+extra:
+  recipe-maintainers:
+    - oleksandr-pavlyk

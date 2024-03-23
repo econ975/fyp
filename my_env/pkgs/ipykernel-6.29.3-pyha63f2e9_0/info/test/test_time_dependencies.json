@@ -1,0 +1,1 @@
+["pytest-timeout", "pip", "flaky", "python !=3.8", "matplotlib-base", "pytest-cov", "numpy", "pytest >=7.0", "pytest-asyncio >=0.23.5", "ipyparallel"]

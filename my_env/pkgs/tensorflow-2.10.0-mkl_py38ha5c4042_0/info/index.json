@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "mkl_py38ha5c4042_0",
+  "build_number": 0,
+  "depends": [
+    "_tflow_select 2.3.0 mkl",
+    "python 3.8.*",
+    "tensorboard 2.10.*",
+    "tensorflow-base 2.10.0 mkl_py38h6a7f48e_0",
+    "tensorflow-estimator 2.10.*"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "tensorflow",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1670626113895,
+  "version": "2.10.0"
+}

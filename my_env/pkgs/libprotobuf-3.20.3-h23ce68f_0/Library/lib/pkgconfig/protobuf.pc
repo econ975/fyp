@@ -1,0 +1,11 @@
+prefix=C:/b/abs_f5a94y140m/croot/libprotobuf-suite_1675278053137/_h_env/Library
+exec_prefix=C:/b/abs_f5a94y140m/croot/libprotobuf-suite_1675278053137/_h_env/Library
+libdir=C:/b/abs_f5a94y140m/croot/libprotobuf-suite_1675278053137/_h_env/Library/lib
+includedir=C:/b/abs_f5a94y140m/croot/libprotobuf-suite_1675278053137/_h_env/Library/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.20.3.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir}
+Conflicts: protobuf-lite

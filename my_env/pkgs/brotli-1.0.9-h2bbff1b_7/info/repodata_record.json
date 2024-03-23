@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h2bbff1b_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "brotli-bin 1.0.9 h2bbff1b_7",
+    "libbrotlidec 1.0.9 h2bbff1b_7",
+    "libbrotlienc 1.0.9 h2bbff1b_7",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "brotli-1.0.9-h2bbff1b_7.conda",
+  "license": "MIT",
+  "md5": "530e60a827aca1e0cf120be815c10e0e",
+  "name": "brotli",
+  "platform": "win32",
+  "sha256": "a19665530e39bb53a1dc1067ce46392c8e85a6ab178c0a0eb93f97cd879091ec",
+  "size": 18654,
+  "subdir": "win-64",
+  "timestamp": 1659616328000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/brotli-1.0.9-h2bbff1b_7.conda",
+  "version": "1.0.9"
+}
